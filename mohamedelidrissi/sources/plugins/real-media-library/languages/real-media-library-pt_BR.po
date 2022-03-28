@@ -1,0 +1,1274 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:35+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.devowl.io/projects/"
+"wordpress-real-media-library-backend-php/ci-mojito/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary:Redefinir"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr "Gerenciador completo de arquivos e pastas"
+
+#: inc/AdInitiator.php:1
+#, fuzzy
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+"WordPress Real Media Library é um plugin do WordPress que permite uma gestão "
+"avançada das suas mídias. Você pode usar este plugin para organizar milhares "
+"de imagens, audio, video e arquivos PDF que estão na sua biblioteca de "
+"mídia, em pastas. É um administrador de arquivos para o WordPress, como o "
+"Windows Explorer ou o Finder no Mac."
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr "Filtrar na caixa de diálogo de meios de inserção"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+"Não importa onde você esteja, a estrutura de pastas da Real Media Library é "
+"sempre onde você poderá selecionar arquivos. Por exemplo, na caixa de "
+"diálogo para selecionar uma \"Imagem em destaque\"."
+
+#: inc/AdInitiator.php:1
+#, fuzzy
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr "Na versão PRO você pode criar mais de 10 pastas (sem limites)."
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr "Ordem de imagem personalizada"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+"Organizar seus arquivos de mídia é realmente fácil com o plugin Real Media "
+"Library. Você pode organizar a ordem dos seus arquivos arrastando e "
+"soltando. Isso permite mover arquivos importantes para o início para acesso "
+"mais rápido."
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr "Adquira sua licença PRO agora!"
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "A pasta especificada não foi encontrada."
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "Plugins complementários"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"Nota: Se você deseja excluir um atalho de arquivo, o arquivo de origem NÃO "
+"será excluído.\n"
+"Se você deseja excluir um arquivo que não seja de atalho, todos os atalhos "
+"associados também serão excluídos."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"Se você mover esse atalho, não será alterado o local do arquivo de origem/"
+"principal."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"Se você mover este anexo, não será alterado o local da pasta dos atalhos "
+"associados."
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "Mover para outra pasta"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "Pasta"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "Informações de atalho"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"Este é um atalho de um arquivo da biblioteca de mídia. Os atalhos não "
+"precisam de armazenamento físico <strong> (0 kB) </strong>. Se você quiser "
+"alterar o arquivo em si, faça isso no arquivo original (por exemplo, "
+"substitua o arquivo de mídia por um plug-in). <br/> Observe também que os "
+"campos nos atalhos podem ser diferentes do arquivo original, por exemplo "
+"\"Título\", \"Descrição\" ou \"Legenda\"."
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "Para este arquivo, há % atalho disponível na seguinte pasta:"
+msgstr[1] "Para este arquivo, há % atalhos disponíveis nas seguintes pastas:"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"Este arquivo não possui atalhos associados. Você pode criar atalhos movendo "
+"arquivos com o mouse e mantendo pressionada qualquer tecla."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "Você não está autorizado para inserir arquivos aqui."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "Você não está autorizado para mover este arquivo."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "Você não está autorizado para criar uma subpasta aqui."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "Você não está autorizado à deletar esta pasta."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "Você não está autorizado para renomear essa pasta."
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "Selecione a pasta de destino"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"Você pode carregar arquivos diretamente para a pasta. Selecione uma pasta e "
+"carregue seus arquivos."
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "fazer upload para a pasta"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary:Importar / Exportar"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "Importar de outros plugins"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "Exportar / Importar pastas do Real Media Library"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "Exportar"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "Importar"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"Todas as pastas disponíveis serão exportadas. A estrutura atual não é "
+"perdida durante a importação - mas verifique se não há nomes duplicados nos "
+"dados de importação, pois eles não serão verificados."
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "Exportar dados:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "Importar dados:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "Importação de dados só está disponível na versão PRO."
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "Saiba mais sobre a versão PRO"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "Importar categorias e post relacionados."
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr ""
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr ""
+"Importar categorias de outros plugins está disponível apenas na versão PRO."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "Pasta inválida."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "Nenhum tipo válido."
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: Mover traduções automaticamente"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr ""
+"Se você mover um arquivo, o arquivo traduzido correspondente também será "
+"movido."
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: Mover traduções automaticamente"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' já existe na pasta."
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "Essa funcionalidade não está disponível na versão gratuita (%s)."
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "Você precisa providenciar um grupo de arquivos."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "A pasta não pode ser criada no banco de dados."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "A pasta não pode ser criada porque já existe."
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr ""
+"Uma pasta pode conter qualquer tipo de arquivo ou uma coleção, mas não pode "
+"conter uma galeria."
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' não é um nome válido para a pasta."
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "Ordem por nome crescente"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "Ordem por nome decrescente"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "Ordem por ID crescente"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "Ordem por ID decrescente"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "A pasta fornecida não existe ou você não pode renomear esta pasta."
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "A pasta que você está tentando apagar contém subpastas."
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "A pasta fornecida não existe."
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "Não organizados"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"A pasta Não organizadas é a mesmo que uma pasta raiz. Aqui você poderá achar "
+"todos os arquivos que não foram vinculados a uma pasta."
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "Imagem de capa"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "Descrição"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "Caminho"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "Tipo de pasta"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "Geral"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "Ordem por data ascendente"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "Ordem por data decrescente"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "Ordem por título ascendente"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "Ordem por título decrescente"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "Ordenar por nome de arquivo ascendente"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "Ordem por nome de arquivo decrescente"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "Ordenação natural por nome de arquivo ascendente"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "Ordem natural por nome de arquivo decrescente"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "Alguma coisa deu errado."
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "Pasta não encontrada."
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>Você ainda não inseriu sua chave de licença</strong>. Para ativar "
+"atualizações automáticas, por favor entre sua chave em \"Entre sua chave de "
+"licença\"."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "Uma coleção não pode conter arquivos."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "Coleção"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"Uma coleção não pode conter arquivos. Mas você pode criar outra coleções e "
+"<strong>galerias</strong>."
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "O parent % não existe."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr "O parent fornecido não existe para definir o parent para esta pasta."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "Você não tem permissão para alterar a raiz desta pasta."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "O parent fornecido não permite o tipo de pasta."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "Você só pode mover imagens para a galeria."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "Galeria"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"Uma galeria só pode conter imagens. Para visualizar uma galeria, vá até um "
+"post e procure pelos botões no editor visual..."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "A pasta especificada não permite reordenar os arquivos."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr ""
+"Esta pasta tem uma ordenação automática. Por favor, primeira desative a "
+"ordenação."
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "Por favor, selecione uma pasta para mostrar seus itens."
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "Busque apenas mídia em uma pasta pelo ID da pasta."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Proibido"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "Real Media Library não está ativo para este usuário."
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "Esconda os atalhos em \"Todos os arquivos\""
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "A contagem sempre inclui atalhos"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "Pasta de inicialização padrão"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "Nenhuma pasta na inicialização"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Last opened folder"
+msgstr "Última pasta aberta"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "Galeria da pasta de mídia"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr ""
+"Nota: Você pode selecionar apenas galerias. Pastas e coleções estão "
+"acinzentadas."
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "Link para"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "Colunas"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "Ordem aleatória"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "Tamanho"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "Arquivo em anexo"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "Arquivo de mídia"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "Nenhum"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "Médio"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "Grande"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "Tamanho Completo"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "Nenhuma pasta selecionada"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Select folder"
+msgstr "Selecione a pasta de destino"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "Recarregar conteúdo"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "Subpastas"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr ""
+"Por favor, selecione uma pasta (da biblioteca de mídia) nas configurações do "
+"bloco."
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "Novas pastas herdam essa restrição"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "A pasta selecionada atual tem algumas restrições:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "Você não pode mudar a pasta *raiz*"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "Você não pode *reorganizar* subpastas"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "Você não pode *criar* subpastas"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "Você não pode *renomear* a pasta"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "Você não pode *excluir* a pasta"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "Você não pode *mover* arquivos para fora da pasta"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "Pai"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "Antes deste nó"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "Se o próximo nó não for fornecido, o elemento será colocado no final."
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "O arquivo foi carregado na pasta que você está."
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "Você tem certeza?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "Sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "A operação falhou"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "Nenhuma entrada encontrada"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"Você tem certeza que deseja excluir *{name}*? Todos os arquivos serão "
+"movidos para Não organizados."
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"Tem certeza de que deseja excluir *{count} pastas*? Todos os arquivos serão "
+"movidos para Não organizados."
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "Cancelar"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "Salvar"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "Voltar"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "Nenhuma pasta encontrada"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"Nenhuma pasta foi criada ainda. Basta clicar no botão acima para criar sua "
+"primeira pasta."
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "Pastas"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "Nenhum resultado."
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "Renomeada a pasta para *{name}* com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "*{name}* criado com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "*{name}* apagado com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "*{count} pastas* apagadas com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "Reorganizar *{name}* posicionamento manualmente"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "Classificação com êxito da hierarquia da árvore"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "Atalhos"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"Este é um atalho de um arquivo da biblioteca de mídia. Os atalhos não "
+"precisam de armazenamento físico *(0 kB)*. Se você quiser alterar o arquivo "
+"em si, faça isso no arquivo original (por exemplo, substitua o arquivo de "
+"mídia por um plug-in). Observe também que os campos nos atalhos podem ser "
+"diferentes do arquivo original, por exemplo \"Título\", \"Descrição\" ou "
+"\"Legenda\"."
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr ""
+"Na exibição atual de envios, os filtros estão ativos. Redefina-os e atualize "
+"a visualização."
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "Ordenar o conteúdo por arrastar e soltar"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "Redefinir ordem"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "Última"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "Desativar ordenação automática"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "Mais recentes"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "Reindexar a ordenação"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "Redefinir para última ordem"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "Todos os arquivos"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "Mover {count} arquivos"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "Mover um arquivo"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "Copiando {count} arquivo"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "Copiar um arquivo"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "{count} arquivos movidos com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "Um arquivo movido com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "{count} arquivos copiados com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "Um arquivo copiado com sucesso"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "Segure qualquer tecla para criar um atalho"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "Solte a tecla para mover o arquivo"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "Clique aqui para criar uma nova pasta"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"Uma pasta pode contar qualquer tipo de arquivo ou coleção, mas não galerias. "
+"Se você quer criar subpastas, selecione a pasta e clique neste botão."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "Clique aqui para criar uma nova coleção"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"Uma coleção não pode conter arquivos. No entanto, você pode criar coleções "
+"adicionais e *galerias* lá. Esta galeria é apenas uma *pasta de dados da "
+"galeria*, ou seja, eles não são visíveis automaticamente no site.\n"
+"\n"
+"Você pode criar uma *galeria visual* usando um código de acesso no Editor "
+"Visual em suas páginas / publicações."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "Clique aqui para criar uma *nova pasta de dados da galeria*"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"Uma *pasta de dados da galeria* pode conter apenas imagens. É mais fácil "
+"distinguir onde suas galerias visuais estão localizadas.\n"
+"\n"
+"Você também pode ordenar as imagens em *uma ordem de imagem personalizada* "
+"com arrastar e soltar."
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "Configurações"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "Configurações gerais para o usuário logado."
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "Permissões"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "Reordenar arquivos nesta pasta"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "Atualizar a visualização desta pasta."
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "Renomear"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "Renomear a pasta selecionada."
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "Excluir"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "Excluir a pasta selecionada."
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "Excluir as pastas selecionadas."
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "Reordenar"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "Altere a ordem hierárquica das pastas."
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "Detalhes da pasta"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "Selecione uma pasta e veja mais detalhes sobre ela."
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "A licença do produto ainda não foi ativada."
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "Entre sua chave de licença"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "Dispensar notificação"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"Parece que você já usou outro plugin para suas pastas na sua biblioteca de "
+"mídia."
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "Começar importação"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "Dispensar"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr ""
+"Você será redirecionado ao site externo da versão PRO. Por favor, confirme "
+"para continuar!"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "Configuração PRO"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "Esconda por 20 dias"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "Obrigado por usar a versão gratuita do Real Media Library."
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "Adquira o PRO!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "Eu quero aprender mais!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"Fique mais organizado com diferentes tipos de pastas: Coleções e galerias "
+"ajudam você a localizar com facilmente onde suas imagens estão localizadas."
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Custom content order?"
+msgstr "Ordem de imagem personalizada"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"Coloque o conteúdo da pasta em ordem e organize seus arquivos de acordo com "
+"um critério (por exemplo, nome decrescente) ou arraste e solte."
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"Organize os nós na árvore de pastas de acordo com um critério (por exemplo, "
+"nome decrescente) ou arraste e solte."
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to create subfolders?"
+msgstr "Clique aqui para criar uma nova pasta"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to upload entire folders?"
+msgstr "Clique aqui para criar uma nova pasta"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:Geral"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "Carregar funcionalidade RML no frontend"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:Redefinir"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "Redefinir a ordem de todas as galerias"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "Limpar todas as configurações (pastas, relações de anexo)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "Redefinir contagem de cache da pasta"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "Redefinir nomes, slugs e caminhos absolutos"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "Limpar relações de anexo"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "Limpar tudo"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "Redefinir contagem"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "Redefinir"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"Ative essa opção se você está usando um page builder como Divi Page Builder, "
+"WPBakery Page Builder ou Elementor."
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "Você também pode redefinir uma única pasta nos detalhes da pasta."
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "todos"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "Imagens não organizadas"

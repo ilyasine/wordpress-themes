@@ -1,0 +1,52 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.4.0\n"
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Attachment Page"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Media File"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "None"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Gallery Settings"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Columns"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Crop Images"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Caption"
+msgstr ""
+
+#: rml_gutenberg.lite.js:1
+#: rml_gutenberg.pro.js:1
+msgid "Link To"
+msgstr ""

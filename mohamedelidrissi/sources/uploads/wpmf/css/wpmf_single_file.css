@@ -1,0 +1,51 @@
+
+                        .wpmf-defile{
+                            background: #202231 !important;
+                            color: #f4f6ff !important;
+                            border: 0px solid #f4f6ff !important;
+                            border-radius: 15px !important;
+                            box-shadow: none !important;
+                            text-shadow: none !important;
+                            transition: all 0.2s ease 0s !important;
+                            display: inline-block !important;
+                            margin: 30px 30px 30px 30px !important;
+                            padding: 20px 30px 20px 70px !important;
+                            text-decoration: none !important;
+                            position: relative;
+                            font-size: 14px !important;
+                        }
+                        
+                        .wpmf-defile:before {
+                            content: "";
+                            position: absolute;
+                            background-image: url(../images/download_style_0.svg) !important;
+                            background-position: center;
+                            background-size: 100% 100%;
+                            width: 45px;
+                            height: 45px;
+                            left: 12.5px;
+                        }
+                        
+                        .wpmf-defile:hover{
+                            background: #1c1e2a !important;
+                            box-shadow: 1px 1px 12px #ccc !important;
+                            color: #ffffff !important;
+                        }
+                        
+                        .wp-block-file .wp-block-file__button {
+                            color: #f4f6ff !important;
+                            background: #202231 !important;
+                            box-shadow: none !important;
+                        }
+                        
+                        .wp-block-file__button:hover {
+                            background: #1c1e2a !important;
+                            color: #ffffff !important;
+                        }
+                        .wpmf-defile-title, .wpmf-single-infos {
+                            font-family: "Open Sans", Arial, sans-serif !important;
+                            font-size: 14px !important;
+                            line-height: 1.7em !important;
+                            font-weight: 500 !important;
+                        }
+                        

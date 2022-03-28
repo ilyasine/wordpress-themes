@@ -1,0 +1,156 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-29 11:49+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Russian <https://translate.devowl.io/projects/devowl-wp-real-"
+"utils-frontend-javascript/develop/ru/>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8\n"
+
+#: cross.js:1 helper.js:1
+msgid "Not now"
+msgstr "Не сейчас"
+
+#: cross.js:1
+msgid "Learn more!"
+msgstr "Узнать больше!"
+
+#: cross.js:1
+msgid "Never show this popup again"
+msgstr "Не показывать это окно"
+
+#: feedback.js:1
+msgid "Contact support"
+msgstr "Написать в техподдержку"
+
+#: feedback.js:1
+msgid "Skip & Deactivate"
+msgstr "Пропустить и деактивировать"
+
+#: feedback.js:1
+msgid "Deactivate"
+msgstr "Деактивировать"
+
+#: feedback.js:1
+msgid "Too bad you are leaving"
+msgstr "Жаль, что ты уезжаешь"
+
+#: feedback.js:1
+msgid "Please give us feedback why you deactivate <strong>%s</strong>."
+msgstr "Пожалуйста, сообщите нам почему вы отключили <strong>%s</strong>."
+
+#: feedback.js:1
+msgid "Upgrade to PRO Version"
+msgstr "Обновить до PRO версии"
+
+#: feedback.js:1
+msgid "Plugin did not work"
+msgstr "Плагин не работает"
+
+#: feedback.js:1
+msgid "Not the features I want"
+msgstr "Мне нужны другие функции"
+
+#: feedback.js:1
+msgid "Incompatible with other themes or plugins"
+msgstr "Несовместимо с моей темой или плагином"
+
+#: feedback.js:1
+msgid "Lack of documentation"
+msgstr "Отсутствие документации"
+
+#: feedback.js:1
+msgid "Found a better plugin"
+msgstr "Нашел плагин получше"
+
+#: feedback.js:1
+msgid "Temporary deactivation"
+msgstr "Временно деактивирую"
+
+#: feedback.js:1
+msgid "I do not want to give feedback"
+msgstr "Я не хочу давать обратную связь"
+
+#: feedback.js:1
+msgid "Other"
+msgstr "Другое"
+
+#: feedback.js:1
+msgid "What could we do better?"
+msgstr "Что мы могли бы сделать лучше?"
+
+#: feedback.js:1
+msgid "Please enter a text here or check the box below."
+msgstr "Пожалуйста, введите сообщение здесь или выберите ниже."
+
+#: feedback.js:1
+msgid "I don't want to add a comment and hence not help to make %s better."
+msgstr ""
+"Я не хочу добавлять комментарий и, следовательно, не помогу улучшить %s."
+
+#: feedback.js:1
+msgid "Email for answer/solution (optional)?"
+msgstr "Email для ответа/решения (необязательно)?"
+
+#: feedback.js:1
+msgid "Please provide a valid email."
+msgstr "Пожалуйста, укажите действительный адрес электронной почты."
+
+#: feedback.js:1
+msgid ""
+"I would like to receive an answer for my issue. For this purpose I agree to "
+"the data processing of my feedback and my email address. I have read the "
+"devowl.io <a href=\"https://devowl.io/privacy-policy/\" target=\"_blank"
+"\">privacy policy</a> and agree to it."
+msgstr ""
+"Я хотел бы получить ответ на свой вопрос. Для этого я даю согласие на "
+"обработку данных из моего отзыва и адреса email. Я прочитал devowl.io <a "
+"href=\"https://devowl.io/privacy-policy/\" target=\"_blank\">политику "
+"конфиденциальности</a> и соглашаетесь с ней."
+
+#: feedback.js:1
+msgid ""
+"If you would like to be contacted by us, please accept the privacy policy. "
+"If you prefer not to be contacted, leave the email field blank."
+msgstr ""
+"Если вы хотите чтобы мы связались с вами, пожалуйста, примите политику "
+"конфиденциальности или оставьте поле email пустым."
+
+#: helper.js:1
+msgid "Give it a rating"
+msgstr "Поставьте оценку"
+
+#: helper.js:1
+msgid "Do us a favor!"
+msgstr "Сделайте нам одолжение!"
+
+#: helper.js:1
+msgid ""
+"Awesome, you have just used a functionality of <strong>%s</strong>. Do you "
+"like it? Please do us a favor and rate us!"
+msgstr ""
+"Впечатляет, вы только что использовали функцию <strong>%s</strong>! Вам "
+"понравилось? Пожалуйста, сделайте нам одолжение и оцените нас!"
+
+#: welcome.js:1
+msgid "Loading…"
+msgstr "Загрузка…"
+
+#: welcome.js:1
+msgid "Successfully subscribed!"
+msgstr "Подписались!"
+
+#: welcome.js:1
+msgid "Subscribe"
+msgstr "Подписаться"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Как жаль, что вы уходите"

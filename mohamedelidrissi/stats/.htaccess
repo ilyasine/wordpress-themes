@@ -1,0 +1,9 @@
+AuthType Basic
+AuthName "Members Only"
+AuthUserFile /var/www/clients/client3/web5/web/stats/.htpasswd_stats
+require valid-user
+DirectoryIndex index.html index.php
+Header set Content-Security-Policy "default-src * 'self' 'unsafe-inline' 'unsafe-eval' data:;"
+<Files "goaindex.html">
+AddDefaultCharset UTF-8
+</Files>

@@ -1,0 +1,706 @@
+/* -----------------------Main About-------------------------*/
+
+/* main  */
+.container {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: "Changa", sans-serif;
+  font-size: 18px;
+  margin-top: 60px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+@media screen and (max-width:1000px) {
+  .container {
+    display: block;
+    text-align: center;
+    justify-content: center;  
+  }
+}
+.main {
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "arabswell_1";
+  margin-top: 20px;
+  color: gold;
+  z-index: -1;
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #389b12;
+  letter-spacing: 0.5px;
+  overflow: hidden;
+  background: #ffffffe0;
+  width: 70%;
+  margin: 1rem auto .5rem auto;
+  height: 40px;
+  line-height: 30px;
+  border-radius: 6px;
+  border: 0.21em double #389b12;
+  font-family: 'El Messiri', sans-serif;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.h1tawasal,
+.h5tawasal {
+  z-index: -11;
+  position: relative;
+}
+.h5tawasal {
+  text-align: center;
+  color: gold;
+  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+  text-decoration: none;
+  padding: 1px 11px;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "arabswell_1";
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0px 15px;
+  box-shadow: 5px;
+  background: none;
+  outline: none;
+}
+.contact-main {
+  display: flex;
+  flex: 1;
+  font-family: 'Amiri', serif;
+  font-size: 24px;
+  line-height: 50px;
+  flex-direction: column;
+  align-self: center;
+  color: cornsilk;
+}
+.contact-main p {
+  align-self: center;
+  margin: 18px auto;
+}
+.contact-map {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+  margin: 50px;
+}
+.mapouter {
+  border: 5px dotted white;
+  box-shadow: 0 0 6px 3px white;
+}
+.line {
+  margin: 20px 0;
+  margin-top: 30px;
+  position: relative;
+  z-index: -1;
+}
+.line:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  content: "";
+  width: 100%;
+  height: 2px;
+  display: block;
+  background: #f1d479;
+  background: radial-gradient(#f1d479 40%, rgba(241, 212, 121, 0) 80%);
+}
+.contact-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 50px 15% 10px 15%;
+  height: auto;
+  max-width: 1000px;
+  margin: auto;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  padding: auto 0px;
+  -webkit-backdrop-filter: saturate(1.2);
+  backdrop-filter: saturate(1.2);
+  background-color: rgb(255 255 255 / 5%);
+}
+@media screen and (max-width:767px){
+  .contact-form  
+  {
+    box-shadow: none
+  }
+}
+.contact-form-outer {
+  margin: 4rem auto;
+}
+.phone:not() > .phone_number {
+  text-align: center;
+  color: gold;
+  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+  text-decoration: none;
+  padding: 1px 11px;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "arabswell_1";
+  font-size: 25px;
+  padding: 0px 15px;
+  box-shadow: 5px;
+  background: none;
+  outline: none;
+}
+.telmessage {
+  color: rgb(253, 36, 36);
+  font-size: 16px;
+  text-shadow: 0 0 black;
+  font-family: "Amiri", sans-serif;
+  display: none;
+}
+.namemessage {
+  color: rgb(253, 36, 36);
+  font-size: 16px;
+  text-shadow: 0 0 black;
+  font-family: "Amiri", sans-serif;
+  display: none;
+}
+.telefone{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+}
+.phone_number {
+  cursor: pointer;
+  font-size: 23px;
+}
+.mailmessage {
+  color: rgb(253, 36, 36);
+  font-size: 16px;
+  text-shadow: 0 0 black;
+  font-family: "Amiri", sans-serif;
+  display: none;
+}
+.mail {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  height: 100%;
+  flex-direction: column; 
+}
+.msg [placeholder] {
+  font-family: "Reem Kufi", sans-serif;
+}
+.input-icons i {
+  position: absolute;
+}
+.input-icons {
+  width: 100%;
+}
+.icon {
+  padding: 15px 0px;
+  color: green;
+  min-width: 50px;
+  text-align: center;
+}
+.icon.invalid {
+  padding: 15px 0px;
+  color: rgb(253, 36, 36);
+  min-width: 50px;
+  text-align: center;
+}
+.cordonnes {
+  margin-top: 0 ;
+}
+.cordonnes table {
+  padding: auto 0px;
+  border-collapse: separate;
+  border-spacing: 15px 29px;
+  height: 300px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+label ,.adress,.label-phone ,.label-email{
+  text-align: center;
+  color: gold;
+  text-shadow: rgb(0, 0, 0) 1px 1px 2px;
+  text-decoration: none;
+  padding: 1px 11px;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "arabswell_1";
+  font-size: 25px;
+  padding: 0px 15px;
+  box-shadow: 5px;
+  background: none;
+  outline: none;
+}
+label {
+  font-size: 20px;
+}
+label::after {
+ content: '*';
+ font-family: "Changa", sans-serif;
+}
+@media screen and ( max-width:768px ){
+  label,label::after {
+    font-weight: bold;
+  }
+}
+.msg {
+  align-self: center;
+}
+.msg-text {
+  align-self: center;
+  border: 1px double rgba(255, 255, 255, 0.65);
+  border-radius: 8px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+  outline: 2px none gold;
+  outline-offset: 0px;
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 0 11px rgba(255, 255, 255, 0.65);
+  padding: 11px;
+  margin: 20px auto 20px 30px;
+  width: 320px;
+  height: 200px;
+}
+.input {
+  height: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.65);
+  border-radius: 6px;
+  outline: 1px none gold;
+  outline-offset: 0px;
+  direction: ltr;
+  background: transparent;
+  background-color: rgba(255, 255, 255, 0.65);
+  box-shadow: 0 0 11px rgba(255, 255, 255, 0.65);
+  padding: 0 25px 0 11px;
+  transition: .3s ease-in-out;
+}
+.input:focus {
+  -webkit-box-shadow: 0 0 11px gold;
+  box-shadow: 0 0 11px gold;
+  border: 1px solid gold;
+  transition: .3s ease-in-out; 
+}
+.msg-text:focus {
+  -webkit-box-shadow: 0 0 11px gold;
+  box-shadow: 0 0 11px gold;
+  border: 1px solid gold;
+  transition: .3s ease-in-out;
+}
+.input.invalid:focus{
+  -webkit-box-shadow: 0 0 11px rgb(253, 36, 36);
+  box-shadow: 0 0 11px rgb(253, 36, 36);
+  border: 1px solid rgb(253, 36, 36);
+  transition: .3s ease-in-out; 
+}
+.adress {
+  color: gold;
+}
+.send{  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  font-family: 'arabswell_1';
+  font-size: 24px;
+  padding: 0px 15px;
+  text-decoration: none;
+  box-shadow: -1px 1px 4px 1px rgb(0 0 0 / 39%);
+  border-radius: 500px;
+  padding: 2px 20px 8px 20px;
+  border: none;
+  outline: transparent;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(1.2);
+  transition: .5s ease;
+  border: 1.4px solid transparent;
+}
+.send:hover {
+  border: 1.4px solid white;
+  transition: .5s ease;
+  filter: brightness(1.2);
+}
+.send i.fad.fa-paper-plane {
+  margin: 15px 20px auto auto;
+  font-size: 20px;
+}
+.sending {
+  -webkit-animation: spinner 1s infinite linear;
+  animation: spinner 1s infinite linear;
+  display: none !important;
+  font-size: 20px;
+  color: white;
+  pointer-events: none;
+  display: flex;
+  justify-content: center;
+  width: fit-content;
+  width: -moz-fit-content;
+  margin: auto;
+}
+.sent{ 
+  border-radius: 8px;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  margin: auto;
+  cursor: pointer;
+  border: 1.4px solid white;
+  color: white;
+  font-family: 'arabswell_1';
+  font-size: 24px;
+  text-decoration: none;
+  box-shadow: -1px 1px 4px 1px rgb(0 0 0 / 39%);
+  border-radius: 500px;
+  padding: 2px 20px 8px 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(1.2);
+  transition: .5s ease;
+  pointer-events: none;
+  display: none;
+}
+.sent i.fas.fa-shield-check {
+  margin-left: 10px;
+  font-size: 22px;
+}
+.submitform{
+  margin: 50px auto;
+}
+.message-sent {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: 1.4px solid white;
+  color: white;
+  font-family: 'arabswell_1';
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: -1px 1px 4px 1px rgb(0 0 0 / 39%);
+  border-radius: 500px;
+  text-align: center;
+  padding: 5px 10%;
+  margin-top: 33px;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: saturate(1.2);
+  opacity: 0;
+  transition: .4s ease-in-out; 
+}
+.message-sent i.fad.fa-bell-on {
+  margin-left: 10px;
+}
+.submit-btn::after {
+  border: none;
+}
+.contact-s-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100%;
+}
+@-moz-document url-prefix() {
+  .contact-form,.send,.sent,.message-sent{ 
+    background-color: #ffe38c0f;
+  }
+}
+
+/* Style the Un-order list by setting its list-style to none */
+.contact-s-wrapper ul {
+  list-style: none;
+  display: flex;
+  padding: 0;
+}
+
+/* Style the list items inside the UL list, by setting its width, height and line-height 
+	and float them to left and set its border and border-radius.
+   */
+.contact-s-wrapper ul li {
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  margin: 0 10px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 5px solid #f1d479;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li .fab {
+  color: #f1d479;
+  margin-top: 5px;
+  transition: all 0.5s ease;
+}
+
+/*facebook*/
+.contact-s-wrapper ul li.facebook {
+  border: 5px solid #1c189b;
+  box-shadow: 0 0 15px #1c189b;
+  transition: all 0.5s ease;
+  filter: brightness(1.6);
+}
+.contact-s-wrapper ul li .fa-facebook-f { 
+  color: #1c189b; 
+  text-shadow: 0 0 15px #1c189b;
+  margin-top: 7px;
+  font-size: 50px;  
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li:hover.facebook {
+  border: 5px solid #2c26e1;
+  box-shadow: 0 0 15px #2c26e1;
+  filter: brightness(1.4);
+}
+.contact-s-wrapper ul li:hover .fa-facebook-f {
+  color: #2c26e1;
+  text-shadow: 0 0 15px #2c26e1;
+}
+
+/*twitter*/
+.contact-s-wrapper ul li.twitter {
+  border: 5px solid #00aced;
+  box-shadow: 0 0 15px #00aced;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li .fa-twitter {
+  color: #00aced;
+  text-shadow: 0 0 15px #00aced;
+  margin-top: 7px;
+  font-size: 50px;  
+  transition: all 0.5s ease;
+}
+
+/* instagram */
+.contact-s-wrapper ul li.instagram {
+  border: 5px solid #c12d90;
+  box-shadow: 0 0 15px #c12d90;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li .fa-instagram {
+  color: #c12d90;
+  text-shadow: 0 0 15px #c12d90;
+  margin-top: 5px;
+  font-size: 55px;  
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.5s ease;
+}
+
+/* google */
+.contact-s-wrapper ul li.google {
+  border: 5px solid #dd4b39;
+  box-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li .fa-google {
+  color: #dd4b39;
+  text-shadow: 0 0 15px #dd4b39;
+  transition: all 0.5s ease;
+  margin-top: 7px;
+  font-size: 50px;  
+}
+
+/* whatsapp */
+.contact-s-wrapper ul li.whatsapp {
+  border: 5px solid #4dc247;
+  box-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li .fa-whatsapp {
+  color: #4dc247;
+  margin-top: 4px;
+  font-size: 55px; 
+  text-shadow: 0 0 15px #4dc247;
+  transition: all 0.5s ease;
+}
+.contact-s-wrapper ul li:hover {
+  transform: scale(1.2);
+  filter: brightness(1.3);
+  transition: all 0.5s ease;
+}
+.phone a {
+  text-decoration: none;
+  color: cornsilk;
+}
+.phone a:hover {
+  color: cornsilk;
+  text-shadow: 0 0 15px cornsilk;
+  transition: all 0.5s ease;
+  filter: brightness(1.2);
+}
+.email a {
+  text-decoration: none;
+  color: cornsilk;
+}
+@media screen and (max-width:340px) {
+  .email a {
+    font-size: 14pt;
+  }
+}
+@media screen and (max-width:280px) {
+  .email a {
+    font-size: 16pt;
+    margin: -27px;
+    }
+}
+.email a:hover {
+  color: cornsilk;
+  text-shadow: 0 0 15px cornsilk;
+  transition: all 0.5s ease;
+  filter: brightness(1.2);
+}
+.adress {
+  margin-top: 10px;
+}
+.mapouter {
+  position: relative;
+  text-align: right;
+  height: 569px;
+  width: 100%;
+}
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 569px;
+}
+.gmap_canvas > iframe {
+  width: 100% ;
+}
+
+/* media queries */
+
+@media screen and (max-width: 640px) {
+  .contact-form {
+    margin: 10px auto;
+  }   
+}
+@media screen and (max-width: 530px) {
+  .contact-map {
+    margin: 50px auto;
+  }
+  .contact-s-wrapper {
+    align-items: center;
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 1191px) {
+  .cordonnes {
+    margin: -15px auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .msg {
+    margin: 10px auto;
+    align-content: center;
+    justify-content: center;
+  }
+  .msg-text {
+    margin: 10px auto;
+    align-content: center;
+    justify-content: center;
+  } 
+}
+
+@media screen and (max-width: 480px) {
+  .gmap_canvas {
+    overflow: hidden;
+    background: none !important;
+    height: 569px;
+  }
+  .mapouter {
+    width: 300px;
+    margin: auto;
+  }
+  .contact-main {
+    display: flex;
+    font-size: 23px;
+    flex-direction: column;
+    align-self: center;
+    margin: auto;
+    justify-content: center;
+    padding: 0;
+    width: 80%;
+    color: cornsilk;
+  }
+  .contact-s-wrapper ul {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(3, 1fr);
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    position: relative;
+  }
+  .contact-s-wrapper ul li:nth-child(3n + 1):nth-last-child(-n + 3) {
+    margin: auto;
+    grid-column: span 2;
+  }
+  .contact-s-wrapper ul li:nth-child(3n + 2):nth-last-child(-n + 2) {
+    /* margin: auto; */
+    /* grid-column: span 1;   */
+    margin-right: -41px;
+  }
+  label {
+    font-family: "Changa", sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: gold;
+  }
+  .msg-text {
+    margin: auto;
+    width: 90%;
+  }
+  .input {
+    width: 70%;
+  }
+  .submit-btn {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .input::placeholder{
+    visibility: hidden;
+  }
+    .msg-text::placeholder {
+    visibility: visible;
+  }
+  @-moz-document url-prefix() {
+    ::placeholder{
+      opacity: 0;
+    }
+    .msg-text::placeholder {
+      opacity: 0.5;
+    }
+  }
+
+}
+
+@media screen and (max-width: 380px) {
+.contact-s-wrapper ul {
+  grid-gap: 0; 
+  }
+}
+
+.g-recaptcha {
+    margin: 20px auto auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display:none
+}

@@ -1,0 +1,305 @@
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #389b12;
+    letter-spacing: 0.5px;
+    overflow: hidden;
+    background: #ffffff;
+    width: 70%;
+    margin: 1rem auto .5rem auto;
+    height: 40px;
+    line-height: 30px;
+    border-radius: 6px;
+    border: 0.21em double #389b12;
+    font-family: 'El Messiri', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px; 
+}
+.headtext {
+  font-size: 18px;
+}
+
+/* -----------------------Main About-------------------------*/
+
+
+.me-ct {
+  position: relative;
+  overflow: hidden;
+  font-family: 'Amiri', serif;
+  z-index: -1;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("../images/Hasan 2.webp");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-blend-mode: color;
+  border-radius: 7px;
+  padding: 5px;
+  box-shadow: inset 0px 0px 6px 5px white;
+}
+
+/*golden text s */
+.golden-base {
+  font-weight: 1400;
+  text-align: right;
+  width: 700px;
+  height: 300px;
+  font-size: 16pt;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  -webkit-margin-before: 0.3em;
+  -webkit-margin-after: 0.2em;
+  z-index: -1;
+}
+.golden3 {
+  background-image: -webkit-linear-gradient(#fff65c 45%, #9a8000 75%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09),
+    -1px -1px 0 rgba(255, 220, 0, 0.67);
+  width: 50%;
+  margin-top: 4%;
+  text-align-last: center;
+  margin-right: 47%;
+  text-align: center;
+  z-index: -1;
+}
+.golden3-2 {
+  background-image: -webkit-linear-gradient(#fff65c 45%, #9a8000 75%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09),
+    -1px -1px 0 rgba(255, 220, 0, 0.67);
+  width: 40%;
+  text-align-last: center;
+  margin-right: 57%;
+  margin-top: -10%;
+  text-align: center;
+  z-index: -1;
+}
+.golden4 {
+  background-image: -webkit-linear-gradient(#fff65c 45%, #9a8000 75%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09),
+    -1px -1px 0 rgba(255, 220, 0, 0.67);
+  width: 38%;
+  margin-top: auto;
+  float: right;
+  text-align-last: center;
+  margin-right: 2%;
+}
+.rissalacontain {
+  margin: 10% 66% 25% 2%;
+}
+@media screen and (max-width: 1160px) {
+  .golden4 {
+    margin-top: -20%;
+  }
+  .rissalacontain {
+    margin: -5% 66% 35% 2%;
+  }
+}
+@media screen and (max-width: 1060px) {
+  .golden-base {
+    font-size: 18px;
+  }
+  .golden4 {
+    margin-top: -20%;
+  }
+  .rissalacontain {
+    margin: -10% 66% 25% 2%;
+  }
+  .golden3-2 {
+    margin-top: -145%;
+  }
+  .golden3 {
+    margin-top: 5%;
+    margin-bottom: -10%;
+  }
+}
+@media screen and (min-width: 1800px) {
+  .golden4 {
+    margin-top: 10%;
+  }
+  .golden3-2 {
+    margin-top: -7%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .golden-base {
+    font-size: 18px;
+  }
+  .golden3-2 {
+    margin-top: -25%;
+  }
+  .golden4 {
+    margin-top: -28%;
+  }
+  .rissala {
+    margin-top: -35%;
+  }
+  .rissalacontain {
+    margin-top: -22%;
+  }
+}
+.rissala {
+  background-image: -webkit-linear-gradient(#fff65c 45%, #9a8000 75%);
+  text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.09),
+    -1px -1px 0 rgba(255, 220, 0, 0.67);
+  padding: 4%;
+  width: 100%;
+  margin-bottom: 100%;
+  height: auto;
+  float: left;
+  text-align-last: center;
+  position: relative;
+  margin-left: 8%;
+  margin-left: 10px;
+  border-radius: 8px;
+  box-shadow: -7px -7px 20px 0 rgba(255, 255, 255, 0),
+    7px 7px 20px 0 rgba(0, 0, 0, 0.2);
+}
+.rissalaimg {
+  position: relative;
+  top: 37px;
+  margin: auto;
+  margin-bottom: 0;
+  width: 30%;
+}
+
+.box {
+  background-image: url(" ../images/IMG-20190402-WA0010.webp");
+  background-size: cover;
+  position: absolute;
+  right: 3%;
+  top: 2%;
+  transform: translate(-50%, -50%);
+  width: 38%;
+  height: 30%;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: 10px solid transparent;
+  border-image: url("../images/borderbox.webp") 30 stretch;
+  z-index: -1;
+}
+
+.about {
+  display: none;
+}
+
+/*------------------------responsive-------------------*/
+@media screen and (max-width: 1263px) {
+  .golden3-2 {
+    margin-top: -5%;
+  }
+}
+@media screen and (max-width: 956px) {
+  .golden3-2 {
+    margin-top: -2px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .me-ct {
+    position: relative;
+    height: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    font-family: amiri;
+    z-index: -1;
+    left: 0;
+    right: 0;
+    margin: 10% auto;
+    padding: 10% 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #00132b91;
+  }
+ 
+  .head {
+    margin-top:200px ;
+  }
+  .box {
+    display: none;
+  }
+
+  .about {
+    display: flex;
+    margin: auto;
+    position: relative;
+    max-width: 100%;
+    order: 2;
+    align-items: center;
+    justify-content: center;
+  }
+  .about img {
+    border: 5px double #f1d579e3;
+    width: 90%;
+  }
+  
+  .golden-base {
+    font-weight: 100;
+    text-align: right;
+    width: 90%;
+    height: 300px;
+    font-size: 13pt;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-margin-before: 0.3em;
+    -webkit-margin-after: 0.2em;
+    padding: 2%;
+  }
+  .golden4 {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+    order: 4;
+    -webkit-border-radius: 0px 0px 16px 16px;
+    -moz-border-radius: 0px 0px 16px 16px;
+    border-radius: 0px 0px 16px 16px;
+  }
+  .golden3 {
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    height: 100%;
+    order: 1;
+  }
+
+  .golden3-2 {
+    margin: auto;
+    height: 100%;
+    order: 3;
+    -webkit-border-radius: 16px 16px 0px 0px;
+    -moz-border-radius: 16px 16px 0px 0px;
+    border-radius: 16px 16px 0px 0px;
+  }
+
+  .rissalacontain {
+    width: 90%;
+    margin:5%;
+    height: 100%;
+    order: 5;
+  }
+  .rissala {
+    text-align: center;
+    margin: 0 auto;
+    height: 100%;
+  }
+  .rissalaimg {
+    position: relative;
+    width: 120px;
+    height: 70px;
+    top: 0;
+  }
+  .rissala {
+
+    margin-top: -30px;
+    
+  }
+}
+
+

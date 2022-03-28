@@ -1,0 +1,56 @@
+
+  path{ 
+    
+  -webkit-transition: stroke-dashoffset 2s ease-in-out; 
+    transition: stroke-dashoffset 2s ease-in-out;
+  }  
+  
+  a.returntohome > object {
+    pointer-events: none;
+    margin-bottom: 50px;
+    height: 110px;
+    width: 112px;
+  }
+  .message-error {
+    text-align: center;
+    text-decoration: none;
+    padding: 1px 11px;
+    border-radius: 5px;
+    margin: auto;
+    font-family: "arabswell_1";
+    font-size: 25px;
+    font-weight: 500;
+    padding: 0px 15px;
+    box-shadow: 5px;
+    background: none;
+    outline: none;
+    margin: 40px auto;
+    background-image: -webkit-linear-gradient(#fff65c 45%, #9a8000 75%);
+    text-shadow: 1px 1px 0 rgb(0 0 0 / 9%), -1px -1px 0 rgb(255 220 0 / 67%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;;
+  }
+  a.returntohome {
+    height: 110px;
+  }
+
+  .error-page {
+    width: 100%;
+    display: flex;
+    align-items: center;
+     justify-content: center; 
+    min-height: 100vh;
+    width: 60vw;
+    margin: auto;
+    flex-direction: column;
+    overflow: hidden;
+  } 
+  svg {
+    width: 80%;
+  }
+
+  .fdiviver {
+    margin-top: 0 !important; 
+    margin-bottom: 15px;
+}

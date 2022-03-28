@@ -1,0 +1,1275 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:35+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Japanese <https://translate.devowl.io/projects/wordpress-real-"
+"media-library-backend-php/ci-mojito/ja/>\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary: 初期化"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr "完全なファイルおよびフォルダーマネージャー"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+"Real Media Library は、高度なメディア管理を可能にする WordPress プラグイン。"
+"このプラグインを使えば、メディアライブラリ内の何千もの画像、オーディオ、ビデ"
+"オ、および PDF ファイルを、フォルダーで整理することができます。Windows の エ"
+"クスプローラーや、Mac の Finder のようなファイルマネージャーの WordPress 版で"
+"す。"
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr "メディア挿入ダイアログで絞り込む"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+"どこにいても、Real Media Library のフォルダー構造は、いつもファイルを選択でき"
+"る場所。たとえば「アイキャッチ画像」を選択するダイアログで。"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+"Lite バージョンでは、単純なドロップダウンメニューでのみフォルダーを選択できま"
+"す。"
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr "画像の並び順をカスタム"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+"Real Media Library プラグインを使えば、メディアファイルの整理がとても簡単にな"
+"ります。ドラッグ & ドロップで、ファイルの並び順を自分で調整できます。これによ"
+"り、重要なファイルを最上部に移動し、アクセスを高速化できます。"
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr "今すぐ PRO ライセンスをゲットしましょう !"
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "指定されたフォルダーが見つかりませんでした。"
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "互換プラグイン"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"メモ:  ショートカットファイルを削除しても、ソースファイルは削除されません。"
+"ショートカットでないファイルを削除すると、関連するすべてのショートカットも同"
+"時に削除されます。"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"このショートカットを移動しても、ソース/メインファイルの場所は変更されません。"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"この添付ファイルを移動しても、関連するショートカットのフォルダーの場所は変更"
+"されません。"
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "別のフォルダーに移動"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "フォルダー"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "ショートカットの情報"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"メディアライブラリファイルのショートカットです。ショートカットは、物理スト"
+"レージを必要としません <strong>(0 kB)</strong>。ファイル自身に変更を加えたい"
+"場合は、元のファイルを変更する必要があります (例：プラグインを介してメディア"
+"ファイルを置き換える)。<br/>ショートカットのフィールドは、元のファイルとは異"
+"なる場合があることにも注意してください。例えば、「タイトル」、「説明」、"
+"「キャプション」などです。"
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] ""
+"このファイルでは、以下ののフォルダーで %d ショートカットを利用できます。"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"このファイルに関連するショートカットはありません。任意のキーを押しながらマウ"
+"スでファイルを移動することで、ショートカットを作成できます。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "ここにファイルを挿入する権限がありません。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "ファイルの移動をする権限がありません。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "ここでサブフォルダーを作成することはできません。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "このフォルダーを削除する権限がありません。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "このフォルダーの名前を変更する権限がありません。"
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "目的のフォルダーを選択"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"ファイルをフォルダーに直接アップロードするだけ。フォルダーを選択し、ファイル"
+"をアップロードしてください。"
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "フォルダーをアップロード"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary: インポート/エクスポート"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "他のプラグインからインポート"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "インポート/エクスポート Real Media Library フォルダー"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "エクスポート"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "インポート"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"すべての使用可能なフォルダーがエクスポートされます。インポート中に現在の構造"
+"が失われることはありませんが、名前の重複チェックは行わないので、インポート"
+"データに重複する名前がないことを確認してください。"
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "データをエクスポート:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "データをインポート:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "データのインポートは、PRO 版でのみ利用できます。"
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "Pro 版の詳細"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "カテゴリーと投稿の関連付けデータをインポートします。"
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr "インポート対象がありません。"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr ""
+"別のプラグインからのカテゴリーのインポートは、PRO 版でのみ利用可能です。"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "有効なフォルダーがありません。"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "有効な形式ではありません。"
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: 自動で翻訳を移動する"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr "ファイルを移動すると、対応する翻訳済みファイルも移動します。"
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: 自動で翻訳を移動する"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' は、すでにこのフォルダーに存在します。"
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "この機能は、無料バージョン (%s) では使用できません。"
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "ファイルのセットを指定する必要があります。"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "データベースにフォルダーを作成できませんでした。"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "すでに存在するため、フォルダーを作成できませんでした。"
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr ""
+"フォルダーには、ギャラリーを除くあらゆる種類のファイルまたはコレクションを含"
+"めることができます。"
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' は有効なフォルダー名ではありません。"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "名前の昇順で並べ替え"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "名前の降順で並べ替え"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "IDの昇順で並べ替え"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "ID の降順で並べ替え"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr ""
+"指定したフォルダが存在しないか、このフォルダの名前を変更する権限がありませ"
+"ん。"
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "削除しようとしているフォルダーには、サブフォルダーがあります。"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "指定されたフォルダは存在しません。"
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "未整理"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"「未整理」フォルダは、ルートフォルダと同じです。フォルダに割り当てられていな"
+"いファイルは、すべて「未整理」フォルダで見つけることができます。"
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+"このオプションは、このページでは無効になっています。メディアライブラリに移動"
+"して行ってください。"
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "カバー画像"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "説明"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "パス"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "フォルダーの形式"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "一般"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "日付の昇順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "日付の降順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "ファイル名の昇順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "タイトルの降順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "ファイル名の昇順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "ファイル名の降順で並び替え"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "ファイル名の昇順による自然な順序"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "ファイル名の降順による自然な順序"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "問題が発生しました。"
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "フォルダーが見つかりません。"
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr ""
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr ""
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr ""
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr ""
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr ""
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr ""
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr ""
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr ""
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr ""
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr ""
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "アイテムを表示するフォルダーを選択。"
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "フォルダー ID で、フォルダ内のメディアのみを取得します。"
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "禁止されています"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr ""
+"Real Media Library は、現在のユーザーに対してアクティブではありません。"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "「すべてのファイル」でショートカットを非表示"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "カウントは、常にショートカットを含んでいます。"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "デフォルトの起動フォルダ"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "起動時にフォルダが存在しない"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Last opened folder"
+msgstr "最後に開いたフォルダ"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+"メディアライブラリは、「最後に開いたフォルダー」または「選択したフォルダー」"
+"で常に開くことができ、時間を節約できます。"
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "メディアフォルダーからギャラリー"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr ""
+"メモ：選択できるのはギャラリーのみです。フォルダーとコレクションはグレー表示"
+"されます。"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "リンク先"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "カラム (列)"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "ランダム順"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "サイズ"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "添付ファイル"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "メディアファイル"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "なし"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "サムネイル"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "中"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "大"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "フルサイズ"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+"サブフォルダーは、PRO バージョンでのみ使用できます。ただし、メインレベルに数"
+"量無制限のフォルダーを作成できるようになりました。 (以前は10フォルダーが上限"
+"でした)"
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "フォルダーが選択されていません"
+
+#: inc/view/Lang.php:1
+msgid "Select folder"
+msgstr "フォルダーを選択"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "コンテンツをリロード"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "サブフォルダー"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr "ブロック設定でフォルダー (メディアライブラリ) を選択してください。"
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "新しいフォルダーは、この制限を継承します。"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "現在選択しているフォルダには、いくつかの制限があります。"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "*親*フォルダーは変更できません。"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "サブフォルダーを*再配置*することはできません。"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "サブフォルダーを*作成*することはできません。"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "フォルダーの*名前を変更*する権限がありません。"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "フォルダーを*削除*することはできません"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "ファイルをフォルダー外に*移動*することはできません"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "親"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "このノードの前"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "次のノードが未指定の場合、要素は最後に配置されます。"
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "ファイルは、現在いるフォルダーにアップロードされます。"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "本当に実行しますか ?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "失敗しました"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "エントリーが見つかりません。"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"*{name}*を削除してもよろしいですか？削除するフォルダ内の全ファイルは「未整"
+"理」に移動されます。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"本当に*{count}個のフォルダ*を削除しますか ? 削除するフォルダ内の全ファイルは"
+"「未整理」フォルダに移動されます。"
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr "OK"
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "保存する"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "戻る"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "フォルダーが見つかりません。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"まだフォルダーは作成されていません。上のボタンをクリックすると、最初のフォル"
+"ダーが作成されます。"
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "フォルダー"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "検索結果はありません。"
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "フォルダ名を*{name}*に変更しました。"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "*{name}* の作成に成功しました !"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "*{name}* の削除に成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "*{count}個のフォルダ*の削除に成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "*{name}* の配置を手動で再配置する"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "ツリー階層のソートに成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "ショートカット"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"メディアライブラリファイルのショートカットです。ショートカットは物理ストレー"
+"ジを使用しません *(0 kB)*。ファイル自身に変更を加えたい場合は、元のファイルを"
+"変更する必要があります (例：プラグインを介してメディアファイルを置き換え"
+"る)。\n"
+"ショートカットのフィールドは、元のファイルとは異なる場合があることにも注意し"
+"てください。例えば、「タイトル」、「説明」、「キャプション」などです。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr ""
+"現在のアップロードのビューでは、フィルターがアクティブになっています。フィル"
+"ターをリセットして、ビューを更新してください。"
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "ドラッグ & ドロップでコンテンツを並び替える"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "並び順にリセット"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "最後"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "自動並び替えを無効にする"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "最新"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "並び順のインデックスを再作成"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "最後の並び順にリセット"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "すべてのファイル"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "{count}ファイルを移動する"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "1ファイルを移動する"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "{count}ファイルをコピーする"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "1ファイルをコピーする"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "{count}ファイルの移動に成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "1ファイルの移動に成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "{count}ファイルのコピーに成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "1ファイルのコピーに成功しました"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "任意のキーを押したままにし、ショートカットを作成します"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "キーを離してファイルを移動します"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "クリックで*新しいフォルダー*を作成"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"フォルダーには、任意のファイルタイプとコレクションを含めることができます。し"
+"かし、フォルダーをギャラリーに含めることはできません。サブフォルダー (PRO 版"
+"のみ) を作成したい場合は、親フォルダーを選択した状態で、このボタンをクリック"
+"してください。"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "クリックで*新しいコレクション*を作成"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"追加の*コレクション*や*ギャラリー*を作成できます。コレクションには、ファイル"
+"を含めることはできません。ギャラリーは、ただの*ギャラリーデータフォルダー*"
+"で、サイトに自動で表示されることはありません。"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "クリックで*新しいギャラリーデータフォルダ*を作成"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"*ギャラリーデータフォルダー* には、画像のみを含めることができます。ビジュアル"
+"ギャラリーの場所は、簡単に判別できます。\n"
+"\n"
+"ドラッグ & ドロップで、画像を *カスタムした画像の順序* に並べ替えることもでき"
+"ます。"
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "設定"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "現在ログイン中のユーザーの一般設定。"
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "権限"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "このフォルダー内のファイルを並べ替える"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "再読み込み"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "現在のフォルダービューを更新。"
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "名前の変更"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "現在選択しているフォルダーの名前を変更する。"
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "削除"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "現在選択しているフォルダーを削除する。"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "現在選択しているフォルダーを削除する。"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "再配置"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "フォルダー階層の並び順を変更します。"
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "フォルダーの詳細"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "フォルダーを選択し、その詳細を表示。"
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "製品ライセンスは、まだ有効化されていません。"
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "ライセンスを入力"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "通知を非表示"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"すでに別のプラグイン (メディアライブラリでフォルダを扱うもの) をご使用中のよ"
+"うです。"
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "インポートを開始"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "非表示にする"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+"Real Media Libraryは、仮想フォルダー構造を作成します。ファイルを移動しても、"
+"アップロード URL は変更されません。詳細は、<a href=\"https://devowl.io/"
+"knowledge-base/how-can-i-physically-reflect-the-virtual-folder-structure-to-"
+"my-file-system/\" target=\"_blank\">自動でファイルを物理フォルダーに移動する"
+"方法</a>をご覧ください。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr "PRO 版の外部サイトにリダイレクトされます。続行をご確認ください !"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "PRO 版の機能"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "20日間、非表示にする"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "Real Media Library 無料版のご利用、ありがとうございます。"
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "Pro 版を入手 !"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "詳細を見る"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr "コレクションを気に入りましたか ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"異なるタイプのフォルダーで整理: コレクションとギャラリーは、画像ギャラリーの"
+"場所を簡単に認識するのに役立ちます。"
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr "並び順をカスタマイズしたいですか ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"フォルダーの内容を順番に取得し、基準 (名前の降順など) に従って、またはドラッ"
+"グ & ドロップでファイルを並び替えます。"
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr "並び順を完全にコントロールしたいですか ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"基準 (名前の降順など) に従って、またはドラッグ & ドロップで、フォルダーツリー"
+"内のノードを整理します。"
+
+#: inc/view/Lang.php:1
+msgid "Want to create subfolders?"
+msgstr "サブフォルダーを作成したい ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+"サブフォルダーは、メディアライブラリにさらなる構造を持たせる機能を提供しま"
+"す。メディアライブラリに実に多くのファイルがある場合でも、概要を把握するのに"
+"役立ちます。"
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr "フォルダーの切り替えを、より快適に行ないたいですか ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+"メディアライブラリに完全なフォルダーツリーを提供し、毎回のドロップダウンメ"
+"ニューを使った検索の代わりに、このダイアログが表示されます。ただただ快適で"
+"す !"
+
+#: inc/view/Lang.php:1
+msgid "Want to upload entire folders?"
+msgstr "フォルダーをまるごとアップロードしたいですか ?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+"Real Media Library を使用すると、ドラッグ & ドロップでフォルダー全体をアップ"
+"ロードできます。すべてのフォルダー、サブフォルダー、およびファイルがアップ"
+"ロードされ、同じ構造でメディアライブラリに表示されます。PRO 版を入手し、フォ"
+"ルダーをアップロードしてください  !"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:  一般"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "RML 機能をフロントエンドにロード"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary: 初期化"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "すべてのギャラリーの順序を初期化する"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "すべての設定を消去 (フォルダー、添付ファイル関連)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "フォルダーカウントのキャッシュを初期化する"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "名前、スラッグ、絶対パスを初期化する"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "添付ファイル関連を消去する"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "すべてを消去する"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "カウントを初期化"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "初期化"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"Divi Page Builder、WPBakery Page Builder、Elementor 等のページビルダーを使用"
+"している場合は、このオプションを有効化。"
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "フォルダーの詳細で、1つのフォルダを初期化することもできます。"
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "すべて"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "未整理の写真"

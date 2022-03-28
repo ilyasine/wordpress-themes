@@ -1,0 +1,1273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:35+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Croatian <https://translate.devowl.io/projects/wordpress-real-"
+"media-library-backend-php/ci-mojito/hr/>\n"
+"Language: hr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary:Reset"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr "Kompletan upravitelj datoteka i mapa"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+"Real Media Library je WordPress dodatak koji vas osnažuje naprednim "
+"upravljanjem medijima. Ovaj dodatak možete koristiti za organiziranje tisuća "
+"slika, audio, video i PDF datoteka u svojoj medijskoj biblioteci u mape. U "
+"osnovi to je upravitelj datoteka kao što su Windows Explorer ili Mac Finder, "
+"ali za WordPress."
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr "Filter u dijalogu ubaci mediji"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+"Gdje god da ste, strukturna mapa Real Media Library je uvijek gdje se mogu "
+"selektovati datoteke. Na primjer u dijalogu za odabir \"Predložena Slika\"."
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+"U verziji LIte možete izabrati mapu samo jednostavnom padajućom listom."
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr "Slobodan redoslijed slika"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+"Organiziranje Vaših medija datoteka je zaista jednostavno sa Real Media "
+"Library dodatkom."
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr "Kupite Vašu PRO licencu odmah!"
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "Tražena mapa nije pronađen."
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "Komplemantarni Dodaci"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"Podsjetnik: Ako želite izbrisati datoteku prečaca, izvorna datoteka NEĆE se "
+"izbrisati.\n"
+"Ako želite izbrisati datoteku koja nije prečac, brišu se i svi povezani "
+"prečaci."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"Ako pomjerite ovaj prečac, lokacija izvornog/glavne datoteke se neće "
+"promijeniti."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"Ako pomjerite ovaj dodatak, lokacija datoteke povezane sa prečicom se neće "
+"promijeniti."
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "Pomjeri u drugu datoteku"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "Datoteka"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "Info o prečicama"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"Ovo je prečica media library fajla. Prečice ne zahtjevaju bilo kakav fizički "
+"prostor <strong>(0 kB)</strong>. Ako želite da promjenite fajl, to morate da "
+"uradite u originalnom fajlu (na primjer zamijeni medija fajl kroz plugin)."
+"<br/>Podsjećamo da polja u prečicama mogu biti različita od originalnog "
+"fajla, na primjer \"Naslov\", \"Opis\" ili \"Naslov\"."
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "Za ovaj fajl je %d prečica dostupna u sljedećoj datoteci:"
+msgstr[1] "Za ovaj fajl su %d prečice dostupne u sljedećim datotekama:"
+msgstr[2] "Za ovaj fajl su %d prečice dostupne u sljedećim datotekama:"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"Ova datoteka nema pridružene prečice. Prečice možete stvoriti pomicanjem "
+"datoteka po mišu i držati bilo koju tipku."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "Nije dopušteno umetanje datoteka."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "Nije dopušteno umetanje mapa."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "Nije dopušteno umetanje podmapa."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "Nije dopušteno brisanje ove mape."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "Nije dopušteno mijenjanje imena ove mape."
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "Odaberite odredišnu mapu"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"Možete jednostavno prenijeti datoteke izravno u mapu. Odaberite mapu i "
+"prenesite datoteke."
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "upload u mapu"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary: Uvoz / Izvoz"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "Uvezite iz drugih dodataka"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "Izvoz / Uvoz Real Media Library mapa"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "Izvoz"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "Uvoz"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"Izvest će se sve dostupne mape. Trenutna se struktura ne gubi tijekom uvoza "
+"- ali provjerite da u podacima o uvozu nema dvostrukih imena, jer ona nisu "
+"označena."
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "Izvezeni podaci:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "Uvezi podatke:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "Uvoz podataka je dostupan samo u PRO verziji."
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "Nauči više o PRO"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "Uvezi kategorije i relacije za postove."
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr "Nema ništa za uvoz."
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr "Uvoz kategorija iz drugog dodatka je dostupno samo u PRO verziji."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "Neispravna mapa."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "Neispravan tip."
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: Automatski pomjeri prijevode"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr ""
+"Ako pomijerite datoteku, vezana prevedena datoteka će takođe biti pomjerena."
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: Automatski pomjeri prijevode"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' već postoji u ovoj mapi."
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "Ova funkcija nije dostupna u besplatnoj verziji (%s)."
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "Potrebno dostaviti sve datoteke."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "Ova mapa se ne može kreirati u bazi podataka."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "Ova mapa se ne može kreirati jer već postoji."
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr "Mapa može da sadrži svaki tip datoteke ili kolekcije, ali ne galeriju."
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' nije ispravno ime mape."
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "Složi po imenu uzlazno"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "Složi po imenu silazno"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "Složi po ID uzlazno"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "Složi po ID silazno"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "Tražena mapa ne postoji ili ne možete preimenovati ovu mapu."
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "Mapa koju pokušavate da obrišete ima podmape."
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "Tražena mapa ne postoji."
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "Neorganizovano"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"Neorganizovano je isto što i bazna mapa. Ovdje možete pronaći sve datoteke "
+"koje nisu raspoređene u mape."
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+"Ova opcija je isključena na ovoj stranici. Molimo idite na media library."
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "Naslovna slika"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "Opis"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "Putanja"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "Tip mape"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "Općenito"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "Složi po datumu uzlazno"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "Složi po datumu silazno"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "Složi po naslovu uzlazno"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "Složi po naslovu silazno"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "Složi po imenu datoteke uzlazno"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "Složi po imenu datoteke silazno"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "Oubičajeno složi po imenu datoteke uzlazno"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "Oubičajeno složi po imenu datoteke silazno"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "Nešto nije u redu."
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "Mapa nije pronađena."
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>Još uvijek niste unijeli ključ za licencu.</strong> Da primite "
+"automatske nadopune, molimo unesite ključ u \" Unesi licencu\"."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "Kolekcija ne može sadržavati datoteke."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "Kolekcija"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"Kolekcija ne može sadržavati datoteke. Možete kreirati druge <strong> "
+"kolekcije i galerije</strong> tamo."
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "Nadređeni %d ne postoji."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr "Dati roditelj ne postoji za postavljanje roditelja za ovu mapu."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "Nije vam dozvoljeno mijenjanje nadređenog za ovu mapu."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "Traženi nadređeni ne dopušta tip mape."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "Slike možete pomjeriti samo u galeriju."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "Galerija"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"Galerija može da sadrži samo slike. Da vidite galeriju, idite na post i "
+"potražite dugmad vizualnog editora.."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "Tražena mapa ne dozvoljava reorganizaciju datoteka."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr "Ova mapa ima automatski redoslijed. Molimo prvo to deaktivirajte."
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "Molim selektujte mapu da prikaže sadržaj."
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "Dohvatite samo medije u mapi prema ID-u mape."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Zabranjeno"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "Real Media Library nije aktivna za trenutnog korisnika."
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "Sakrij prečice u \"Sve datoteke\""
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "Broj uvijek uključuje prečice"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "Zadana mapa za pokretanje"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "Nema mape na pokretanju"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Last opened folder"
+msgstr "Zadnje otvorena mapa"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+"Vaša media library uvijek se može otvoriti u posljednjoj otvorenoj mapi ili "
+"mapi koju odaberete. To vam štedi vrijeme svaki put kada otvorite media "
+"library!"
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "Galerija iz Medija Mape"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr "Napomena: Možete odabrati samo galerije. Mape i zbirke su sive."
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "Poveznica za"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "Kolone"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "Slučajni poredak"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "Veličina"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "Datoteka s privitkom"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "Medijska datoteka"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "Ništa"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "Sličica"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "Srednji"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "Veliki"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "Cjelokupna veličina"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+"Podmape su dostupne samo u PRO verziji. Ali sada na glavnoj razini možete "
+"stvoriti neograničen broj mapa (umjesto dosadašnjih maksimalno 10 mapa)."
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "Mapa nije selektovana"
+
+#: inc/view/Lang.php:1
+msgid "Select folder"
+msgstr "Selektuj mapu"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "Ponovo učitaj sadržaj"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "Podmape"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr "Odaberite mapu (biblioteka medija) u postavkama bloka."
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "Nove mape naslijeđuju ovu restrikciju"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "Trenutna odabrana mapa ima neka ograničenja:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "Ne možete promijeniti *nadređenu* mapu"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "Ne možete *preurediti* podmape"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "Ne možete *kreirati* podmape"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "Ne možete *preimenovati* mapu"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "Ne možete *izbrisati* mapu"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "Ne možete *premjestiti* datoteke izvan mape"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "Ndređeni"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "Prije ovog čvora"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "Ako nije naveden sljedeći čvor, element se postavlja na kraj."
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "Datoteka se prenosi u mapu u kojoj se trenutno nalazite."
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "Jeste li sigurni?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "Uspješno"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "Neuspješno"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "Nije pronađen nijedan unos"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"Jeste li sigurni da ste izbrisali *{name}*? Sve se datoteke premještaju u "
+"Neorganizirano."
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"Jeste li sigurni da ste izbrisali *{count} mapa*? Sve se datoteke "
+"premještaju u Neorganizirano."
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr "U redu"
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "Otkaži"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "Snimi"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "Nazad"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "Mape nisu pronađene"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"Još nije stvorena nijedna mapa. Samo kliknite gornji gumb da biste stvorili "
+"svoju prvu mapu."
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "Mape"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "Nema rezultata pretrage."
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "Mapa je uspješno preimenovana u *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "Uspješno kreirano *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "Uspješno obrisano *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "Uspješno obrisano *{count}* mapa…"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "Ručno preuredite položaj *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "Uspješno je sortirano hijerarhija stabla"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "Prečica"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"Ovo je prečac datoteke medijske knjižnice. Prečicama nije potrebna fizička "
+"prostor *(0 kB)*. Ako želite promijeniti samu datoteku, to morate učiniti u "
+"izvornoj datoteci (na primjer zamijenite medijsku datoteku putem dodatka).\n"
+"Također imajte na umu da se polja u prečicama mogu razlikovati od izvorne "
+"datoteke, na primjer \"Naslov\", \"Opis\" ili \"Naslov\"."
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr ""
+"U trenutnom prikazu prijenosa aktivni su filtri. Poništite ih i osvježite "
+"prikaz."
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "Naručite sadržaj povlačenjem i ispuštanjem"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "Poništi redoslijed"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "Zadnji"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "Isključi automatsko slaganje"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "Najzadnji"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "Reindeksiraj redoslijed"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "Poništi na zadnji redoslijed"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "Sve datoteke"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "Premjesti {count} datoteke"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "Pomjeri jednu datoteku"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "Kopirajte {count} datoteka"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "Kopiraj jednu datoteku"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "Uspješno je premješteno {count} datoteka"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "Uspješno premještena jedna datoteka"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "Datoteke {count} su uspješno kopirane"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "Uspješno kopirana jedna datoteka"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "Držite bilo koju tipku da biste stvorili prečicu"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "Pustite tipku da premjestite datoteku"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "Kliknite ovo da kreirate novu mapu"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"Mapa može sadržavati bilo koju vrstu datoteke i zbirku, ali ne i galerije. "
+"Ako želite stvoriti podskup, odaberite mapu i kliknite ovaj gumb."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "Kliknite ovo da biste kreirali novu kolekciju"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"Zbirka ne može sadržavati datoteke. Međutim, možete stvoriti dodatne zbirke "
+"i *galerije* tamo. Ova galerija je samo *galerijska mapa podataka*, odnosno "
+"nisu automatski vidljivi na web stranici.\n"
+"\n"
+"Možete stvoriti *vizualnu galeriju* pomoću kratkog koda u vizualnom uredniku "
+"na svojim stranicama / postovima."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "Kliknite ovo da biste stvorili *novu mapu s podacima galerije*"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"Mapa podataka *galerija* može sadržavati samo slike. Lakše vam je "
+"razlikovati gdje se nalaze vaše vizualne galerije.\n"
+"\n"
+"Također možete naručiti slike u *prilagođeni redoslijed slike* po drag&drop."
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "Postavke"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "Opće postavke za trenutnog prijavljenog korisnika."
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "Dozvole"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "Promijenite redoslijed datoteka u ovoj mapi"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "Osvježi"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "Osvježava trenutni prikaz mape."
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "Preimenuj"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "Preimenujte trenutnu odabranu mapu."
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "Obriši"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "Izbrišite trenutno odabranu mapu."
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "Izbrišite trenutne odabrane mape."
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "Ponovo posloži"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "Promijenite hijerarhijski redoslijed mapa."
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "Detalji mape"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "Odaberite mapu i pogledajte više pojedinosti o njoj."
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "Licenca proizvoda još nije aktivirana."
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "Unesite licencu"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "Odbaci obavijest"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"Čini se da ste već koristili drugi dodatak za mape u biblioteci medija."
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "Započni uvoz"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "Odbaci"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+"Real Media Library stvara strukturu virtualne mape. URL-ovi prijenosa ne "
+"mijenjaju se kad premjestite datoteku. Saznajte više o <a href = \"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target = \" _blank \"> kako automatski "
+"premjestiti datoteke u fizičke mape. </a>"
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr ""
+"Bit ćete preusmjereni na spoljnji web sajt PRO verzije. Molimo potvrdite za "
+"nastavak!"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "PRO Opcija"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "Skrij za 20 dana"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "Hvala što koristite besplatnu verziju Real Media Library."
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "Uzmite PRO!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "Želim da naučim više!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr "Sviđaju Vam se kolekcije?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"Organizirajte se s različitim vrstama mapa: Zbirke i galerije pomažu vam da "
+"lako prepoznate gdje se nalaze vaše galerije slika."
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr "Redoslijed prilagođenog sadržaja?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"Uredite sadržaj mape i poredajte datoteke prema kriteriju (npr. Ime silazno) "
+"ili povlačenjem i ispuštanjem."
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr "Potpuna kontrola redoslijeda?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"Organizirajte čvorove unutar stabla mapa prema kriteriju (npr. Ime silazno) "
+"ili povlačenjem i ispuštanjem."
+
+#: inc/view/Lang.php:1
+msgid "Want to create subfolders?"
+msgstr "Želite da kreirate podmape?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+"Podmape vam nude mogućnost da u svoju biblioteku medija unesete više "
+"struktura. Oni vam pomažu da zadržite pregled, čak i ako u vašoj medijskoj "
+"knjižnici stvarno ima mnogo datoteka."
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr "Želite li se udobnije prebacivati s jedne mape na drugu?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+"Neka se u ovom dijaloškom okviru prikaže i kompletno stablo mapa kao u vašoj "
+"biblioteci medija umjesto da svaki put pretražujete u padajućem izborniku. "
+"Jednostavno je ugodnije!"
+
+#: inc/view/Lang.php:1
+msgid "Want to upload entire folders?"
+msgstr "Želite da aplodujete cijele mape?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+"Pomoću Real Media Library možete prenijeti cijele mape povlačenjem i "
+"ispuštanjem. Sve mape, podmape i datoteke bit će prenesene i prikazane u "
+"vašoj biblioteci medija u istoj strukturi. Nabavite PRO za prijenos mapa!"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:Generalno"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "Učitajte RML funkcionalnost u frontend"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:Reset"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "Resetuj redoslijed svih galerija"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "Izbriši sva podešavanja (folders, attachment relations)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "Poništi predmemoriju broja mapa"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "Resetirajte imena, puževe i apsolutne putove"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "Obrišite privitke privrženosti"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "Obriši sve"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "Broj resetovanja"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "Resetuj"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"Aktivirajte ovu opciju ako koristite graditelj stranica poput Divi Page "
+"Builder, WPBakery Page Builder ili Elementor."
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "Također možete resetirati jednu mapu u njenim detaljim mape."
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "Sve"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "Neorganizovane slike"

@@ -1,0 +1,1299 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-10-12 08:40+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Hungarian <https://translate.devowl.io/projects/wordpress-"
+"real-media-library-backend-php/develop/hu/>\n"
+"Language: hu_HU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+msgid "Real Media Library"
+msgstr "Real Media Library"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr "https://devowl.io/wordpress-real-media-library/"
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+"Rendezd mappákba vagy galériákba a feltöltött képeidet: ez egy fájlkezelő a "
+"WordPress-hez. Médiakezelés egyszerűen!"
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr "devowl.io"
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr "https://devowl.io"
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr "Fájl- és mappakezelő"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+"A Real Media Library egy WordPress bővítmény ami fejlett médiafájl kezelési "
+"lehetőségeket nyújt. Ezzel a bővítménnyel könnyedén mappákba rendezhetsz "
+"akár több ezer képet, hang- és videó vagy PDF fájlt. Lényegében ez olyan "
+"mint a Windows Intéző vagy a Mac-es Finder, csak WordPress-hez."
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr "Szűrő a média beszúrása ablakhoz"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+"Bármerre is vagy az oldalon, mindig a Real Media Library mappastruktúrájából "
+"választhatsz ki fájlokat. Például a \"Kiemelt képek\" párbeszédpanele is "
+"ilyen."
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+"A Lite verzióban csak a mappát választhatod ki egy egyszerű legördíthető "
+"listában."
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr "Egyéni képsorrend"
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+"Könnyedén rendezheted a médiafájlokat a Real Media Library bővítménnyel. "
+"Módosíthatod a fájlok sorrendjét fogd-és-vidd módszerrel, így például a "
+"fontos fájlokat előrerakhatod a gyors hozzáférés érdekében."
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr "Szerezd meg a PRO licensz-t!"
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "Nem található a megadott mappa."
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "Ajándék bővítmények"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"Megjegyzés: Ha törölsz egy parancsikont, attól a forrásfájl NEM törlődik.\n"
+"Ha viszont egy forrásfájlt törölsz akkor egyúttal az összes rámutató "
+"parancsikon is törlődik."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"Ha áthelyezed ezt a parancsikont, attól a forrás- vagy eredeti fájl helye "
+"nem módosul."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"Ha áthelyezed ezt a csatolmányt, akkor a rámutató parancsikonok elérési útja "
+"(mappája) nem változik."
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "Áthelyezés másik mappába"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "Mappa"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "Parancsikon info"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"Ez egy médiafájl parancsikonja. A parancsikonoknak nem foglalnak tényleges "
+"tárhelyet. (<strong>(0 kB)</strong>) Ha magát a forrásfájlt szeretnéd "
+"megváltoztatni akkor az eredeti fájlnál kell ezt megtenned (pl. lecserélni a "
+"médiafájlt egy bővítményen keresztül).<br/> Megjegyzés: a parancsikonok "
+"adatai (mint pl. név, leírás vagy felirat) lehetnek eltérőek is az eredeti "
+"fájlhoz képest."
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "Ehhez a fájlhoz %d parancsikon elérhető az alábbi mappában:"
+msgstr[1] "Ehhez a fájlhoz %d parancsikon elérhető az alábbi mappában:"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"Nincsenek parancsikonok ehhez a fájlhoz. Létrehozhatsz parancsikonokat úgy, "
+"hogy egérrel mozdítod a fájlokat és közben lenyomsz bármilyen billentyűt."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "Ide nem illeszthetsz be fájlokat."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "Nem helyezheted ide a fájlt."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "Ide nem hozhatsz létre almappát."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "Nem törölheted ezt a mappát."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "Nem nevezheted át ezt a mappát."
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "Válaszd ki a célmappát"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"Könnyedén feltölthetsz fájlokat közvetlenül adott mappába. Válaszd ki a "
+"mappát és kezdheted feltölteni a fájlokat."
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "feltöltés mappába"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary:Import / Export"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "Importálás más bővítményekből"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "Export/Import : Real Media Library mappák"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "Export/Import : Real Media Library mappák"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "Importálás más bővítményekből"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"Minden elérhető mappa exportálva lesz. A mostani struktúra nem veszik el "
+"importálás során - de figyelj arra hogy ne legyenek dupla nevek az "
+"importálandó adatok között mert ezeket nem ellenőrizzük."
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "Exportált adatok:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "Importált adatok:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "Az adatok importálása funkció csak a PRO verzióban elérhető."
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "További részletek a PRO verzióról"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "Kategóriák és bejegyzés-kapcsolatok importálása."
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr "Nincs mit importálni."
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr ""
+"Kategóriák importálása más bővítményből csak a PRO verzióban lehetséges."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "Nincs érvényes mappa."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "Nincs érvényes típus."
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: automatikusan átheleyzi a fordításokat"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr ""
+"Ha áthelyezel egy fájlt, akkor a hozzátartozó lefordított fájl is át lesz "
+"helyezve."
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: automatikusan helyezd át a fordításokat"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' már létezik ebben a mappában."
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "Ez a funkció nem elérhető az ingyenes verzióban. (%s)."
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "Ki kell jelölnöd fájlokat."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "Nem sikerült létrehozni a mappát az adatbázisban."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "A mappát nem lehet létrehozni, mert már létezik."
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr ""
+"Egy mappa mindenféle fájl- és gyűjteménytípust tartalmazhat, kivéve a "
+"galériát."
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "A '%s' nem egy érvényes név egy mappának."
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "Rendezés név szerint növekvő sorrendbe"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "Rendezés dátum szerinti csökkenő sorrendbe"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "Rendezés ID szerint növekvő sorrendbe"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "Rendezés ID szerinti csökkenő sorrendbe"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "A megadott mappa nem létezik, vagy nem lehet átnevezni."
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "A törlendő mappa almappákat tartalmaz."
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "A megadott mappa nem létezik."
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "Nem rendezett"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"A \"nem-rendezett\" ugyanolyan, mintha egy közös főkönyvtár lenne. Itt "
+"található meg minden olyan fájl amik nincsenek mappához hozzárendelve."
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+"Le van tiltva ez az opció ezen az oldalon. Kérlek lépj a médiakönyvtárba."
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "Borítókép"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "Leírás"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "Elérési útvonal"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "Mappa típusa"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "Általános"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "Rendezés dátum szerinti növekvő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "Rendezés dátum szerinti csökkenő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "Rendezés cím szerinti növekvő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "Rendezés cím szerinti csökkenő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "Rendezés fájlnév szerinti növekvő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "Rendezés fájlnév szerinti csökkenő sorrendbe"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "Eredeti sorrend: fájlnév szerint növekvő"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "Eredeti sorrend: fájlnév szerinti csökkenő"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "Valami hiba történt."
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "Mappa nem található."
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>Nem írtad még be a licenszkulcsot</strong>. Az automatikus "
+"frissítések eléréséhez kérlek írd be a licenszkulcsot a \"Licensz beírása\" "
+"menüben."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "Gyűjtemény nem tartalmazhat fájlokat."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "Gyűjtemény"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"Egy gyűjtemény nem tartalmazhat fájlokat. De létrehozhatsz további "
+"gyűjteményeket és <strong>galériákat</strong> is bennük."
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "A szülő %d nem létezik."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr ""
+"A megadott szülő nem létezik, ezért nem állítható be ezen mappa szülőjeként."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "Nme változtathatod meg ezen mappa szülőjét."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "Ezen szülő nem támogatja a mappa-típust."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "Csak képeket helyezhetsz galériába."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "Galéria"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"Galéria csak képeket tartalmazhat. Galéria megtekintéséhez lépj egy "
+"bejegyzéshez és keresd a megfelelő gombokat a vizuális szerkesztőben."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "A megadott mappában nem lehet átrendezni a fájlok sorrendjét."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr ""
+"Ebben a mappában automatikus sorrend van beállítva. Kérlek először azt "
+"inaktiváld."
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "Kérlek válassz egy mappát az elemeinek megjelenítéséhez."
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "Csak médiafájlok betöltése egy mappában, mappa azonosító ID alapján."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Megtagadva"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "A Real Media Library nem aktív az aktuális felhasználónak."
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "Parancsikonok elrejtése a \"Minden fájlok\"-ban"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "A számláló mindig tartalmazza a parancsikonokat is"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "Alapértelmezett kezdőmappa"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "Nincs kezdőmappa"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Last opened folder"
+msgstr "Legutóbb megnyitott mappa"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+"A médiakönyvtárad megnyílhat mindig a legutoljára megnyitott mappával, vagy "
+"egy általad kiválasztott kezdőmappával. Ezzel időt spórolhatsz amikor "
+"megnyitod a médiakönyvtáradat!"
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr "Végtelen görgetés engedélyezése a rácsnézetben"
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+"Ahelyett, hogy megjelenítene egy \"Load More\" gombot, az összes fájl "
+"automatikusan betöltődik, ahogy görget lefelé. Ez nem támogatott a "
+"listanézetben."
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "Galéria a médiakönyvtárból"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr ""
+"Megjegyzés: csak médiakönyvtárakat választhatsz ki. A mappák és gyűjtemények "
+"ezért ki vannak szürkítve."
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "Hivatkozás"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "Oszlopok"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "Véletlenszerű sorrend"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "Méret"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "Csatolmány fájl"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "Médiafájl"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "Nincs"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "Bélyegkép"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "Közepes"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "Nagy"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "Teljes méret"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+"Az almappák csak a PRO verzióban elérhetőek. De most már korlátlan számú "
+"mappát létrehozhatsz a fő szinten. (a korábbi max. 10 mappa helyett)"
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "Nincs mappa kiválasztva"
+
+#: inc/view/Lang.php:1
+msgid "Select folder"
+msgstr "Válassz mappát"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "Tartalom újratöltése"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "Almappák"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr ""
+"Kérlek válassz ki egy mappát (médiakönyvtárat) a blokkolási beállításokban."
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "Az új mappák öröklik ezt a korlátozást"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "Az aktuális mappának van néhány korlátozása:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "Nem változtahatod meg a *szülő* mappát"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "Nem *rendezheted át* az almappákat"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "Nem *hozhatsz létre* almappákat"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+"Nem *illeszthetsz be* új fájlokat. Az új fájlok áhelyezésre kerülnek a Nem-"
+"rendezettbe."
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "Nem nevezheted át a mappát"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "Nem törölheted a mappát"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "Nem helyezhetsz át fájlokat a mappán kívülre"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "Szülő"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "Ezen elem előtt/felett"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "Ha nincs következő elem akkor az elem a végére kerül."
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "A fájl az éppen kiválasztott könyvtárba kerül feltöltésre."
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "Biztos vagy benne?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "Sikeres"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "Nem találhatóak bejegyzések"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"Biztos törölni akarod a(z) *{name}* -t? Minden fájl átkerül a Nem-"
+"rendezettbe."
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"Biztos törölni akarsz *{count} mappát*? Minden fájl átkerül a Nem-"
+"rendezettbe."
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr "Ok"
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "Mégse"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "Mentés"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "Vissza"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "Nem találhatóak mappák"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"Nincsenek még mappák létrehozva. Kattints a fenti gombra hogy létrehozd az "
+"első mappádat."
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "Mappák"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "Nincsenek keresési találatok."
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr "Átnevezés *{name}* -re…"
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "Sikeresen átnevezted a mappát *{name}* -re"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr "A(z) *{name}* létrehozása…"
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "Sikeresen létrejött a(z) *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr "A(z) *{name}* törlése…"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "Sikeresen törölted a(z) *{name}* -t"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "Sikeresen töröltél *{count} mappát*"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "Rendezd át *{name}* elhelyezkedését kézzel"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr "Fa szerkezet átrendezése…"
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "Sikeresen átrendeztük a fa szerkezetet"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr "A(z) *{name}* almappái sikeresen átrendezve…"
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr "*{count}* fájl van még hátra…"
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr "Adatok fogadása…"
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "Parancsikon"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"Ez egy médiakönyvtárbeli fájl parancsikonja. A parancsikonok nem foglalnak "
+"valódi tárhelyet. *(0 kB)*. Ha szeretnéd magát a fájlt megváltoztatni akkor "
+"az eredeti (forrás)fájlt kell módosítanod. (például kicserélni a médiafájlt "
+"egy bővítménnyel)\n"
+"Megjegyzés: A parancsikonok mezői (mint pl. cím, leírás, felirat) lehetnek "
+"eltérőek is az eredeti fájlhoz képest."
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr ""
+"A mostani feltöltési nézetben szűrők vannak beállítva. Kérlek töröld őket és "
+"frissítsd a nézetet."
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+"Gyűjtemény nem tartalmazhat fájlokat. A feltöltött fájlok át lettek helyezve "
+"a Nem-rendezettbe."
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+"Egy galéria csak képeket tartalmazhat. A feltöltött fájlok át lettek "
+"helyezve a nem-rendezettbe."
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr "Tartalom rendezése *{name}* szerint…"
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "Tartalom rendezése fogd-és-vidd módszerrel"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "Sorrend visszaállítása"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr "Sorrend érvénybeléptetése egyszer…"
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "utolsó"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "Automatikus rendezése kikapcsolása"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr "Automatikus rendezése alkalmazása…"
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "Legújabb"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "Sorrend újraszámozása (újraindexelése)"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "Utolsó sorrend visszaállítása"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "Minden fájl"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "{count} fájl áthelyezése"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "Egy fájl áthelyezése"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "{count} fájl másolása"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "Egy fájl másolása"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr "{count} db fájl áthelyezése…"
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr "Egy fájl áthelyezése…"
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr "{count} fájl másolása…"
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr "Egy fájl másolása…"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "Sikeresen áthelyeztünk {count} db fájlt"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "Sikeresen áthelyeztünk egy fájlt"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "Sikeresen átmásoltunk {count} db fájlt"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "Sikeresen átmásoltunk egy fájlt"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "Nyomj le bármilyen billentyűt parancsikon létrehozásához"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "Engedd el a gombot a fájl áthelyezéséhez"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "Kattints ide új mappa létrehozásához"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"Egy mappa bármilyen fájltípust és gyűjteményt tartalmazhat, de galériákat "
+"nem. Ha almappát szeretne létrehozni, válasszon ki egy mappát, és kattintson "
+"erre a gombra."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "Kattints ide új gyűjtemény létrehozásához"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"A gyűjtemény nem tartalmazhat fájlokat. Azonban további gyűjteményeket és "
+"*galériákat* hozhat létre. Ez a galéria csak egy *galéria adatmappa*, azaz "
+"nem láthatóak automatikusan a weboldalon.\n"
+"\n"
+"A vizuális szerkesztőben egy rövidkód segítségével hozhat létre *vizuális "
+"galériát* az oldalain/bejegyzéseiben."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "Kattints ide *új galéria adatmappa* létrehozásához"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"A *galéria adatmappák* csak képeket tartalmazhatnak. Könnyebben "
+"megkülönböztethető így, hogy hol vannak a vizuális galériáid.\n"
+"\n"
+"A képeket *tetszőleges sorrendbe* rendezheted fogd-és-vidd módszerrel."
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "Beállítások"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "Általános beállítások a jelenleg bejelentkezett felhasználó számára."
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "Jogosultságok"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "Fájlok átrendezése ebben a mappában"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+"Fájlok átrendezésének megkezdése / képek *cím, fájlnév és azonosító,...* "
+"alapján"
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "Frissítés"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "Frissíti az aktuális nézetet."
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "Átnevezés"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "Az aktuális mappát átnevezi."
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "Törlés"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "Az aktuális mappa törlése."
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "Az aktuális mappák törlése."
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "Átrendezés"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "Mappák hierarchikus sorrendjének megváltoztatása."
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "Mappa részletei"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "Válassz ki egy mappát hogy lásd annak részleteit."
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "A terméklicensz még nincs aktiválva."
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "írd be a licenszkódot"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "Figyelmeztetés elrejtése"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"Úgy néz ki, már használtál egy másik bővítményt a mappákhoz a "
+"médiakönyvtárban."
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "Importálás kezdése"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "Eltüntetés"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+"A Real Media Library virtuális mappa struktúrát hoz létre. A feltöltések URL "
+"címei nem változnak meg amikor áthelyezed a fájlt. További részleteket itt "
+"olvashatsz arról hogy <a href=\"https://devowl.io/knowledge-base/how-can-i-"
+"physically-reflect-the-virtual-folder-structure-to-my-file-system/\" target="
+"\"_blank\">hogyan helyezheted át automatikusan a fájlokat valódi "
+"(fájlrendszeren is létező) mappákba.</a>"
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr ""
+"Átirányítunk egy külső weboldalra a PRO verzió miatt. Kérlek kattints a "
+"megerősítésre a folytatáshoz!"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "PRO funkció"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "Elrejtés 20 napig"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "Köszönjük hogy használtad a Real Media Library ingyenes verzióját."
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "Szerezd meg a PRO verziót!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "További részletek!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr "Nem érdekel…"
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr "Tetszenek a gyűjtemények?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"Rendezz mégjobban, különböző mappa típusokkal: a gyűjtemények és a galériák "
+"segítenek könnyen megtalálni a képeidet."
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr "Egyéni tartalom sorrend?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"Rendezd sorrendbe a mappát tartalmát és rendezd a fájljaidat egy megadott "
+"szempont szerint (pl. név szerint csökkenőbe) vagy fogd-és-vidd módszerrel."
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr "Teljes rendezési-sorrend irányítás?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"Rendezd az elemeket a mappa fa-szerkezetedben egy megadott feltétel szerint "
+"(pl. név szerint csökkenő) vagy fogd-és-vidd módszerrel."
+
+#: inc/view/Lang.php:1
+msgid "Want to create subfolders?"
+msgstr "Szeretnél létrehozni almappákat?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+"Az almappákkal méginkább strukturáltan rendezheted a médiakönyvtáradat. "
+"Átlátható marad a médiakönyvtárad akkor is, ha nagyon sok fájlod van benne."
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr "Kényelmesebben szeretnél váltani a mappák között?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+"Engedélyezd hogy a teljes mappaszerkezet jelenjen meg a médiakönyvtáradban "
+"ebben az ablakban, ahelyett hogy mindig rá kelljen keresni a legördíthető "
+"listában. Sokkal kényelmesebb!"
+
+#: inc/view/Lang.php:1
+msgid "Want to upload entire folders?"
+msgstr "Egész mappákat szeretnél feltölteni?"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+"A Real Media Library-vel egész mappákat tudsz feltölteni fogd-és-vidd "
+"módszerrel. Minden mappa, almappa és fájl fel lesz töltve és megjelenik a "
+"médiakönyvtáradban ugyanabban a struktúrában. Válts PRO-ra hogy mappákat "
+"tölthess fel!"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:Általános"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "RML funkcionalitás betöltése a frontend-be"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:Reset"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "Minden galéria elrendezési sorrendjének resetelése"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "Minden beállítás törlése (mappák és melléklet-kapcsolatok)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "Mappa darabszám -számláló gyorsítótár resetelése"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "Nevek, generált kódok és abszolút elérési utak resetelése"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "Csatolmány-kapcsolatok törlése"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "Minden törlése"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "Darabszám-számláló resetelése"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "Reset"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"Jelöld be ezt az opciót akkor, ha olyan oldal építőt használsz mint pl. a "
+"Divi Page Builder, WPBakery Page Builder vagy Elementor."
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "Van lehetőség egyetlen mappát is resetelni a mappa beállításaiban."
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "Minden"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "Nem-rendezett képek"

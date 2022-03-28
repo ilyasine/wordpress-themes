@@ -1,0 +1,1259 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:35+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Dutch <https://translate.devowl.io/projects/wordpress-real-"
+"media-library-backend-php/ci-mojito/nl/>\n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary:Reset"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr ""
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "De gegeven map was niet gevonden."
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "Uitbreidingen"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"Opmerking: Als u een shortcut bestand wilt verwijderen zal het bronbestand "
+"NIET verwijderd worden.\n"
+"Als u een niet-shortcut bestand wilt verwijderen worden alle gekoppelde "
+"shortcuts ook verwijderd."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"Wanneer u deze shortcut verplaatst zat de map locatie van het bron- /"
+"hoofdbestand niet veranderen."
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"Wanneer u deze bijlage verplaatst zal de map locatie van de verbonden "
+"shortcuts van deze bijlage niet veranderen."
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "Verplaats naar een andere map"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "Map"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "Shortcut informatie"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"Dit is een shortcut van een Media Library map. Shortcuts hebben geen fysieke "
+"opslag nodig <strong>(0kb)</strong>. Als u de map zelf wilt aanpassen moet u "
+"dit doen in het originele bestand (bijvoorbeeld door mediamap met een plugin "
+"te vervangen). <br/>Merk ook op dat de velden in de shortcuts kunnen "
+"afwijken van het originele bestand, bijvoorbeeld \"Titel\", \"Beschrijving\" "
+"of \"Bijschrift\"."
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "Voor deze map is er één shortcut beschikbaar in de volgende mappen:"
+msgstr[1] "Voor deze map zijn %s shortcuts beschikbaar in de volgende mappen:"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"Dit bestand heeft geen verbonden shortcuts. U kunt shortcuts aanmaken door "
+"bestanden te verplaatsen met uw muis en een willekeurige toets in te houden."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "U heeft geen toestemming om hier bestanden in te voegen."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "U heeft geen toestemming om het bestand te verplaatsen."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "U heeft geen toestemming om hier een submap te creëren."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "U heeft geen toestemming om deze map te verwijderen."
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "U heeft geen toestemming om deze map te hernoemen."
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "Selecteer een doelmap"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"U kunt eenvoudig bestanden direct naar een map uploaden. Selecteer een map "
+"en upload bestanden."
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "upload naar map"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary:Importeren / Exporteren"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "Importeren uit andere plugins"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "Exporteer / Importeer Real Media Library mappen"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "Exporteren"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "Importeer"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "Geëxporteerde gegevens:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "Gegevensimport:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "Het importeren van gegevens is alleen beschikbaar in de PRO-versie."
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "Leer meer over PRO"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "Importeer categorieën en post relaties."
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr ""
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr ""
+"Het importeren van categorieën uit een andere plugin is alleen beschikbaar "
+"in PRO-versie."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "Geen geldige map."
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "Geel geldig type."
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: Verplaats vertalingen automatisch"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr ""
+"Als u een bestand verplaatst, verplaats dan ook de verbonden vertaal "
+"bestanden."
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: Verplaats vertalingen automatisch"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' bestaat al in deze map."
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "Deze functionaliteit is niet beschikbaar in de gratis versie (%s)."
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "U moet een aantal bestanden opgeven."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "De mappen telling kon niet aangemaakt worden in de database."
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "De map kan niet aangemaakt worden omdat hij al bestaat."
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr "Een map kan elk type bestand of collectie bevatten, maar geen galerij."
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' is geen geldige map naam."
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "Orden op oplopende naam"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "Orden op aflopende naam"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "Orden op oplopend ID"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "Orden op aflopend ID"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "De gegeven map bestaat niet of u kunt deze map niet hernoemen."
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "De map die u probeerde te verwijderen heeft submappen."
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "De gegeven map bestaat niet."
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "Ongeordend"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"Ongeordend is hetzelfde als de hoofdmap. Hier kun je alle bestanden vinden "
+"die niet zijn toegewezen aan een map."
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "Omslagfoto"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "Beschrijving"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "Pad"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "Map type"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "Algemeen"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "Orden op oplopende datum"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "Orden op aflopende datum"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "Orden op oplopende titel"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "Orden op aflopende titel"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "Orden op oplopende bestandsnaam"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "Orden op aflopende bestandsnaam"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "Natuurlijke volgorde van oplopende bestandsnaam"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "Natuurlijke volgorde van aflopende bestandsnaam"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "Er ging iets mis."
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "Map niet gevonden."
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>U heeft nog geen licentiecode ingevoerd</strong>. Voer de code in "
+"bij \"licentie invoeren\"om automatische updates te ontvangen."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "Een collectie kan geen bestanden bevatten."
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "Collectie"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"Een collectie kan geen bestanden bevatten, maar u kunt er wel andere "
+"collecties en <strong>galerijen</strong> maken."
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "De moeder %d bestaat niet."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr ""
+"De gegeven parent bestaat niet om deze parent voor de map in te stellen."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "U heeft geen toestemming om de parent in deze map te wijzigen."
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "De gegeven parent staat dit type map niet toe."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "U kunt alleen afbeeldingen naar de galerij verplaatsen."
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "Galerij"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"Een galerij kan alleen afbeeldingen bevatten. Als u een galerij wilt tonen, "
+"ga naar een post en bekijk de Visual Editor knoppen."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "De gegeven map laat het niet toe om de bestanden te herordenen."
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr "Deze map heeft een automatische volgorde, deactiveer dit eerst."
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "Selecteer een map om items te tonen."
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "Haal alleen media op uit een map van map id."
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "Verboden"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "Real Media Library is niet actief voor de huidige gebruiker."
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "Verberg shortcuts in \"Alle bestanden\""
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "De telling is altijd met shortcuts inbegrepen"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "Standaard opstartmap"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "Geen map bij het opstarten"
+
+#: inc/usersettings/DefaultFolder.php:1
+#, fuzzy
+msgid "Last opened folder"
+msgstr "Laatst opgevraagde map"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "Galerij uit Mediamap"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr ""
+"Notitie: U kunt alleen galerijen selecteren. Mappen en collecties zijn niet "
+"beschikbaar."
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "Link naar"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "Kolommen"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "Willekeurige volgorde"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "Grootte"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "Bijlage"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "Media bestand"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "Geen"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "Thumbnail"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "Medium"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "Groot"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "Volledige grootte"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "Geen map geselecteerd"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Select folder"
+msgstr "Selecteer een doelmap"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "Herlaad inhoud"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "Submappen"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr "Selecteer een Media Library map in de blokkeer instellingen."
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "Nieuwe mappen krijgen deze beperking"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "De huidig geselecteerde map heeft wat beperkingen:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "U kunt de *parent* map niet"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "U kunt submappen niet *herschikken*"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "U kunt geen submappen *creëren*"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "U kunt de map niet *hernoemen*"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "U kunt deze map niet *verwijderen*"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "U kunt bestanden buiten de map niet *verplaatsen*"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "Parent"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "Voor dit knooppunt"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr ""
+"Als er geen volgend knooppunt is gegeven wordt het item tot einde gebracht."
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "Het bestand is geupload naar de map waar u zich momenteel in bevindt."
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "Weet u het zeker?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "Succes"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "Mislukt"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "Geen invoer gevonden"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"Weet u zeker dat u *{name}* wilt verwijderen? Alle bestanden worden "
+"verplaatst naar Ongeordend."
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"Weet u zeker dat u *{count} mappen* wilt verwijderen? Alle bestanden worden "
+"verplaatst naar Ongeordend."
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "Opslaan"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "Terug"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "Geen mappen gevonden"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"U hebt eigenlijk geen map gemaakt. Klik op de hoofdknop om uw eerste map te "
+"maken."
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "Mappen"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "Geen zoek resultaten."
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "Succesvol de map hernoemd naar *{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "Succesvol *{name}* gecreërd"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "Succesvol *{name}* verwijderd"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "Succesvol *{count} mappen* verwijderd"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "Herorden *{name}* plaatsing handmatig"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "Succesvol de hiërarchische structuur gesorteerd"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "Shortcut"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"Dit is een shortcut van een Media Library map. Shortcuts hebben geen fysieke "
+"opslag nodig *(0kb)*. Als u de map zelf wilt aanpassen moet u dit doen in "
+"het originele bestand (bijvoorbeeld door mediamap met een plugin te "
+"vervangen). Merk ook op dat de velden in de shortcuts kunnen afwijken van "
+"het originele bestand, bijvoorbeeld \"Titel\", \"Beschrijving\" of "
+"\"Bijschrift\"."
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr ""
+"In de huidige weergave van uploads zijn filters actief. Reset deze en "
+"ververs de weergave."
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "Orden inhoud door te slepen"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "Reset volgorde"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "Laatste"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "Deactiveer automatische rangschikking"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "Laatste"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "Volgorde opnieuw indexeren"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "Reset naar de laatste volgorde"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "Alle bestanden"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "Verplaats {count} bestanden"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "Verplaats één bestand"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "Kopieer {count} bestanden"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "Kopieer één bestand"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "Succesvol {count} bestanden verplaatst"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "Succesvol één bestand verplaatst"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "Succesvol {count} bestanden gekopieerd"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "Succesvol één bestand gekopieerd"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "Houd een willekeurige toets vast om een shortcut aan te maken"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "Toets loslaten om bestand te verplaatsen"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "Klik hier om een nieuwe map aan te maken"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"Een map kan elk type bestand en collecties bevatten, maar geen galerijen. "
+"Als u een submap wilt creëren selecteer dan eenvoudig een map uit de lijst "
+"en klik op deze knop."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "Klik hier om een nieuwe collectie aan te maken"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"Een collectie kan geen bestanden bevatten, maar u kunt er andere collecties "
+"en *galerijen* maken. De bovengenoemde galerij is alleen een *galerij map*, "
+"dit betekend dat ze niet automatisch op uw front-end (uw website) komen. \n"
+"\n"
+"U kunt een *visuele galerij* maken van deze *galerij-gegevensmap* via de "
+"Visual Editor op uw pagina/post."
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "Klik hier om een *nieuwe galerij-gegevensmap* aan te maken"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"Een *galerij-gegevensmap* kan alleen afbeeldingen bevatten. Het is "
+"makkelijker voor u om te onderscheiden waar uw visuele galerij is. \n"
+"\n"
+"U kunt de afbeeldingen ordenen in *een aangepaste afbeelding volgorde* door "
+"te slepen."
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "Instellingen"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "Algemene instellingen voor de huidig ingelogde gebruiker."
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "Toestemmingen"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "Herorden bestanden in deze map"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "Verversen"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "Ververs de huidige mapweergave."
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "Hernoem"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "Hernoem de huidig geslecteerde map."
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "Verwijder"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "Verwijder de huidig geselecteerde map."
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "Verwijder de huidig geselecteerde mappen."
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "Herordenen"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "Wijzig de hiërarchische volgorde van de mappen."
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "Map details"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "Selecteer een map en bekijk er meer details over."
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "Product licentie nog niet geactiveerd."
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "Licentie invoeren"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "Melding afwijzen"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"Het lijkt erop dat je al een andere plugin hebt gebruikt voor mappen in de "
+"mediabibliotheek."
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "Begin met importeren"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "Ontslag"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr ""
+"U wordt doorverwezen naar de externe website van PRO versie, bevestig om "
+"door te gaan."
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "PRO Functie"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "20 dagen opzeggen"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "Bedankt voor het gebruik van de gratis versie van Real Media Library."
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "Neem PRO!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "Ik wil meer leren!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"Raak meer georganiseerd met verschillende map soorten: Collecties en "
+"galerijen zodat je makkelijk kunt onderscheiden waar uw afbeelding galerijen "
+"zijn."
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"Raak meer georganiseerd binnen uw mapinhoud en orden uw bestanden opnieuw "
+"volgens criteria (zoals op aflopende naam) of door te slepen."
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"Raak georganiseerd binnen uw mappenstructuur en orden uw knooppunten opnieuw "
+"volgens de criteria (zoals op aflopende naam) of door te slepen."
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to create subfolders?"
+msgstr "Klik hier om een nieuwe map aan te maken"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to upload entire folders?"
+msgstr "Klik hier om een nieuwe map aan te maken"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:Algemeen"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "Laad RML functionaliteit in front-end"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:Reset"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "Reset de volgorde van alle galerijen"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "Wis alle instellingen (mappen, bijlage gehecht)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "Reset mappen telling cache"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "Reset namen, slugs en absolute paden"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "Wis alle bijlage betrekkingen"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "Wis alles"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "Reset telling"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "Reset"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"Activeer deze optie als u gebruik maakt van een paginabouwer zoals Divi Page "
+"Builder, WPBakery Page Builder of Elementor."
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr ""
+"U kunt ook een enkele map resetten wanneer u door de map details navigeert."
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "Alle"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "Ongeordende foto's"

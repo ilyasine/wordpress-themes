@@ -1,0 +1,141 @@
+{
+    "name": "@devowl-wp/freemium",
+    "version": "1.3.9",
+    "description": "Make your plugin to a freemium plugin with predefined Envato support",
+    "author": "devowl",
+    "homepage": "https://devowl.io",
+    "license": "GPL-3.0-or-later",
+    "private": true,
+    "engines": {
+        "node": ">=14.15.0",
+        "yarn": ">=1.22.5"
+    },
+    "sideEffects": [
+        "**/*.{css,scss,less}",
+        "./src/public/ts/*.tsx"
+    ],
+    "main": "lib/index.tsx",
+    "files": [
+        "dist",
+        "dev",
+        "languages/frontend"
+    ],
+    "scripts": {
+        "bootstrap": "composer install --prefer-dist",
+        "dev": "yarn grunt @devowl-wp/utils/dev",
+        "i18n:generate:backend": "yarn grunt @devowl-wp/utils/i18n:make-backend-pot",
+        "i18n:generate:frontend": "yarn grunt @devowl-wp/utils/i18n:make-frontend-pot",
+        "build": "yarn grunt @devowl-wp/utils/package:build",
+        "build:js:production": "yarn grunt @devowl-wp/utils/webpack:build:production",
+        "build:js:development": "yarn grunt @devowl-wp/utils/webpack:build:development",
+        "build:webpack:done": "yarn grunt @devowl-wp/utils/webpack:done",
+        "lint:eslint": "yarn grunt @devowl-wp/eslint-config/eslint",
+        "lint:phpcs": "yarn grunt @devowl-wp/utils/lint:phpcs",
+        "test": "yarn grunt @devowl-wp/grunt-workspaces/run-yarn-children:test",
+        "test:phpunit": "yarn grunt @devowl-wp/utils/phpunit:run",
+        "test:phpunit:coverage": "yarn grunt @devowl-wp/utils/phpunit:coverage",
+        "test:jest": "yarn grunt @devowl-wp/utils/jest:run",
+        "test:jest:coverage": "yarn grunt @devowl-wp/utils/jest:coverage",
+        "root:run": "cd ../.. && yarn --silent",
+        "grunt": "TS_NODE_TRANSPILE_ONLY=true grunt --gruntfile scripts/Gruntfile.ts --base .",
+        "webpack": "TS_NODE_TRANSPILE_ONLY=true webpack --config ./scripts/webpack.config.ts",
+        "phpunit": "./vendor/bin/phpunit --prepend test/phpunit.xdebug.php --config test/phpunit.xml",
+        "jest": "TS_NODE_TRANSPILE_ONLY=true jest --config test/jest.config.js --rootDir .",
+        "wp": "$(which wp)$(test $CI && echo ' --allow-root')",
+        "wp:weak": "php -n -dextension=phar.so -dextension=json.so -dextension=mbstring.so -dextension=tokenizer.so -dmemory_limit=-1 $(which wp)$(test $CI && echo ' --allow-root')"
+    },
+    "phpunit-coverage-threshold": 80,
+    "continuous-localization": {
+        "locales": [
+            "de_DE"
+        ],
+        "projects": {
+            "backend": {
+                "name": "@devowl-wp/freemium (Backend, PHP)",
+                "system": "weblate",
+                "sourceFolder": "src",
+                "languageFolder": "languages/backend"
+            },
+            "frontend": {
+                "name": "@devowl-wp/freemium (Frontend, JavaScript)",
+                "system": "weblate",
+                "sourceFolder": "dev/i18n-dir",
+                "languageFolder": "languages/frontend"
+            }
+        }
+    },
+    "browserslist": [
+        "defaults"
+    ],
+    "babel": {
+        "assumptions": {
+            "setPublicClassFields": true
+        },
+        "sourceMaps": true,
+        "presets": [
+            "@babel/preset-typescript",
+            [
+                "@babel/preset-env",
+                {
+                    "useBuiltIns": "entry",
+                    "corejs": 3
+                }
+            ],
+            "@babel/preset-react"
+        ],
+        "plugins": [
+            [
+                "@babel/plugin-transform-runtime",
+                {}
+            ],
+            [
+                "@babel/plugin-proposal-decorators",
+                {
+                    "legacy": true
+                }
+            ]
+        ]
+    },
+    "license-check": {
+        "spdx": [],
+        "packages": [
+            "ignore-packages-here@1.0.0"
+        ]
+    },
+    "eslintConfig": {
+        "extends": [
+            "./node_modules/@devowl-wp/eslint-config/src/.eslintrc"
+        ]
+    },
+    "eslintIgnore": [
+        "dist",
+        "dev",
+        "docs",
+        "coverage",
+        "node_modules",
+        "vendor",
+        ".yarn-integrity",
+        ".yarn"
+    ],
+    "peerDependencies": {
+        "@devowl-wp/grunt-workspaces": "^0.1.0",
+        "@devowl-wp/utils": "~1.4.4",
+        "@devowl-wp/wp-webpack": "^0.1.0",
+        "fork-ts-checker-webpack-plugin": "*",
+        "webpack": "*",
+        "webpackbar": "*"
+    },
+    "dependencies": {
+        "core-js": "~3.12.1",
+        "enzyme": "~3.11.0",
+        "enzyme-adapter-react-16": "~1.15.6",
+        "react-test-renderer": "~16.14.0"
+    },
+    "devDependencies": {
+        "@devowl-wp/composer-licenses": "^0.1.3",
+        "@devowl-wp/continuous-integration": "^0.2.0",
+        "@devowl-wp/eslint-config": "^0.1.3",
+        "@devowl-wp/wp-webpack": "^0.1.4",
+        "@devowl-wp/yarn-licenses": "^0.1.3"
+    }
+}

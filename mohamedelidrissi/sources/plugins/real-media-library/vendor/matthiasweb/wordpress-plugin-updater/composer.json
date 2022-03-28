@@ -1,0 +1,22 @@
+{
+    "name": "matthiasweb/wordpress-plugin-updater",
+    "description": "A library for WordPress plugins, to utilize license verification and auto-updating using WordPress License Server.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lukas Mateffy",
+            "email": "info@smoolabs.com"
+        },
+        {
+            "name": "Matthias Günter",
+            "email": "support@matthias-web.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "MatthiasWeb\\WPU\\": "src/"
+        }
+    }
+}

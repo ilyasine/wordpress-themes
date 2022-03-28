@@ -1,0 +1,47 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:56+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Portuguese (Brazil) <https://translate.devowl.io/projects/"
+"wordpress-real-media-library-frontend-javascript/ci-mojito/pt_BR/>\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Attachment Page"
+msgstr "Página de Anexos"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Media File"
+msgstr "Arquivo de Mídia"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "None"
+msgstr "Nenhum"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Gallery Settings"
+msgstr "Configurações da Galeria"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Columns"
+msgstr "Colunas"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Crop Images"
+msgstr "Imagens de culturas"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Caption"
+msgstr "Legenda"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Link To"
+msgstr "Link para"

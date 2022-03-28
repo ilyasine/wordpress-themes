@@ -1,0 +1,1209 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:35+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Chinese (Simplified) <https://translate.devowl.io/projects/"
+"wordpress-real-media-library-backend-php/ci-mojito/zh_Hans/>\n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary:重置"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr ""
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "没有找到给定的文件夹。"
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "互补插件"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"注意:如果你想删除一个短截文件，源文件将不会被删除。\n"
+"如果你想删除一个非快捷方式的文件，所有相关的快捷方式也会被删除。"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr "当您移动此快捷方式时，将不会更改源/主文件的文件夹位置。"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr "当您移动此附件时，此附件的关联快捷方式的文件夹位置将不会更改。"
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "移动到另一个文件夹"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "文件夹"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "快捷的信息"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"这是媒体库文件的快捷方式。快捷键不需要任何物理存储<strong>(0kb)</strong>。如"
+"果您想要更改文件本身，您必须在原始文件中这样做(例如，通过插件替换媒体文件)。"
+"<br/>还应注意，快捷键中的字段可能与原始文件不同，例如“标题”、“描述”或“标题”。"
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "对于此文件，以下文件夹中提供了％d快捷方式："
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"此文件没有相关的快捷方式。您可以创建快捷方式移动文件每鼠标和举行任何关键。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "不允许在这里插入文件。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "不允许您移动文件。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "您不允许在这里创建子文件夹。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "不允许您删除此文件夹。"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "不允许重命名此文件夹。"
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "选择目标文件夹"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr "你可以直接将文件上传到一个文件夹。选择一个文件夹并上传文件。"
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "上传至文件夹"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary：导入/导出"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "从其它插件中导入"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "导出/导入Real Media Library文件夹"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "出口"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "进口"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"所有可用的文件夹将被导出。导入期间当前结构不会丢失-但是请确保导入数据中没有重"
+"复的名称，因为未检查这些名称。"
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "导出的数据:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "导入数据:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "导入数据仅在PRO版本中可用。"
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "了解更多PRO"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "导入类别和post关系。"
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr ""
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr "从另一个插件导入类别仅在PRO版本中可用。"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "没有有效的文件夹。"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "没有有效的类型。"
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "自动移动翻译"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr "如果您移动一个文件，也要移动相关的翻译文件。"
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML:自动移动翻译"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s'在此文件夹中已存在。"
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "免费版本（％s）中不提供此功能。"
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "您需要提供一组文件。"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "无法在数据库中创建文件夹。"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "无法创建文件夹，因为它已经存在。"
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr "文件夹可以包含所有类型的文件或集合，但不能包含图库。"
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s'文件夹名无效。"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "按名称升序排列"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "按名称降序排列"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "ID升序"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "按ID降序排列"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "给定的文件夹不存在或无法重命名此文件夹。"
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "要删除的文件夹有子文件夹。"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "给定的文件夹不存在。"
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "无组织的"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr "无组织的与根文件夹相同。在这里你可以找到所有没有分配给文件夹的文件。"
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "封面图片"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "描述"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "路径"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "文件夹类型"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "一般"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "按日期升序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "按日期降序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "按升序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "按头衔降序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "按文件名升序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "按文件名降序排列"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "按文件名升序自然排序"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "按文件名降序自然排序"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "发生了一些错误。"
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "文件夹没有找到。"
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>您还没有输入许可证密钥</strong>。要接收自动更新，请在“进入许可”中输入"
+"密钥。"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "集合不能包含文件。"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "集合"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"集合不能包含文件。但是您可以在那里创建其他的集合和<strong>galleries</"
+"strong>。"
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "给定的文件夹不存在。"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr "不存在给定的父文件夹来设置此文件夹的父文件夹。"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "不允许更改此文件夹的父文件夹。"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "给定的父类不允许文件夹类型。"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "您只能将图像移动到图库。"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "媒体"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"图库只能包含图像。如果你想显示一个图片库，到一个帖子，看看可视化编辑器按钮。"
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "给定的文件夹不允许重新排序文件。"
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr "此文件夹有自动订单，请先停用它。"
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "请选择一个文件夹来显示项目。"
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "仅按文件夹id获取文件夹中的媒体。"
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "被禁止的"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "当前用户未激活真实媒体库。"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "在“所有文件”中隐藏快捷方式"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "计数总是包含快捷方式"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "默认的启动文件夹"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "启动时没有文件夹"
+
+#: inc/usersettings/DefaultFolder.php:1
+#, fuzzy
+msgid "Last opened folder"
+msgstr "最后查询的文件夹"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "媒体文件夹中的图库"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr "注意:您只能选择画廊。文件夹和集合是灰色的。"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "链接到"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "列"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "随机的顺序"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "大小"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "附件文件"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "媒体文件"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "没有一个"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "缩略图"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "媒介"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "大"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "全尺寸"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "没有文件夹选"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Select folder"
+msgstr "选择目标文件夹"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "重新加载内容"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "子文件夹"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr "请在区块设置中选择媒体库文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "新文件夹继承此限制"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "当前选择的文件夹有一些限制:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "您不能更改*母*文件夹"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "您不能“重新排列”子文件夹"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "您不能*创建*子文件夹"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "您不能*重命名*文件夹"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "您不能“删除”该文件夹"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "你不能将文件移出文件夹"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "父"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "在这个节点"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "如果没有下一个节点，则将该项放到末尾。"
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "文件被上传到您当前所在的文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "你确定吗?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "成功"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "失败的"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "没有发现记录"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr "您确定要删除*{name}*吗?所有文件被移动到无组织。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr "您确定要删除*{count}文件夹*吗?所有文件被移动到无组织。"
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "取消"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "保存"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "回来"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "没有找到文件夹"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr "您实际上没有创建任何文件夹。只需点击标题按钮来创建你的第一个文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "文件夹"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "没有搜索结果。"
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "已成功将文件夹重命名为*{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "成功创建了*{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "成功删除*{name}*"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "成功删除*{count}文件夹*"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "手动重新排列*{name}*位置"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "成功排序树层次结构"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "快捷方式"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"这是媒体库文件的快捷方式。快捷键不需要任何物理存储*(0kb)*。如果您想要更改文件"
+"本身，您必须在原始文件中这样做(例如，通过插件替换媒体文件)。还要注意，快捷键"
+"中的字段可能与原始文件不同，例如“标题”、“描述”或“标题”。"
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr "在上传的当前视图中，过滤器是活动的。请重置这些并刷新视图。"
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "通过拖放对内容进行排序"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "复位命令"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "过去"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "禁用自动排序"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "最新的"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "重建索引的顺序"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "重设为最后一单"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "所有文件"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "{count}文件移动"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "移动一个文件"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "{count}文件副本"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "复制一个文件"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "成功移动了{count}文件"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "成功移动一个文件"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "成功复制{count}文件"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "成功复制一个文件"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "按任意键创建快捷方式"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "释放移动文件的密钥"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "单击此以创建一个新文件夹"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"文件夹可以包含所有类型的文件和集合，但不能包含图库。如果您想创建一个子文件"
+"夹，只需从列表中选择一个文件夹并单击此按钮。"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "单击此以创建新集合"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"集合可以不包含任何文件。但是你可以在那里创建其他的收藏品和“画廊”。上面提到的"
+"图库只是一个*图库数据文件夹*，这意味着它们不会自动出现在你的前端(你的网站)。"
+"您可以创建一个*visual gallery*从这个*gallery数据文件夹*通过可视化编辑器在您的"
+"页面/文章。"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "单击此创建一个*新图库数据文件夹*"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"一个“图库数据文件夹”只能包含图像。对你来说，区分你的视觉画廊在哪里更简单。你"
+"也可以将图片放入自定义的拖放顺序中。"
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "设置"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "当前登录用户的一般设置。"
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "权限"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "重新排序该文件夹中的文件"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "刷新"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "刷新当前文件夹视图。"
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "重命名"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "重命名当前选定的文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "删除"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "删除当前选定的文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "删除当前选定的文件夹。"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "重新排列"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "更改文件夹的层次结构顺序。"
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "文件夹的细节"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "选择一个文件夹并查看它的更多细节。"
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "产品许可证尚未激活。"
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "进入许可"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "驳回通知"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr "看来您已经在媒体库中的文件夹中使用了另一个插件。"
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "开始导入"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "忽略"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr "您将重定向到Pro版本的外部网站，确认继续。"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "专业功能"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "驳回20天"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "感谢您使用Real Media Library的免费版本。"
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "得到支持!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "我想了解更多!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr "使用不同的文件夹类型:集合和图库，使你更容易区分你的图库所在的位置。"
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"在文件夹内容中进行组织，并根据标准(如名称降序排列)或通过拖放对文件进行重新排"
+"序。"
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"在文件夹树中进行组织，并根据标准(如名称降序排列)或通过拖放对节点进行重新排"
+"序。"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to create subfolders?"
+msgstr "单击此以创建一个新文件夹"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to upload entire folders?"
+msgstr "单击此以创建一个新文件夹"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:一般"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "在前端加载RML功能"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:重置"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "重新设置所有图库的顺序"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "清除所有设置(文件夹、附件关系)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "重设文件夹计数缓存"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "重置名称、弹头和绝对路径"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "擦依恋关系"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "擦拭所有"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "重置计数"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "重置"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"如果使用的页面构建器如Divi页面构建器，WPBakery页面构建器或Elementor，则激活此"
+"选项。"
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "您还可以在导航到文件夹详细信息时重置单个文件夹。"
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "所有"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "无组织的图片"

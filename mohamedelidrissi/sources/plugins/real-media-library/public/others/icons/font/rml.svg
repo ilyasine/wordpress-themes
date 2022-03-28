@@ -1,0 +1,18 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2018 by original authors @ fontello.com</metadata>
+<defs>
+<font id="rml" horiz-adv-x="1000" >
+<font-face font-family="rml" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="collection" unicode="&#xe800;" d="M856 518l-100 0-124 150-214-150-180 0q-52 0-90-39t-38-91l0-160-108 296q-10 38 22 52l680 248q36 10 50-24z m106-90q16 0 27-12t11-28l0-472q0-16-11-28t-27-12l-724 0q-16 0-27 12t-11 28l0 472q0 16 11 28t27 12l724 0z m-56-452l0 162-72 160-166-60-130-132-138 170-92-214 0-86 598 0z" horiz-adv-x="1000" />
+
+<glyph glyph-name="gallery" unicode="&#xe801;" d="M365 872q43 0 73-31t31-74l0-260q0-44-31-74t-73-30l-261 0q-44 0-74 30t-30 74l0 260q0 43 31 74t73 31l261 0z m0-365l0 260-261 0 0-260 261 0z m573 365q42 0 73-31t30-74l0-260q0-44-30-74t-73-30l-260 0q-44 0-75 30t-30 74l0 260q0 43 31 74t74 31l260 0z m0-365l0 260-260 0 0-260 260 0z m-573-209q43 0 73-30t31-74l0-260q0-44-31-74t-73-31l-261 0q-43 0-73 31t-31 74l0 260q0 44 30 74t74 30l261 0z m0-364l0 260-261 0 0-260 261 0z m573 364q42 0 73-30t30-74l0-260q0-44-30-74t-73-31l-260 0q-43 0-74 31t-31 74l0 260q0 43 30 73t75 31l260 0z m0-364l0 260-260 0 0-260 260 0z" horiz-adv-x="1041" />
+
+<glyph glyph-name="share" unicode="&#xe802;" d="M0-121q0 143 24 256t60 186 95 124 107 76 122 38 114 15 107 2l0 245 371-372-371-371 0 268q-102 0-151-1t-126-10-114-26-86-51-74-83-47-124-31-172z" horiz-adv-x="1000" />
+
+<glyph glyph-name="archive" unicode="&#xe803;" d="M573 376q11 0 18-8t8-19-8-18-18-8l-157 0q-11 0-18 8t-8 18 8 19 18 8l157 0z m365 365q21 0 36-16t16-37-16-37-36-15l-885 0q-22 0-37 15t-16 37 16 37 37 16l885 0z m-104-157q21 0 36-15t15-37l0-416q0-65-46-111t-110-46l-469 0q-65 0-111 46t-45 111l0 416q0 21 15 37t37 15l678 0z m-105-521q21 0 37 16t15 37l0 363-572 0 0-363q0-22 15-37t36-16l469 0z" horiz-adv-x="990" />
+</font>
+</defs>
+</svg>

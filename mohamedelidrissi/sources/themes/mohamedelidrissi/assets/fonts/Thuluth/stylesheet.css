@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'DecoType Thuluth II';
+    src: url('DecoTypeThuluthII.eot');
+    src: url('DecoTypeThuluthII.eot?#iefix') format('embedded-opentype'),
+        url('DecoTypeThuluthII.woff2') format('woff2'),
+        url('DecoTypeThuluthII.woff') format('woff'),
+        url('DecoTypeThuluthII.ttf') format('truetype'),
+        url('DecoTypeThuluthII.svg#DecoTypeThuluthII') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

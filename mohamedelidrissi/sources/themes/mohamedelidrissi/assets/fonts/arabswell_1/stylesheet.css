@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'arabswell_1';
+    src: url('arabswell_1.eot');
+    src: url('arabswell_1.eot?#iefix') format('embedded-opentype'),
+        url('arabswell_1.woff2') format('woff2'),
+        url('arabswell_1.woff') format('woff'),
+        url('arabswell_1.ttf') format('truetype'),
+        url('arabswell_1.svg#arabswell_1') format('svg');
+    font-weight: 100;
+    font-style: normal;
+}
+

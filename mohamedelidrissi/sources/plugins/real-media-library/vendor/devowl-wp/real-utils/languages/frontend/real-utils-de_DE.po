@@ -1,0 +1,157 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-29 11:49+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: German <https://translate.devowl.io/projects/devowl-wp-real-"
+"utils-frontend-javascript/develop/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#: cross.js:1 helper.js:1
+msgid "Not now"
+msgstr "Nicht jetzt"
+
+#: cross.js:1
+msgid "Learn more!"
+msgstr "Mehr erfahren!"
+
+#: cross.js:1
+msgid "Never show this popup again"
+msgstr "Popup nie wieder anzeigen"
+
+#: feedback.js:1
+msgid "Contact support"
+msgstr "Support kontaktieren"
+
+#: feedback.js:1
+msgid "Skip & Deactivate"
+msgstr "Überspringen & Deaktivieren"
+
+#: feedback.js:1
+msgid "Deactivate"
+msgstr "Deaktivieren"
+
+#: feedback.js:1
+msgid "Too bad you are leaving"
+msgstr "Schade, dass du gehst"
+
+#: feedback.js:1
+msgid "Please give us feedback why you deactivate <strong>%s</strong>."
+msgstr "Bitte gib uns Feedback, warum du <strong>%s</strong> deaktivierst."
+
+#: feedback.js:1
+msgid "Upgrade to PRO Version"
+msgstr "Upgrade auf PRO-Version"
+
+#: feedback.js:1
+msgid "Plugin did not work"
+msgstr "Plugin funktioniert nicht"
+
+#: feedback.js:1
+msgid "Not the features I want"
+msgstr "Nicht die gewünschten Funktionen"
+
+#: feedback.js:1
+msgid "Incompatible with other themes or plugins"
+msgstr "Inkompatibel mit anderen Themes oder Plugins"
+
+#: feedback.js:1
+msgid "Lack of documentation"
+msgstr "Fehlende Dokumentation"
+
+#: feedback.js:1
+msgid "Found a better plugin"
+msgstr "Besseres Plugin gefunden"
+
+#: feedback.js:1
+msgid "Temporary deactivation"
+msgstr "Temporäre Deaktivierung"
+
+#: feedback.js:1
+msgid "I do not want to give feedback"
+msgstr "Ich möchte kein Feedback geben"
+
+#: feedback.js:1
+msgid "Other"
+msgstr "Anderer Grund"
+
+#: feedback.js:1
+msgid "What could we do better?"
+msgstr "Was könnten wir besser machen?"
+
+#: feedback.js:1
+msgid "Please enter a text here or check the box below."
+msgstr "Bitte gib hier einen Text ein oder markiere die Checkbox unten."
+
+#: feedback.js:1
+msgid "I don't want to add a comment and hence not help to make %s better."
+msgstr ""
+"Ich möchte keinen Kommentar hinzufügen und somit nicht dazu beitragen, %s "
+"besser zu machen."
+
+#: feedback.js:1
+msgid "Email for answer/solution (optional)?"
+msgstr "E-Mail für Antwort/Lösung (optional)?"
+
+#: feedback.js:1
+msgid "Please provide a valid email."
+msgstr "Bitte gib eine gültige E-Mail-Adresse ein."
+
+#: feedback.js:1
+msgid ""
+"I would like to receive an answer for my issue. For this purpose I agree to "
+"the data processing of my feedback and my email address. I have read the "
+"devowl.io <a href=\"https://devowl.io/privacy-policy/\" target=\"_blank"
+"\">privacy policy</a> and agree to it."
+msgstr ""
+"Ich möchte gerne eine Antwort auf meine Frage erhalten. Zu diesem Zweck "
+"stimme ich der Datenverarbeitung meines Feedbacks und meiner E-Mail-Adresse "
+"zu. Ich habe die <a href=\"https://devowl.io/de/datenschutzerklaerung/\" "
+"target=\"_blank\">Datenschutzerklärung</a> von devowl.io gelesen und stimme "
+"ihr zu."
+
+#: feedback.js:1
+msgid ""
+"If you would like to be contacted by us, please accept the privacy policy. "
+"If you prefer not to be contacted, leave the email field blank."
+msgstr ""
+"Wenn du von uns kontaktiert werden möchtest, akzeptiere bitte die "
+"Datenschutzerklärung. Solltest du es vorziehen, nicht kontaktiert zu werden, "
+"lasse das E-Mail-Feld leer."
+
+#: helper.js:1
+msgid "Give it a rating"
+msgstr "Bewertung abgeben"
+
+#: helper.js:1
+msgid "Do us a favor!"
+msgstr "Tu uns einen Gefallen!"
+
+#: helper.js:1
+msgid ""
+"Awesome, you have just used a functionality of <strong>%s</strong>. Do you "
+"like it? Please do us a favor and rate us!"
+msgstr ""
+"Großartig, du hast gerade eine Funktionalität von <strong>%s</strong> "
+"benutzt! Gefällt sie dir? Bitte bewerte uns!"
+
+#: welcome.js:1
+msgid "Loading…"
+msgstr "Lade…"
+
+#: welcome.js:1
+msgid "Successfully subscribed!"
+msgstr "Erfolgreich abonniert!"
+
+#: welcome.js:1
+msgid "Subscribe"
+msgstr "Abonnieren"
+
+#~ msgid "Sorry to see you go"
+#~ msgstr "Schade, dass du gehst"

@@ -1,0 +1,1233 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: n/a\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/src\n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-10 08:34+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: Hindi <https://translate.devowl.io/projects/wordpress-real-"
+"media-library-backend-php/ci-mojito/hi/>\n"
+"Language: hi_IN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#. Plugin Name of the plugin
+#, fuzzy
+#| msgid "RealMediaLibrary:Reset"
+msgid "Real Media Library"
+msgstr "RealMediaLibrary:रिसेट"
+
+#. Plugin URI of the plugin
+msgid "https://devowl.io/wordpress-real-media-library/"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Organize uploaded media in folders, collections and galleries: A file "
+"manager for WordPress. Media management made easy!"
+msgstr ""
+
+#. Author of the plugin
+msgid "devowl.io"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://devowl.io"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Complete file and folder manager"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Real Media Library is a WordPress plugin that empowers you with advanced "
+"media management. You can use this plugin to organize the thousands of "
+"images, audio, video and PDF files in your media library into folders. "
+"Basically it is a file manager like Windows Explorer or Mac Finder, but for "
+"WordPress."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Filter in insert media dialog"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"No matter where you are, the folder structure of Real Media Library is "
+"always where you can select files. For example in the dialog for selecting a "
+"\"Featured Image\"."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"In the Lite version you can only select the folder by a simple dropdown."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Custom image order"
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid ""
+"Organizing your media files is really easy with the Real Media Library "
+"plugin. You can arrange the order of your files yourself by dragging and "
+"dropping. This allows you to move important files to the top for faster "
+"access."
+msgstr ""
+
+#: inc/AdInitiator.php:1
+msgid "Get your PRO license now!"
+msgstr ""
+
+#: inc/api/attachment.php:1
+msgid "The given folder was not found."
+msgstr "दिया गया फोल्डर नहीं मिला!"
+
+#: inc/Assets.php:1
+msgid "Complementary Plugins"
+msgstr "पूरक प्लगइन्स"
+
+#: inc/Assets.php:1
+msgid ""
+"\n"
+"\n"
+"Note: If you want to delete a shortcut file, the source file will NOT be "
+"deleted.\n"
+"If you want to delete a non-shortcut file, all associated shortcuts are "
+"deleted, too."
+msgstr ""
+"\n"
+"\n"
+"नोट: अगर आप एक शॉर्टकट फाइल को हटाना चाहते हैं, तो वो फाइल नहीं हटेगी!\n"
+"अगर आप एक नॉन-शॉर्टकट फाइल को हटाना चाहते हैं, तो सभी संबंधी शॉर्टकट भी हट जायेगें!"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this shortcut, the location of the source/main file is not "
+"changed."
+msgstr ""
+"यदि आप इस शॉर्टकट को स्थानांतरित करते हैं, तो स्रोत / मुख्य फ़ाइल का स्थान नहीं बदला "
+"जाता है।"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"If you move this attachment, the folder location of the associated shortcuts "
+"are not changed."
+msgstr ""
+"यदि आप इस अनुलग्नक को ले जाते हैं, तो संबंधित शॉर्टकट का फ़ोल्डर स्थान परिवर्तित नहीं होता "
+"है।"
+
+#: inc/attachment/CustomField.php:1
+msgid "Move to another folder"
+msgstr "अन्य फाइल में स्थानांतरित करें"
+
+#: inc/attachment/CustomField.php:1 inc/folder/Creatable.php:1
+#: inc/view/FolderShortcode.php:1 inc/view/Lang.php:1
+msgid "Folder"
+msgstr "फोल्डर"
+
+#: inc/attachment/CustomField.php:1
+msgid "Shortcut infos"
+msgstr "शॉर्टकट जानकारी"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage <strong>(0 kB)</strong>. If you want to change the file "
+"itself, you must do this in the original file (for example replace media "
+"file through a plugin).<br/>Note also that the fields in the shortcuts can "
+"be different to the original file, for example \"Title\", \"Description\" or "
+"\"Caption\"."
+msgstr ""
+"यह एक मीडिया लाइब्रेरी फाइल का शॉर्टकट है! शॉर्टकटस को किसी भौतिक "
+"स्टोरेज<strong>(0kb)</strong> की जरुरत नहीं पड़ती! अगर आप फाइल को बदलना चाहते हो "
+"तो आपको यह ओरिजिनल फाइल में करना पड़ेगा (उदाहरण के लिए मीडिया फाइल को एक प्लगइन से "
+"प्रतिस्थापित करें)!<br/>यह भी नोट करें कि शॉर्टकटस में फील्ड ओरिजिनल फाइल से कुछ अलग हो "
+"सकता है, उदाहरण के लिए \"शीर्षक\", \"विवरण\" या \"कैप्शन\"!"
+
+#. translators:
+#: inc/attachment/CustomField.php:1
+msgid "For this file is %d shortcut available in the following folder:"
+msgid_plural ""
+"For this file are %d shortcuts available in the following folders:"
+msgstr[0] "इस फाइल के लिए इस फोल्डर में एक शॉर्टकट उपलब्ध है:"
+msgstr[1] "इस फाइल के लिए इस फोल्डर में %s शॉर्टकटस उपलब्ध है:"
+
+#: inc/attachment/CustomField.php:1
+msgid ""
+"This file has no associated shortcuts. You can create shortcuts by moving "
+"files per mouse and hold any key."
+msgstr ""
+"इस फाइल के कोई भी संबद्धित शॉर्टकटस नहीं है! आप हर फाइल पर माउस को मूव करके या कोई "
+"बटन दबाकर शॉर्टकटस बना सकते हो!"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to insert files here."
+msgstr "आप यहाँ फाइलें डालने के लिए स्वीकृत नहीं है!"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to move the file."
+msgstr "आप यहाँ फाइल स्थानांतरित करने के लिए स्वीकृत नही है!"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to create a subfolder here."
+msgstr "आप यहाँ एक सब-फोल्डर बनाने के लिए स्वीकृत नहीं है!"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to delete this folder."
+msgstr "आप इस फोल्डर को हटाने के लिये स्वीकृत नहीं है!"
+
+#: inc/attachment/Permissions.php:1
+msgid "You are not allowed to rename this folder."
+msgstr "आप इस फोल्डर का नाम दुबारा सेट करने के लिए स्वीकृत नही है!"
+
+#: inc/attachment/Upload.php:1
+msgid "Select destination folder"
+msgstr "गंतव्य फोल्डर चुनें"
+
+#: inc/attachment/Upload.php:1
+msgid ""
+"You can simply upload files directly to a folder. Select a folder and upload "
+"files."
+msgstr ""
+"आप सीधे ही एक फोल्डर में फाइलों को अपलोड कर सकते हो! एक फोल्डर चुनें और फाइलें अपलोड करें!"
+
+#: inc/attachment/Upload.php:1
+msgid "upload to folder"
+msgstr "फोल्डर में अपलोड करें"
+
+#: inc/comp/ExImport.php:1
+msgid "RealMediaLibrary:Import / Export"
+msgstr "RealMediaLibrary:आयात / निर्यात"
+
+#: inc/comp/ExImport.php:1
+msgid "Import from other plugins"
+msgstr "अन्य प्लगइन्स से आयात करें"
+
+#: inc/comp/ExImport.php:1
+msgid "Export / Import Real Media Library folders"
+msgstr "एक्सपोर्ट / इम्पोर्ट रियल मीडिया लाइब्रेरी फोल्डर"
+
+#: inc/comp/ExImport.php:1
+msgid "Export"
+msgstr "बाहर निकालें"
+
+#: inc/comp/ExImport.php:1
+msgid "Import"
+msgstr "अन्दर लें"
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"All available folders will be exported. The current structure is not lost "
+"during import - but check that there are no duplicate names in the import "
+"data, as these are not checked."
+msgstr ""
+"सभी उपलब्ध फ़ोल्डर निर्यात किए जाएंगे। वर्तमान संरचना आयात के दौरान खो नहीं है - लेकिन "
+"जाँच करें कि आयात डेटा में कोई डुप्लिकेट नाम नहीं हैं, क्योंकि ये चेक नहीं किए गए हैं।"
+
+#: inc/comp/ExImport.php:1
+msgid "Exported data:"
+msgstr "बाहर निकाले गए डाटा:"
+
+#: inc/comp/ExImport.php:1
+msgid "Import data:"
+msgstr "डाटा अन्दर लें:"
+
+#: inc/comp/ExImport.php:1
+msgid "Importing data is only available in PRO version."
+msgstr "डेटा आयात करना केवल PRO संस्करण में उपलब्ध है।"
+
+#: inc/comp/ExImport.php:1 inc/usersettings/DefaultFolder.php:1
+#: inc/view/Lang.php:1
+msgid "Learn more about PRO"
+msgstr "प्रो के बारे में और जाने"
+
+#: inc/comp/ExImport.php:1
+msgid "Imports categories and post relations."
+msgstr "श्रेणी और पोस्ट संबंधों को अन्दर लें!"
+
+#: inc/comp/ExImport.php:1
+msgid "Nothing to import."
+msgstr ""
+
+#: inc/comp/ExImport.php:1
+msgid ""
+"Importing categories from another plugin is only available in PRO version."
+msgstr "किसी अन्य प्लगइन से श्रेणियां आयात करना केवल प्रो संस्करण में उपलब्ध है।"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid folder."
+msgstr "वैध फोल्डर नहीं!"
+
+#: inc/comp/ExportMediaLibrary.php:1
+msgid "No valid type."
+msgstr "वैध प्रकार नहीं!"
+
+#: inc/comp/PolyLang.php:1
+msgid "PolyLang: Automatically move translations"
+msgstr "PolyLang: स्वतः ही अनुवाद को स्थानांतरित करें"
+
+#: inc/comp/PolyLang.php:1 inc/comp/WPML.php:1
+msgid ""
+"If you move a file, the corresponding translated file will also be moved."
+msgstr "यदि आप कोई फ़ाइल ले जाते हैं, तो संबंधित अनुवादित फ़ाइल भी स्थानांतरित हो जाएगी।"
+
+#: inc/comp/WPML.php:1
+msgid "WPML: Automatically move translations"
+msgstr "WPML: स्वतः ही अनुवाद प्रतिस्थापित करें"
+
+#. translators:
+#: inc/exception/FolderAlreadyExistsException.php:1
+msgid "'%s' already exists in this folder."
+msgstr "'%s' इस फोल्डर में पहले से उपलब्ध है!"
+
+#. translators:
+#: inc/exception/OnlyInProVersionException.php:1
+msgid "This functionality is not available in the free version (%s)."
+msgstr "यह कार्यक्षमता मुक्त संस्करण (%s) में उपलब्ध नहीं है।"
+
+#: inc/folder/Creatable.php:1
+msgid "You need to provide a set of files."
+msgstr "आपको एक फाइलों का सेट प्रदान करना होगा!"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created in the database."
+msgstr "डेटाबेस में फोल्डर नहीं बनाया जा सकता!"
+
+#: inc/folder/Creatable.php:1
+msgid "The folder could not be created because it already exists."
+msgstr "फोल्डर नही बनाया जा सकता क्योंकि यह पहले से ही मौजूद है!"
+
+#: inc/folder/Creatable.php:1
+msgid ""
+"A folder can contain every type of file or a collection, but not gallery."
+msgstr "एक फ़ोल्डर में हर प्रकार की फ़ाइल या संग्रह हो सकता है, लेकिन गैलरी नहीं।"
+
+#. translators:
+#: inc/folder/Creatable.php:1
+msgid "'%s' is not a valid folder name."
+msgstr "'%s' एक वैध फोल्डर नाम नहीं है!"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name ascending"
+msgstr "नाम का आरोही में क्रम"
+
+#: inc/folder/Creatable.php:1
+msgid "Order by name descending"
+msgstr "नाम का अवरोही में क्रम"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID ascending"
+msgstr "आईडी का आरोही में क्रम"
+
+#: inc/folder/Creatable.php:1 inc/order/Sortable.php:1
+msgid "Order by ID descending"
+msgstr "आईडी का अवरोही में क्रम"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist or you cannot rename this folder."
+msgstr "दिए गए फ़ोल्डर मौजूद नहीं है या आप इस फ़ोल्डर का नाम नहीं बदल सकते हैं।"
+
+#: inc/folder/CRUD.php:1 inc/view/Lang.php:1
+msgid "The folder you try to delete has subfolders."
+msgstr "आप जिस फोल्डर को हटाने की कोशिश कर रहे है उसमे सब-फोल्डर है!"
+
+#: inc/folder/CRUD.php:1
+msgid "The given folder does not exist."
+msgstr "दिया गया फोल्डर मौजूद नहीं है!"
+
+#: inc/folder/Root.php:1 inc/view/Lang.php:1 inc/view/View.php:1
+msgid "Unorganized"
+msgstr "असंगठित"
+
+#: inc/folder/Root.php:1
+msgid ""
+"Unorganized is the same as a root folder. Here you can find all files which "
+"are not assigned to a folder."
+msgstr ""
+"असंगठित एक रूट फोल्डर के जैसा ही होता है! यहाँ पर आप वो सभी फाइलें प्राप्त कर सकते है, जो "
+"किसी फोल्डर में नही है!"
+
+#: inc/metadata/CoverImage.php:1
+msgid ""
+"This option is disabled on this page. Please navigate to the media library."
+msgstr ""
+
+#: inc/metadata/CoverImage.php:1
+msgid "Cover image"
+msgstr "कवर फोटो"
+
+#: inc/metadata/Description.php:1
+msgid "Description"
+msgstr "विवरण"
+
+#: inc/metadata/Meta.php:1
+msgid "Path"
+msgstr "मार्ग"
+
+#: inc/metadata/Meta.php:1
+msgid "Folder type"
+msgstr "फोल्डर का प्रकार"
+
+#: inc/metadata/Meta.php:1
+msgid "General"
+msgstr "सामान्य"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date ascending"
+msgstr "आरोही में दिनांक का क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Order by date descending"
+msgstr "अवरोही में दिनांक का क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title ascending"
+msgstr "शीर्षक का आरोही में क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Order by title descending"
+msgstr "शीर्षक का अवरोही में क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename ascending"
+msgstr "फाइल नाम का आरोही में क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Order by filename descending"
+msgstr "फाइल नाम का अवरोही में क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename ascending"
+msgstr "फाइल नाम आरोही क्रम से प्राकृतिक क्रम"
+
+#: inc/order/Sortable.php:1
+msgid "Natural order by filename descending"
+msgstr "फाइल नाम अवरोही क्रम से प्राकृतिक क्रम"
+
+#: inc/overrides/lite/folder/Creatable.php:1
+#: inc/overrides/pro/folder/Creatable.php:1
+#: inc/overrides/pro/order/Sortable.php:1 inc/rest/Attachment.php:1
+msgid "Something went wrong."
+msgstr "कुछ गलत हुआ है!"
+
+#: inc/overrides/lite/rest/Service.php:1 inc/overrides/pro/rest/Service.php:1
+msgid "Folder not found."
+msgstr "फोल्डर नहीं मिला!"
+
+#: inc/overrides/pro/Core.php:1
+msgid ""
+"<strong>You have not yet entered the license key</strong>. To receive "
+"automatic updates, please enter the key in \"Enter license\"."
+msgstr ""
+"<strong>आपने अभी तक लाइसेंस कुंजी दर्ज नहीं की है!</strong> स्वतः ही अपडेट पाने के लिए, "
+"कृपया \"लाइसेंस दर्ज करें\" में कुंजी डालें!"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "A collection cannot contain files."
+msgstr "एक संग्रह में फाइलें नहीं रह सकती!"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid "Collection"
+msgstr "संग्रह"
+
+#: inc/overrides/pro/folder/Collection.php:1
+msgid ""
+"A collection cannot contain files. But you can create other collections and "
+"<strong> galleries</strong> there."
+msgstr ""
+"एक संग्रह में फाईलें नहीं रह सकती! लेकिन आप वहाँ अन्य संग्रह और <strong>गैलरीज</strong> "
+"बना सकते हो!"
+
+#. translators:
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The parent %d does not exist."
+msgstr "जनक %d  मौजूद नहीं है।"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not exist to set the parent for this folder."
+msgstr "दी गयी वजह इस फोल्डर के लिए वजह सेट करने के लिए मौजूद नहीं है!"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "You are not allowed to change the parent for this folder."
+msgstr "आप इस फोल्डर की वजह बदलने के लिए स्वीकृत नहीं है!"
+
+#: inc/overrides/pro/folder/Creatable.php:1
+msgid "The given parent does not allow the folder type."
+msgstr "दी गयी वजह फोल्डर प्रकार को स्वीकृत नही करती!"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "You can only move images to a gallery."
+msgstr "आप सिर्फ फोटोज को गैलरी में स्थानांतरित कर सकते है!"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid "Gallery"
+msgstr "गैलरी"
+
+#: inc/overrides/pro/folder/Gallery.php:1
+msgid ""
+"A gallery can only contain images. To view a gallery, go to a post and look "
+"at the buttons of the visual editor.."
+msgstr ""
+"एक गैलरी में सिर्फ फोटोज ही रह सकती है! अगर आप एक गैलरी को दर्शाना चाहते हैं तो एक "
+"पोस्ट पर जाएँ और विजुअल एडिटर बटन पर देखें!"
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "The given folder does not allow to reorder the files."
+msgstr "दिए गये फोल्डर में फाइलों को दुबारा क्रमित नही का सकते!"
+
+#: inc/overrides/pro/order/Sortable.php:1
+msgid "This folder has an automatic order. Please deactivate that first."
+msgstr "इस फोल्डर में एक स्वतः क्रम है, कृपया पहले इसको निष्क्रिय करें!"
+
+#: inc/overrides/pro/usersettings/DefaultFolder.php:1 inc/view/Lang.php:1
+msgid "Please select a folder to show items."
+msgstr "कृपया आइटम दिखाने के लिए के फोल्डर को चुनें!"
+
+#: inc/rest/Attachment.php:1
+msgid "Fetch only media in a folder by folder id."
+msgstr "एक फोल्डर में मीडिया को सिर्फ फोल्डर आईडी द्वारा निकालें!"
+
+#: inc/rest/Service.php:1
+msgid "Forbidden"
+msgstr "निषिध"
+
+#: inc/rest/Service.php:1
+msgid "Real Media Library is not active for the current user."
+msgstr "वर्तमान उपयोगकर्ता के लिए वास्तविक मीडिया लाइब्रेरी सक्रीय नहीं है!"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "Hide shortcuts in \"All files\""
+msgstr "\"सभी फाइलों\" में शॉर्टकटस को छुपायें"
+
+#: inc/usersettings/AllFilesShortcuts.php:1
+msgid "The count always includes shortcuts"
+msgstr "गणना के अंतर्गत हमेशा शॉर्टकटस आते है"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "Default startup folder"
+msgstr "डिफ़ॉल्ट स्टार्टअप फोल्डर"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid "No folder at startup"
+msgstr "स्टार्टअप पर कोई फ़ोल्डर नहीं"
+
+#: inc/usersettings/DefaultFolder.php:1
+#, fuzzy
+msgid "Last opened folder"
+msgstr "अंतिम queried फ़ोल्डर"
+
+#: inc/usersettings/DefaultFolder.php:1
+msgid ""
+"Your media library can always open in the last opened folder or a folder you "
+"choose. This saves you time every time you open the media library!"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid "Enable infinite scrolling in grid view"
+msgstr ""
+
+#: inc/usersettings/InfiniteScrolling.php:1
+msgid ""
+"Instead of displaying a \"Load More\" button, all files are loaded "
+"automatically as you scroll down. This is not supported in list view."
+msgstr ""
+
+#: inc/view/FolderShortcode.php:1
+msgid "Gallery from Media Folder"
+msgstr "मीडिया फोल्डर से गैलरी"
+
+#: inc/view/FolderShortcode.php:1
+msgid ""
+"Note: You can only select galleries. Folders and collections are grayed."
+msgstr "आप सिर्फ गैलरीज को ही चुन सकते हैं! फोल्डर और संग्रह को नहीं!"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Link to"
+msgstr "से लिंक करें"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Columns"
+msgstr "स्तम्भ"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Random Order"
+msgstr "यद्रिछिक क्रम"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Size"
+msgstr "आकार"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Attachment File"
+msgstr "अटेचमेंट फाइल"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Media File"
+msgstr "मीडिया फाइल"
+
+#: inc/view/FolderShortcode.php:1
+msgid "None"
+msgstr "कोई नहीं"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Thumbnail"
+msgstr "थंबनेल"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Medium"
+msgstr "माध्यम"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Large"
+msgstr "विशाल"
+
+#: inc/view/FolderShortcode.php:1
+msgid "Full Size"
+msgstr "पूरा आकार"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders are only available in the PRO version. But you can now create an "
+"unlimited number of folders on the main level (instead of the previous max. "
+"10 folders)."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "No folder selected"
+msgstr "कोई फोल्डर नहीं चुना गया"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Select folder"
+msgstr "गंतव्य फोल्डर चुनें"
+
+#: inc/view/Lang.php:1
+msgid "Reload content"
+msgstr "सामग्री को दुबारा लोड करें"
+
+#: inc/view/Lang.php:1
+msgid "Subfolders"
+msgstr "सब-फोल्डर"
+
+#: inc/view/Lang.php:1
+msgid "Please select a folder (media library) in the block settings."
+msgstr "कृपया ब्लाक सेटिंग में एक मीडिया लाइब्रेरी फोल्डर को चुनें!"
+
+#: inc/view/Lang.php:1
+msgid "New folders inherit this restriction"
+msgstr "नया फोल्डर का यह प्रतिबन्ध प्राकृतिक है"
+
+#: inc/view/Lang.php:1
+msgid "The current selected folder has some restrictions:"
+msgstr "वर्तमान चुने गये फोल्डर में कुछ प्रतिबन्ध है:"
+
+#: inc/view/Lang.php:1
+msgid "You cannot change *parent* folder"
+msgstr "आप *पैरेंट* फोल्डर को नहीं बदल सकते"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rearrange* subfolders"
+msgstr "आप सब-फोल्डर को *दुबारा व्यवस्थित* नहीं कर सकते"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *create* subfolders"
+msgstr "आप सब-फोल्डर नही *बना* सकते"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *insert* new files. New files will be moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You cannot *rename* the folder"
+msgstr "आप फोल्डर का *नाम दुबारा सेट* नहीं कर सकते"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *delete* the folder"
+msgstr "आप फोल्डर को *हटा* नही सकते"
+
+#: inc/view/Lang.php:1
+msgid "You cannot *move* files outside the folder"
+msgstr "आप फोल्डर के बाहर फाइलों को *स्थानांतरित* नहीं कर सकते"
+
+#: inc/view/Lang.php:1
+msgid "Parent"
+msgstr "वजह"
+
+#: inc/view/Lang.php:1
+msgid "Before this node"
+msgstr "इस नोड से पहले"
+
+#: inc/view/Lang.php:1
+msgid "If no next node is given, the element is placed at the end."
+msgstr "अगर कोई अगला नोड नही दिया गया है तो आइटम को अंत में रखना है!"
+
+#: inc/view/Lang.php:1
+msgid "The file is uploaded to the folder where you are currently in."
+msgstr "फाइल को आपके वर्तमान फोल्डर में अपलोड कर दिया गया है!"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure?"
+msgstr "क्या आप निश्चित ही करना चाहते हैं?"
+
+#: inc/view/Lang.php:1
+msgid "Success"
+msgstr "सफल हुआ"
+
+#: inc/view/Lang.php:1
+msgid "Failed"
+msgstr "फ़ैल हो गया"
+
+#: inc/view/Lang.php:1
+msgid "No entries found"
+msgstr "कोई प्रविष्ठी नहीं मिली"
+
+#: inc/view/Lang.php:1
+msgid "Are you sure to delete *{name}*? All files gets moved to Unorganized."
+msgstr ""
+"क्या आप *{name}* हटाना सुनिश्चित कर रहे हैं? सभी फाइलें असंगठित में स्थान्तरित हो जाएगी!"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Are you sure to delete *{count} folders*? All files gets moved to "
+"Unorganized."
+msgstr ""
+"क्या आप *{count}* फोल्डर* को हटाना सुनिश्चित कर रहे हैं? सभी फाइलें असंगठित में स्थान्तरित "
+"हो जाएगी!"
+
+#: inc/view/Lang.php:1
+msgid "Ok"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Cancel"
+msgstr "निरस्त करें"
+
+#: inc/view/Lang.php:1
+msgid "Save"
+msgstr "सेव"
+
+#: inc/view/Lang.php:1
+msgid "Back"
+msgstr "पीछे"
+
+#: inc/view/Lang.php:1
+msgid "No folders found"
+msgstr "कोई फोल्डर नहीं मिला"
+
+#: inc/view/Lang.php:1
+msgid ""
+"No folders have been created yet. Just click on the button above to create "
+"your first folder."
+msgstr ""
+"आप ने कोई फोल्डर नही बनाया है! अपना पहला फोल्डर बनाने के लिए हैडर बटन पर क्लिक करें!"
+
+#: inc/view/Lang.php:1
+msgid "Folders"
+msgstr "फोल्डर"
+
+#: inc/view/Lang.php:1
+msgid "No search results."
+msgstr "कोई परिणाम नहीं खोजा गया!"
+
+#: inc/view/Lang.php:1
+msgid "Renaming to *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully renamed folder to *{name}*"
+msgstr "फोल्डर को सफलतापूर्वक दुबारा नाम *{name}* दे दिया गया"
+
+#: inc/view/Lang.php:1
+msgid "Creating *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully created *{name}*"
+msgstr "*{name}* सफलतापूर्वक बना दिया गया"
+
+#: inc/view/Lang.php:1
+msgid "Deleting *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{name}*"
+msgstr "सफलतापूर्वक *{name}* हटा दिया गया"
+
+#: inc/view/Lang.php:1
+msgid "Successfully deleted *{count} folders*"
+msgstr "सफलतापूर्वक *फोल्डर {count}* को हटा दिया गया"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange *{name}* placement manually"
+msgstr "खुद *{name}* प्लेसमेंट को दुबारा व्यवस्थित करें"
+
+#: inc/view/Lang.php:1
+msgid "Reordering the tree hierarchy…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully sorted the tree hierarchy"
+msgstr "ट्री वर्गीकरण को सफलतापूर्वक क्रमबद्ध कर दिया गया"
+
+#: inc/view/Lang.php:1
+msgid "Reorder subfolders of *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "{count} files remaining…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Receiving data…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Shortcut"
+msgstr "शॉर्टकट"
+
+#: inc/view/Lang.php:1
+msgid ""
+"This is a shortcut of a media library file. Shortcuts doesn't need any "
+"physical storage *(0 kB)*. If you want to change the file itself, you must "
+"do this in the original file (for example replace media file through a "
+"plugin).\n"
+"Note also that the fields in the shortcuts can be different to the original "
+"file, for example \"Title\", \"Description\" or \"Caption\"."
+msgstr ""
+"यह एक मीडिया लाइब्रेरी फाइल का शॉर्टकट है! शॉर्टकटस को किसी भौतिक स्टोरेज*(0kb)* की "
+"जरुरत नहीं पड़ती! अगर आप फाइल को बदलना चाहते हो तो आपको यह ओरिजिनल फाइल में करना "
+"पड़ेगा (उदाहरण के लिए मीडिया फाइल को एक प्लगइन से प्रतिस्थापित करें)!\n"
+"यह भी नोट करें कि शॉर्टकटस में फील्ड ओरिजिनल फाइल से कुछ अलग हो सकता है, उदाहरण के लिए "
+"\"शीर्षक\", \"विवरण\" या \"कैप्शन\"!"
+
+#: inc/view/Lang.php:1
+msgid ""
+"In the current view of uploads, filters are active. Please reset them and "
+"refresh the view."
+msgstr "अपलोड के वर्तमान दृश्य में फ़िल्टर सक्रीय है! इसे रीसेट करें और दृश्य को रिफ्रेश करें!"
+
+#: inc/view/Lang.php:1
+msgid "A collection cannot contain files. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "A gallery can only contain images. Upload moved to Unorganized…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by *{name}*…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Order content by drag & drop"
+msgstr "क्रम सामग्री ड्रैग और ड्रॉप द्वारा"
+
+#: inc/view/Lang.php:1
+msgid "Reset order"
+msgstr "क्रम रिसेट"
+
+#: inc/view/Lang.php:1
+msgid "Apply order once…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Last"
+msgstr "अंतिम"
+
+#: inc/view/Lang.php:1
+msgid "Deactivate automatic ordering"
+msgstr "स्वचालित क्रम को निष्क्रिय करें"
+
+#: inc/view/Lang.php:1
+msgid "Apply automatic order…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Latest"
+msgstr "नवीनतम"
+
+#: inc/view/Lang.php:1
+msgid "Reindex order"
+msgstr "क्रम का दुबारा अनुक्रमण करें"
+
+#: inc/view/Lang.php:1
+msgid "Reset to last order"
+msgstr "अंतिम क्रम को रिसेट करें"
+
+#: inc/view/Lang.php:1
+msgid "All files"
+msgstr "सभी फाइलें"
+
+#: inc/view/Lang.php:1
+msgid "Move {count} files"
+msgstr "{count} फाइलों को स्थानांतरित करें"
+
+#: inc/view/Lang.php:1
+msgid "Move one file"
+msgstr "एक फाइल स्थानांतरित करें"
+
+#: inc/view/Lang.php:1
+msgid "Copy {count} files"
+msgstr "फाइलें {count} कॉपी करें"
+
+#: inc/view/Lang.php:1
+msgid "Copy one file"
+msgstr "एक फाइल कॉपी करें"
+
+#: inc/view/Lang.php:1
+msgid "Moving {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Moving one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying {count} files…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Copying one file…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved {count} files"
+msgstr "सफलतापूर्वक फाइलें {count} स्थानांतरित कर दी गयी"
+
+#: inc/view/Lang.php:1
+msgid "Successfully moved one file"
+msgstr "सफलतापूर्वक एक फाइल स्थानांतरित कर दी गयी"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied {count} files"
+msgstr "सफलतापूर्वक फाइल {count} कॉपी हो गयी है"
+
+#: inc/view/Lang.php:1
+msgid "Successfully copied one file"
+msgstr "एक फाइल सफलतापूर्वक कॉपी हो गयी है"
+
+#: inc/view/Lang.php:1
+msgid "Hold any key to create a shortcut"
+msgstr "एक शॉर्टकट बनाने के लिए किसी भी बटन को दबाएँ रखें"
+
+#: inc/view/Lang.php:1
+msgid "Release key to move file"
+msgstr "फाइल को स्थानांतरित करने के लिए बटन को दबाएँ"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new folder"
+msgstr "एक नया फोल्डर बनाने के लिए इस पर क्लिक करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A folder can contain any file type and collection, but not galleries. If you "
+"want to create a subfolder, select a folder and click this button."
+msgstr ""
+"एक फोल्डर में हर प्रकार की फाइल और संग्रह हो सकता है, लेकिन गैलरीज नहीं! अगर आप एक सब-"
+"फोल्डर बनाना चाहते हो तो सिर्फ लिस्ट में से फोल्डर को चुनें और इस बटन पर क्लिक करें!"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a new collection"
+msgstr "एक नया संग्रह को बनाने के लिए इस पर क्लिक करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A collection cannot contain files. However, you can create additional "
+"collections and *galleries* there. This gallery is only a *gallery data "
+"folder*, i.e. they are not automatically visible on the website.\n"
+"\n"
+"You can create a *visual gallery* by using a shortcode in the Visual Editor "
+"on your pages/postings."
+msgstr ""
+"एक संग्रह बिना फाइल के भी हो सकता है! लेकिन आप यहाँ अन्य संग्रह और *गैलरी* बना सकते हैं! "
+"ऊपर उल्लेखित गैलरी सिर्फ एक *गैलरी डाटा फोल्डर* है, इसका मतलब है कि वो स्वतः ही आपके "
+"सामने होगा(आपकी वेबसाइट)!\n"
+"\n"
+"आप इस *गैलरी डाटा फोल्डर* से विजुअल एडिटर द्वारा आपके पेज/पोस्ट में एक *विजुअल गैलरी* "
+"बना सकते हो!"
+
+#: inc/view/Lang.php:1
+msgid "Click this to create a *new gallery data folder*"
+msgstr "एक *नया गैलरी डाटा फोल्डर* बनाने के लिए इस पर क्लिक करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"A *gallery data folder* can only contain images. It is easier for you to "
+"distinguish where your visual galleries are located.\n"
+"\n"
+"You can also order the images into *a custom image order* per drag&drop."
+msgstr ""
+"एक \"गैलरी डाटा फोल्डर\" सिर्फ फोटोज रख सकता है! आपके लिए यह अंतर करना सरल है कि "
+"आपकी दृश्य गैलरी कहाँ है! आप ड्रैग और ड्रॉप के अनुसार फोटोज को *एक कस्टम फोटो क्रम* में भी "
+"क्रमित कर सकते हैं!"
+
+#: inc/view/Lang.php:1
+msgid "Settings"
+msgstr "सेटिंग"
+
+#: inc/view/Lang.php:1
+msgid "General settings for the current logged in user."
+msgstr "वर्तमान में लोगइन हो रखे उपयोगकर्ता के लिए सामान्य सेटिंग!"
+
+#: inc/view/Lang.php:1
+msgid "Permissions"
+msgstr "अनुमति"
+
+#: inc/view/Lang.php:1
+msgid "Reorder files in this folder"
+msgstr "इस फोल्डर में फाइलों को दुबारा क्रमित करो"
+
+#: inc/view/Lang.php:1
+msgid "Start to reorder the files / images by *title, filename, ID, …*"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Refresh"
+msgstr "रिफ्रेश"
+
+#: inc/view/Lang.php:1
+msgid "Refreshes the current folder view."
+msgstr "वर्तमान फोल्डर दृश्य को रिफ्रेश किया गया!"
+
+#: inc/view/Lang.php:1
+msgid "Rename"
+msgstr "नाम दुबारा सेट करें"
+
+#: inc/view/Lang.php:1
+msgid "Rename the current selected folder."
+msgstr "वर्तमान चुने गये फोल्डर का दुबारा नाम सेट करें!"
+
+#: inc/view/Lang.php:1
+msgid "Delete"
+msgstr "हटाएँ"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folder."
+msgstr "वर्तमान चुने गये फोल्डर को हटाएँ!"
+
+#: inc/view/Lang.php:1
+msgid "Delete the current selected folders."
+msgstr "वर्तमान चुने गये फोल्डरों को हटाएँ!"
+
+#: inc/view/Lang.php:1
+msgid "Rearrange"
+msgstr "दुबारा व्यवस्थित करें"
+
+#: inc/view/Lang.php:1
+msgid "Change the hierarchical order of the folders."
+msgstr "फोल्डरों के श्रेणीबध क्रम को बदलें!"
+
+#: inc/view/Lang.php:1
+msgid "Folder details"
+msgstr "फोल्डर का विवरण"
+
+#: inc/view/Lang.php:1
+msgid "Select a folder and view more details about it."
+msgstr "एक फोल्डर चुनें और इसके बारे में और विवरण देखें!"
+
+#: inc/view/Lang.php:1
+msgid "Product license not yet activated."
+msgstr "प्रोडक्ट का लाइसेंस अभी तक सक्रीय नहीं है!"
+
+#: inc/view/Lang.php:1
+msgid "Enter license"
+msgstr "लाइसेंस दर्ज करें"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss notice"
+msgstr "सुचना ख़ारिज करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"It looks like you have already used another plugin for folders in the media "
+"library."
+msgstr ""
+"ऐसा लगता है कि आपने मीडिया लाइब्रेरी में फ़ोल्डरों के लिए एक और प्लगइन का उपयोग किया है।"
+
+#: inc/view/Lang.php:1
+msgid "Start importing"
+msgstr "आयात करना शुरू करें"
+
+#: inc/view/Lang.php:1
+msgid "Dismiss"
+msgstr "खारिज"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Real Media Library creates a virtual folder structure. The URLs of uploads "
+"do not change when you move the file. Learn more about <a href=\"https://"
+"devowl.io/knowledge-base/how-can-i-physically-reflect-the-virtual-folder-"
+"structure-to-my-file-system/\" target=\"_blank\">how to automatically move "
+"files to physical folders.</a>"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"You will be redirected to the external website of PRO version. Please "
+"confirm to continue!"
+msgstr "आप अपने आप प्रो वर्जन के बाह्य वेबसाइट पर पहुँच जाओगे, जारी रखने के लिए पुष्टि करें!"
+
+#: inc/view/Lang.php:1
+msgid "PRO Feature"
+msgstr "प्रो की विशेषताएँ"
+
+#: inc/view/Lang.php:1
+msgid "Hide for 20 days"
+msgstr "20 दिन ख़ारिज करें"
+
+#: inc/view/Lang.php:1
+msgid "Thanks for using the free version of Real Media Library."
+msgstr "वास्तविक मीडिया लाइब्रेरी लाइट का उपयोग करने के लिए धन्यवाद!"
+
+#: inc/view/Lang.php:1
+msgid "Get PRO!"
+msgstr "प्रो हासिल करें!"
+
+#: inc/view/Lang.php:1
+msgid "I want to learn more!"
+msgstr "मैं और अधिक जानना चाहता हूँ!"
+
+#: inc/view/Lang.php:1
+msgid "No, not interested…"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "You like collections?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get more organized with different types of folders: Collections and "
+"galleries help you to easily recognize where your image galleries are "
+"located."
+msgstr ""
+"विभिन्न प्रकार के फ़ोल्डरों के साथ अधिक व्यवस्थित हों: संग्रह और गैलरी आपको आसानी से "
+"पहचानने में मदद करती हैं कि आपकी छवि गैलरी कहाँ स्थित हैं।"
+
+#: inc/view/Lang.php:1
+msgid "Custom content order?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Get your folder contents in order and arrange your files according to a "
+"criterion (e.g. name descending) or by drag & drop."
+msgstr ""
+"अपनी फोल्डर सामग्री में संगठित करो और एक मापदंड(जैसे-नाम अवरोही क्रम में) द्वारा अपनी "
+"फाइलों को दुबारा से क्रमित करो या ड्रैग और ड्रॉप के माध्यम से!"
+
+#: inc/view/Lang.php:1
+msgid "Full order control?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Organize the nodes within your folder tree according to a criterion (e.g. "
+"name descending) or by drag & drop."
+msgstr ""
+"अपने फोल्डर में मुफ्त में संगठित करो और दुबारा अपने नोडस को एक मापदंड(जैसे-नाम अवरोही क्रम "
+"में) के द्वारा क्रमित करो या ड्रैग और ड्रॉप के माध्यम से!"
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to create subfolders?"
+msgstr "एक नया फोल्डर बनाने के लिए इस पर क्लिक करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"Subfolders offer you the possibility to bring more structure into your media "
+"library. They help you to keep the overview, even if you really have many "
+"files in your media library."
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid "Want to switch between folders more comfortably?"
+msgstr ""
+
+#: inc/view/Lang.php:1
+msgid ""
+"Let the complete folder tree as in your media library also be displayed in "
+"this dialog instead of searching each time in the dropdown. It is simply "
+"more comfortable!"
+msgstr ""
+
+#: inc/view/Lang.php:1
+#, fuzzy
+msgid "Want to upload entire folders?"
+msgstr "एक नया फोल्डर बनाने के लिए इस पर क्लिक करें"
+
+#: inc/view/Lang.php:1
+msgid ""
+"With Real Media Library you can upload entire folders using drag and drop. "
+"All folders, subfolders and files will be uploaded and displayed in your "
+"media library in the same structure. Get PRO to upload folders!"
+msgstr ""
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:General"
+msgstr "RealMediaLibrary:सामान्य"
+
+#: inc/view/Options.php:1
+msgid "Load RML functionality in frontend"
+msgstr "फ्रंटएंड में RML कार्यक्षमता लोड करें"
+
+#: inc/view/Options.php:1
+msgid "RealMediaLibrary:Reset"
+msgstr "RealMediaLibrary:रिसेट"
+
+#: inc/view/Options.php:1
+msgid "Reset the order of all galleries"
+msgstr "गैलरी के क्रम को रिसेट करें"
+
+#: inc/view/Options.php:1
+msgid "Wipe all settings (folders, attachment relations)"
+msgstr "सभी साफ करें सेटिंग(फोल्डर, अटेचमेंट सम्बन्ध)"
+
+#: inc/view/Options.php:1
+msgid "Reset folder count cache"
+msgstr "रिसेट फोल्डर गणना केच"
+
+#: inc/view/Options.php:1
+msgid "Reset names, slugs and absolute pathes"
+msgstr "नाम, स्लग्स और पूर्ण पथों को रिसेट करें"
+
+#: inc/view/Options.php:1
+msgid "Wipe attachment relations"
+msgstr "अटेचमेंट सम्बन्ध को साफ करें"
+
+#: inc/view/Options.php:1
+msgid "Wipe all"
+msgstr "सभी साफ करें"
+
+#: inc/view/Options.php:1
+msgid "Reset count"
+msgstr "रिसेट गणना"
+
+#: inc/view/Options.php:1
+msgid "Reset"
+msgstr "रिसेट"
+
+#: inc/view/Options.php:1
+msgid ""
+"Activate this option if you are using a page builder like Divi Page Builder, "
+"WPBakery Page Builder or Elementor."
+msgstr ""
+"अगर आप Divi Page builder, WPBakery Page Builder, Elementor जैसे पेज बिल्डर का "
+"उपयोग कर रहे हैं तो इस विकल्प को सक्रिय करें"
+
+#: inc/view/Options.php:1
+msgid "You can also reset an single folder in its folder details."
+msgstr "आप फोल्डर का विवरण लेते समय एक अकेले फोल्डर को रिसेट भी कर सकते है!"
+
+#: inc/view/View.php:1
+msgid "All"
+msgstr "सभी"
+
+#: inc/view/View.php:1
+msgid "Unorganized pictures"
+msgstr "असंगठित फोटोज"

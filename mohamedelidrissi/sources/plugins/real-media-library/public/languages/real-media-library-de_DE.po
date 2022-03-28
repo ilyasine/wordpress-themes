@@ -1,0 +1,46 @@
+msgid ""
+msgstr ""
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: n/a\n"
+"PO-Revision-Date: 2021-09-09 12:01+0000\n"
+"Last-Translator: Matthias Günter <matthias.guenter@devowl.io>\n"
+"Language-Team: German <https://translate.devowl.io/projects/wordpress-real-"
+"media-library-frontend-javascript/ci-mojito/de/>\n"
+"Language: de_DE\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.8\n"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Attachment Page"
+msgstr "Anhangsseite"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Media File"
+msgstr "Mediendatei"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "None"
+msgstr "Keine"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Gallery Settings"
+msgstr "Galerieeinstellungen"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Columns"
+msgstr "Spalten"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Crop Images"
+msgstr "Bilder zuschneiden"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Caption"
+msgstr "Unterschrift"
+
+#: rml_gutenberg.lite.js:1 rml_gutenberg.pro.js:1
+msgid "Link To"
+msgstr "Link zu"

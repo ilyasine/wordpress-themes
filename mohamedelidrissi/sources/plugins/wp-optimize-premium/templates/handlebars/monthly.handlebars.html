@@ -1,0 +1,9 @@
+<label>{{details.time}}
+<input type="time" class="{{details.class_name}}" name="wp-optimize-auto[{{details.count}}][time]" value="{{details.time_value}}">
+</label>
+<label>{{details.day_number}}</label>
+<select class="wpo_day_number" name="wp-optimize-auto[{{details.count}}][day_number]">
+    {{#each details.days}}
+    <option value="{{@key}}">{{this}}</option>
+    {{/each}}
+</select>
