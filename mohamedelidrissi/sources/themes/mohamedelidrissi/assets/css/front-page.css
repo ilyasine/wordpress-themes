@@ -540,6 +540,7 @@ ul.post-categories li a{
   -webkit-user-drag: none;
   user-select: none;
   -moz-user-drag: none;
+  max-width: initial;
 }
 
 .about_img {
@@ -787,7 +788,6 @@ ul.post-categories li a{
     -webkit-user-drag: none;
     user-select: none;
     -moz-user-drag: none;
-    
 }
 
 .about_img {
