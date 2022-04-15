@@ -62,7 +62,7 @@
 span.cursor {
   background-color: #389b12;
   margin: 0.1rem;
-  width: 2px;
+  width: 3px;
   border-radius: 100%;
   animation: blink 1s infinite;
 }

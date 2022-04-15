@@ -1627,7 +1627,7 @@ cite.fn ,cite.fn > a {
     display: none;
     color: #fff;
     text-shadow: -1px -1px 2px #000000ba;
-    background: linear-gradient(#35bd00,#54C058)4px 80%/12px 15px no-repeat,
+    background: linear-gradient(#35bd00,#54C058) 4px 80%/12px 15px no-repeat,
                 radial-gradient(#35bd00 58%,transparent 0);
     transition: .4s ease-in-out;            
     -webkit-transition: .4s ease-in-out;            

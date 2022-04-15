@@ -192,9 +192,9 @@ Array.from(slideimages, (slideimg) => {
    }
 
    //Touch Events
-   slideimg.addEventListener('touchstart', touchStart(counter));
-   slideimg.addEventListener('touchend', touchEnd);
-   slideimg.addEventListener('touchmove', touchMove);
+   slideimg.addEventListener('touchstart', touchStart(counter), {passive: true});
+   slideimg.addEventListener('touchend', touchEnd, {passive: true});
+   slideimg.addEventListener('touchmove', touchMove, {passive: true});
 
    //Mouse Events
    slideimg.addEventListener('mousedown', touchStart(counter));
@@ -391,9 +391,9 @@ const atouchEnd = () => {
 
 
 //Touch Events
-audio_container.addEventListener('touchstart', atouchStart(audio_counter));
-audio_container.addEventListener('touchend', atouchEnd);
-audio_container.addEventListener('touchmove', atouchMove);
+audio_container.addEventListener('touchstart', atouchStart(audio_counter), {passive: true});
+audio_container.addEventListener('touchend', atouchEnd, {passive: true});
+audio_container.addEventListener('touchmove', atouchMove, {passive: true});
 
 //Mouse Events
 audio_container.addEventListener('mousedown', atouchStart(audio_counter));
@@ -598,9 +598,9 @@ const vtouchEnd = () => {
 
 
 //Touch Events
-video_container.addEventListener('touchstart', vtouchStart(video_counter));
-video_container.addEventListener('touchend', vtouchEnd);
-video_container.addEventListener('touchmove', vtouchMove);
+video_container.addEventListener('touchstart', vtouchStart(video_counter), {passive: true});
+video_container.addEventListener('touchend', vtouchEnd, {passive: true});
+video_container.addEventListener('touchmove', vtouchMove, {passive: true});
 
 //Mouse Events
 video_container.addEventListener('mousedown', vtouchStart(video_counter));
@@ -804,9 +804,9 @@ const btouchEnd = () => {
 
 
 //Touch Events
-blog_container.addEventListener('touchstart', btouchStart(blog_counter));
-blog_container.addEventListener('touchend', btouchEnd);
-blog_container.addEventListener('touchmove', btouchMove);
+blog_container.addEventListener('touchstart', btouchStart(blog_counter), {passive: true});
+blog_container.addEventListener('touchend', btouchEnd, {passive: true});
+blog_container.addEventListener('touchmove', btouchMove, {passive: true});
 
 //Mouse Events
 blog_container.addEventListener('mousedown', btouchStart(blog_counter));
