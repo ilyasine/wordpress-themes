@@ -19,7 +19,7 @@ get_header();
              <div class="slider">
   
              <?php foreach ( get_field('gallery_image','options') as $image) : ?> 
-                  <img src = "<?php echo $image ?>" loading="lazy"/>
+                  <img src = "<?php echo $image ?>" />
                <?php endforeach;?>
 
              </div>

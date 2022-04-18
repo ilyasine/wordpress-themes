@@ -53,6 +53,10 @@ Header append Vary User-Agent env=!dont-vary
 	ExpiresByType image/jpeg "access plus 2592000 seconds"
 	
 	ExpiresByType image/png "access plus 2592000 seconds"
+
+	ExpiresByType image/webp "access plus 2592000 seconds"
+
+	ExpiresByType image/svg "access plus 2592000 seconds"
 	
 	ExpiresByType image/gif "access plus 2592000 seconds"
 	
@@ -77,6 +81,7 @@ Header append Vary User-Agent env=!dont-vary
 	ExpiresByType application/x-javascript "access plus 2592000 seconds"
 	
 	ExpiresByType application/x-shockwave-flash "access plus 2592000 seconds"
+
 	
 </IfModule>
 
@@ -109,6 +114,20 @@ Header append Vary User-Agent env=!dont-vary
 		Header set Cache-Control "max-age=7200, public"
 		
 	</filesMatch>
+
+	<filesMatch "\.(ico|jpg|woff2|woff|css|jpeg|png|gif|webp|mp3|swf)$">
+		Header set Cache-Control "max-age=84600, public"
+	</filesMatch>
+	<filesMatch "\.(css)$">
+		Header set Cache-Control "public"
+	</filesMatch>
+	<filesMatch "\.(js)$">
+		Header set Cache-Control "private"
+	</filesMatch>
+	<filesMatch "\.(x?html?|php)$">
+		Header set Cache-Control "private, must-revalidate"
+	</filesMatch>
+
 	
 # Disable caching for scripts and other dynamic files
 	
@@ -152,3 +171,18 @@ FileETag none
 # protection de la lecture des répertoires
 
 Options -Indexes
+
+# Security Headers
+<IfModule mod_headers.c>
+	Header set X-XSS-Protection "1; mode=block"
+	Header set X-Frame-Options "SAMEORIGIN"
+	Header set X-Content-Type-Options "nosniff"
+	Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains"
+	Header set Referrer-Policy "same-origin"
+	Header set Feature-Policy "geolocation 'self'; vibrate 'none'"
+	Header set Strict-Transport-Security "max-age=31536000" env=HTTPS
+	Header set Permissions-Policy "accelerometer=Origin(), autoplay=(), camera=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=(), usb=()"
+	# Header set Content-Security-Policy ...
+	Header set Access-Control-Allow-Origin "*"
+	#Header set Content-Security-Policy "default-src 'self'; script-src https: 'unsafe-inline'; img-src 'self' data: *.facebook.com ; style-src https: 'unsafe-inline'; object-src 'self'; frame-ancestors 'none'; frame-src 'self' *.youtube.com *.facebook.com *.google.com; connect-src 'self' *.facebook.com *.youtube.com; base-uri 'self';form-action 'self'; font-src https: data: 'self' ; upgrade-insecure-requests; block-all-mixed-content"
+</IfModule>

@@ -1011,6 +1011,7 @@ justify-self: flex-end;
  
   .sidebar {
     width: 60vw;
+    margin: auto;
     margin-top: 20px;
     position: relative; 
   }
