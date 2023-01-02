@@ -1,0 +1,83 @@
+.bloc_rubrique {
+	// .bloc_rubrique_head
+	&_head {
+		display: flex;
+		@include align-items(flex-end);
+		@include flex-flow(row);
+		@include justify-content(space-between);
+		margin-bottom: 20px;
+		.default-title {
+			margin-bottom: 0;
+		}
+		.more_cat {
+			font-size: 16px;
+			color: #a3a3a3;
+			text-transform: uppercase;
+			font-family: $robotocondensedbold;
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}
+
+.categories-list {
+	margin-bottom: 10px;
+	ul{
+		margin-bottom: 0;
+	}
+	&, a {
+		color: #a3a3a3;
+		font-family: $robotocondensedbold;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	li {
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+	}
+	//.categories-list a:hover
+	a:hover{
+		color: #000;
+	}
+}
+.more_cat{
+	font-size: 14px;
+	font-family: $robotocondensedbold;
+	text-align: right;
+	text-transform: uppercase;
+}
+.cat_image{
+	padding: 15px 0;
+}
+
+.category_image , .cat_excerpt{
+	padding: 15px 0;
+}
+.category_image{
+	img {
+		width: 211px;
+		height: 160px;
+	}
+}
+
+.cat_excerpt{
+	font-family: $robotocondensedregular !important;
+}
+
+.cat_name{
+	font-weight: bold;
+	text-transform: uppercase;
+	font-family: $robotocondensedbold !important;
+}
+
+.rubrique-ma-retraite-facile{
+	img{
+		width: 100%;
+		height: auto;
+	}
+	h2 > a{
+		font-size: 28px;
+	}
+}

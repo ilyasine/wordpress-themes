@@ -1,0 +1,64 @@
+@import "compass/css3";
+@import "utils/variables";
+
+$font-family-base: $robotocondensedregular;
+$main-color: #f44336; 
+
+@import "../../../../reworldmedia/assets/bootstrap-sass/sass/widget_ops";
+
+.post .three-ops-posts{
+	margin: 10px;
+	border-left-width: 2px;
+	border-width: 2px;
+	margin-bottom: 20px;
+	ul{
+		padding-left: 15px;
+		li {
+			position: relative;
+			list-style: none;
+			&:before {
+				content: "";
+				width: 5px;
+				height: 5px;
+				position: absolute;
+				left: -15px;
+				top: 50%;
+				@include translateY(-50%);
+				@include border-radius(10px);
+				background-color: $main-color;
+			}
+		}
+	}
+	h3{
+		font-family: $robotocondensedbold;
+		font-size: 18px;
+		font-weight: normal;
+		margin-top: 0;
+	}
+	a{
+		color: #000;
+		font-size: 18px;
+		font-weight: 400;
+	}
+}
+
+#content{
+	.three-ops-categories{
+		.thumbnail{
+			margin-bottom: 0px;
+			min-height:120px;
+		}
+	}
+}
+
+.page-no-sidebar{
+	.three-ops-posts{
+		float: left;
+	}
+}
+
+@media (max-width: 767px) {
+	#content .post .three-ops-posts{
+		margin: 40px 0;
+	}
+}

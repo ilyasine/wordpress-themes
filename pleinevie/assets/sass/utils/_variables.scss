@@ -1,0 +1,86 @@
+@import "../../../../reworldmedia/assets/bootstrap-sass/sass/bootstrap-v3/variables";
+
+$brand-primary: #e1160c;
+$brand-primary-light: #f19d99;
+
+$robotocondensedbold: 'RobotoCondensedBold',  $font-family-sans-serif;
+$robotocondensedregular: 'RobotoCondensedRegular',  $font-family-sans-serif;
+$poppins-regular: 'Poppins-Regular',  $font-family-sans-serif;
+$poppins-medium: 'Poppins-Medium',  $font-family-sans-serif;
+$poppins-semibold: 'Poppins-SemiBold',  $font-family-sans-serif;
+$poppins-bold: 'Poppins-Bold',  $font-family-sans-serif;
+$poppins-black: 'Poppins-Black',  $font-family-sans-serif;
+$poppins-italic: 'Poppins-Italic',  $font-family-sans-serif;
+$poppins-lightitalic: 'Poppins-lightitalic',  $font-family-sans-serif;
+$poppins-light: 'Poppins-Light',  $font-family-sans-serif;
+$fontawesome-brands:'fontawesome-brands';
+$fontawesome: 'fontawesome-solid';
+$montserrat : 'Montserrat';
+$rubik-regular: 'Rubik-Regular',  $font-family-sans-serif;
+
+$body_font: $robotocondensedregular;
+
+$btn_font: $robotocondensedbold;
+$btn_font_size: 16px;
+
+$info_cat_font: $robotocondensedbold;
+$info_cat_font_size: 14px;
+
+$homeMoreArticles_head_bottom_margin: 5px;
+
+$default-title-color: #000;
+$default-title-font: $robotocondensedbold;
+$default-title-size: 32px;
+
+$navbar-nav-font-size: 14px;
+$navbar-nav-font-family: $robotocondensedbold;
+$navbar-nav-hover-bg: #fff;
+$navbar-nav-hover-color: #000;
+
+$post_title_font: $robotocondensedregular;
+$post_title_font_size: 20px;
+$post_title_margin_top: 5px;
+
+$post_date_font: $robotocondensedregular;
+$post_date_font_size: 13px;
+$post_date_font_color: #222;
+
+$widgetLegende_bg_color: $brand-primary;
+$caption_font: $robotocondensedbold;
+$caption_font_color: #fff;
+$number_tumb_color: #fff;
+$caption_font_size: 16px;
+$widgetLegende_font_size: 16px;
+
+$footer_bg_color: #000;
+
+
+//== Thumbnails
+$thumbnail-padding: 0;
+$thumbnail-bg: transparent;
+$thumbnail-border-radius: 0;
+$thumbnail-caption-color: #000;
+$thumbnail-caption-padding: 0;
+
+//== Btn
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $brand-primary;
+$btn-border-radius-base: 0;
+$btn-border-radius-large: 0;
+$btn-border-radius-small: 0;
+
+//== Modal
+$modal-backdrop-bg: $brand-primary;
+$modal-backdrop-opacity: .9;
+
+//== Breadcrumb
+$breadcrumb-padding-vertical:   0;
+$breadcrumb-padding-horizontal: 0;
+$breadcrumb-bg: transparent;
+$breadcrumb-color: #000;
+$breadcrumb-active-color: #000;
+$breadcrumb-separator: "\f054";
+
+$didomi-background-highlight-button:$brand-primary !important;
+$didomi-color-highlight-button:#ffffff !important;

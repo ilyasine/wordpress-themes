@@ -1,0 +1,50 @@
+@mixin post_title(){
+	a:hover{
+		color: $brand-primary;
+	}
+}
+@mixin post_cat(){
+	.info_cat {
+		top: auto;
+		left: 50%;
+		bottom: 0;
+		margin-bottom: 0;
+		@include translateX(-50%);
+	}
+}
+.thumbnail {
+	// .thumbnail-visu
+	&-visu{
+		position: relative;
+	}
+	.caption {
+		text-align: center;
+	}
+	.title-item-home, h2 {
+		@include post_title;
+	}
+	@include post_cat;
+}
+
+.post {
+	// .post_img, .post-item-img
+	&-item-img,
+	&_img{
+		position: relative;
+	}
+	// .post_caption, .post-item-txt
+	&-item-txt,
+	&_caption{
+		text-align: center;
+	}
+	// .post_title
+	.title_push,
+	&_title{
+		@include post_title;
+	}
+	@include post_cat;
+	.center-external-media{
+		position: relative;
+	}
+	
+}

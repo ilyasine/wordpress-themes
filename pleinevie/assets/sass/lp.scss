@@ -1,0 +1,233 @@
+@import "utils/variables";
+
+#content .content.left {
+    width: 100%;
+    box-sizing: content-box;
+    padding:0;
+}
+.sidebar-wrapper,#header-menu-icons ,#newsfeed,.menu,.header-abo{
+   display: none;
+}
+@media (max-width: $screen-xs) {
+    #header-menulink{
+        display: none;
+    }
+    .header-logo{
+        margin:auto !important;
+    }
+           
+}
+
+
+.container-fluid {
+    padding-left:0 !important;
+    padding-right:0 !important;
+    font-family: "Roboto Condensed";
+    .emplacement_smart.int_pub, .breadcrumb { display: none; }
+    p {
+        margin: 0;
+        font-family: 'roboto_condensed_light';
+        span { font-family: "roboto_condensed_bold"; }
+    }
+    .boxes-AlloPV {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-bottom: 60px;
+        .boxe-AlloPV {
+            display: flex;
+            padding: 50px 20px;
+            background: #fff;
+            &__icon {
+                width: 120px;
+                height: 60px;
+                background-repeat: no-repeat;
+                background-position: center;
+                align-self: center;
+            }
+            &__text {
+                align-self: center;
+                h4 { margin: 0; }
+                p { font-size: 16px; }
+            }
+           
+        }
+    }
+    .alloPV__btn {
+        display: inline-block;
+        padding: 10px 10px;
+        background-color: #d10d05;
+        color: #ffffff;
+        font-family: "roboto_condensed_bold";
+        font-size: 20px;
+        text-transform: uppercase;
+        text-decoration: none;
+        cursor: pointer;
+        .alloPV_tele {
+            white-space: nowrap;
+            a{
+                color: #FFF;
+            }
+
+        }
+    }
+    .block-title { 
+        font-size: 25px;
+        text-transform: uppercase;
+        font-family: "roboto_condensed_bold";
+        text-align: center;
+    }
+    .header-AlloPV {
+        height: 555px;
+        background: url("../images/allo-pleinevie/bg.png") no-repeat ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        &_intro {
+            padding-top: 100px;
+            &__text {
+                width: 500px;
+                margin: 20px 0;
+                line-height: 46px;
+                color: #ffffff;
+                font-size: 34px;
+                font-family: "roboto_condensed_bold";
+                text-transform: uppercase;
+            }
+        }
+    }
+    .info-AlloPV {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        margin-top: 50px;
+        margin-bottom: -11px;
+        &__title { 
+            text-transform: uppercase;
+            font-size: 25px;
+            color: #d10e06;
+            font-weight: bold;
+        }
+        &__text{ 
+            flex: 0 0 60%;
+            p { 
+                margin-bottom: 20px;
+                font-size: 18px;
+                width: 75%;
+                @media (max-width: $screen-xs) {
+                    width: 100%;
+                 }
+             }
+        }
+        &__img {  
+            flex: 0 0 40%;
+            img { width: 100%; }
+        }
+    }
+    .propositions-AlloPV {
+        background: #e9f4f4;
+        .block-title { color: #d10e06; }    
+        .boxes-AlloPV {
+            .boxe-AlloPV {
+                flex: 0 0 48%;
+                &:first-child {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/proposition1.png") no-repeat; }
+                }
+                &:nth-child(2) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/proposition2.png") no-repeat; }
+                }
+                &__text {
+                    h4 {
+                        font-family: "roboto_condensed_bold";
+                        font-size: 21px;
+                        line-height: 21px;
+                        color: #273583;
+                        text-transform: uppercase;
+                    }
+                } 
+            } 
+        }    
+    }
+    .contactez-nous-AlloPV {
+        padding: 40px 0;
+        background-color: #283583;
+        color: #fff;
+        .container { 
+            text-align: center;
+            p {
+                margin-bottom: 20px;
+                font-size: 20px;
+            }
+            .alloPV__btn { margin: 0 auto; }
+        }
+    }
+    .moment-AlloPV {
+        margin-top: 50px;
+        .block-title { color: #283583; }    
+        .boxes-AlloPV {
+            .boxe-AlloPV {
+                flex: 0 0 30%;
+                margin: 20px 0;
+                background-color: #e9f4f4;
+                &:first-child {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon1.png") no-repeat; }
+                } 
+                &:nth-child(2) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon2.png") no-repeat; }
+                }
+                &:nth-child(3) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon3.png") no-repeat; }
+                }
+                &:nth-child(4) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon4.png") no-repeat; }
+                }
+                &:nth-child(5) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon5.png")no-repeat; }
+                }
+                &:nth-child(6) {
+                    .boxe-AlloPV__icon { background: url("../images/allo-pleinevie/icon6.png") no-repeat; }
+                }
+                &__text {
+                    p {
+                        font-family: "roboto_condensed_bold";
+                        font-size: 16px;
+                        line-height: 16px;
+                        color: #273583;
+                    }
+                } 
+            } 
+        } 
+    }
+    @media (max-width: $screen-xs) {
+        .header-AlloPV {
+            height: 450px ;
+            background-repeat: no-repeat;
+            background-position: bottom;
+            &_intro { 
+                text-align: center;
+                &__text {
+                    width: 100%;
+                    font-size: 20px;
+                    line-height: 30px;
+                }
+                &__btn {
+                    width: 100%;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+            }
+        }
+        .info-AlloPV { 
+            &__text, &__img {
+                flex-basis: 100%;
+            }
+        }
+        .propositions-AlloPV .boxe-AlloPV__icon { margin-right: 20px; }
+        .boxes-AlloPV .boxe-AlloPV { 
+            flex-basis: 100% !important;
+            margin-top: 20px;
+            padding: 30px 10px;
+            &___text { font-size: 16px ;}
+        }
+    }
+}

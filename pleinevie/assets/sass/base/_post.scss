@@ -1,0 +1,96 @@
+.post{
+	overflow: hidden;
+	// .post-excerpt
+	&-excerpt,
+	.excerpt{
+		font-size: 20px;
+		color: #000;
+		font-weight: 600;
+		font-family: $robotocondensedbold;
+		margin-top: 0 !important;
+	}
+	// .post-excerpt
+	&-excerpt {
+		margin-bottom: 20px;
+		.wpcf_headline{
+			font-family: $robotocondensedbold;
+    		font-size: 16px;
+		}
+		.wpcf_ent{
+			font-family: $robotocondensedregular;
+    		font-size: 16px;
+    		font-weight:100;
+		}
+	}
+}
+#top_intro_article {
+	padding-bottom: 10px;
+	// .post_info_title
+	.title{
+		font-family: $robotocondensedregular;
+		font-size: 32px;
+		margin-top: 0;
+		margin-bottom: 10px;
+	}
+	.publish_date, .author_recette, .date_recette, .edited_date{
+		&:after {
+			content: "|";
+			margin-left: 5px;
+			margin-right: 5px;
+		}
+	}
+	.publish_date, .author_recette, .date_recette, .edited_date, .post_author{
+		font-family: $robotocondensedregular;
+		font-size: 14px;
+		color: #77777e;
+	}
+}
+
+#results{
+	background-color: #fff;
+	margin-bottom: 30px;
+}
+
+.image_top_single,
+.post iframe{
+	margin-bottom: 20px;
+}
+
+.article_body_content{
+	&,p{
+		font-family: $robotocondensedregular;
+		font-size: 18px;
+		a{
+			color: $brand-primary;
+			font-weight: bold;
+			text-decoration: none;
+			&:hover {
+				color: #275857;
+			}
+		}
+	}
+	h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6{
+		font-family: $robotocondensedbold;
+	}
+	ul {
+		li {
+			list-style-type: circle;
+		}
+	}
+}
+
+blockquote {
+	padding: 0;
+	border-left: none;
+	font-size: 18px;
+	font-style: italic;
+}
+.top_img{
+	display: block;
+	margin-bottom: 20px;
+}
+.comment-form{
+	.comment-area{
+		padding:0px;
+	}
+}

@@ -1,0 +1,64 @@
+.pagination{
+    text-align: left;
+    .page-numbers {    
+	    border: solid #e6e6e6 0.1px;
+	    margin: 0px 3px;
+	    height: 40px;
+
+        >span{
+        	padding: 0;
+        }
+        >a{
+        	margin-left:0 ;
+        	padding-top: 6px;
+			&.last{
+				&:after{
+		        	background-image: url('../../../pleinevie/assets/images/pagination_arrows.png');
+					background-size : 15px;
+					background-position: center;
+				}
+			}
+			&.first{
+				&:after{
+		        	background-image: url('../../../pleinevie/assets/images/previous.png');
+					background-size : 15px;
+					background-position: center;
+				}
+			}
+			&.next{
+				font-size: 14px;
+				text-indent:0px;
+				text-transform: uppercase;
+				&:after{
+					display: none;
+				}
+			}
+			&.prev{
+				font-size: 14px;
+				text-indent:0px;
+				&:after{
+					display: none;
+				}
+			}        	 	
+        }        
+        &.active{
+        	a{
+	            background-color: $brand-primary;
+	            color: #fff;
+	            width: 40px;
+			    height: 40px;
+			    text-align: center;
+			    margin: 0;
+			    border:$brand-primary;
+	        }
+	    }
+	}
+	.last-numbers {
+		position: absolute;
+		right: 0;     	
+	}	
+	.next-page{
+		position: absolute;
+    	right: 45px;
+    }		
+}

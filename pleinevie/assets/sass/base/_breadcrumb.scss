@@ -1,0 +1,17 @@
+.breadcrumb {
+	margin-bottom: 10px;
+	>li {
+		+li:before {
+			content: none;
+		}
+		&:not(:last-child){
+			margin-right: 10px;
+		}
+		> a{
+			background-color: $brand-primary;
+			padding: 5px 10px 3px 10px;
+			color: #fff;
+			font-family: $robotocondensedbold;
+		}
+	}
+}

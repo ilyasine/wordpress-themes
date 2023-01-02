@@ -1,0 +1,397 @@
+@charset "UTF-8";
+@import "compass/css3";
+
+@import "utils/variables";
+
+// Font Brand Apercu Pro
+@font-face {
+    font-display: swap;
+    font-family: 'apercu_pro_light';
+    src: url('../../../assets/fonts/ApercuPro/ApercuPro-Light.eot');
+    src: url('../../../assets/fonts/ApercuPro/ApercuPro-Light.eot?#iefix') format('embedded-opentype'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Light.woff2') format('woff2'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Light.woff') format('woff'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-display: swap;
+    font-family: 'apercu_pro_bold';
+    src: url('../../../assets/fonts/ApercuPro/ApercuPro-Bold.eot');
+    src: url('../../../assets/fonts/ApercuPro/ApercuPro-Bold.eot?#iefix') format('embedded-opentype'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Bold.woff2') format('woff2'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Bold.woff') format('woff'),
+         url('../../../assets/fonts/ApercuPro/ApercuPro-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+// Font Brand DM Serif Display
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+$dm-serif-display: 'DM Serif Display', $font-family-sans-serif;
+$apercu-pro-bold: 'apercu_pro_bold', $font-family-sans-serif;
+$apercu-pro-light: 'apercu_pro_light', $font-family-sans-serif;
+$gray-light : #f1f1f1;
+
+.row-flex-center {
+    display: flex;
+    @include flex-wrap(wrap);
+    position: relative;
+    @include justify-content(center);
+    @include align-items(center);
+}
+
+body{
+    font-family: $apercu-pro-light !important;
+}
+
+.title-heading {
+    font-family: $dm-serif-display !important;
+    font-size: 35px;
+    font-weight: normal;
+}
+
+header{
+    margin-bottom:0 !important;
+}
+.container-fluid{
+    padding: 0 !important;
+}
+.btn-lp {
+    border: none;
+    @include border-radius(2px);
+    display: inline-block;
+    font-family: $apercu-pro-bold !important;
+    font-size: 18px;
+    padding: 10px 20px;
+    &.btn-primary {
+        background-color: $brand-primary;
+        color: $btn-primary-color;
+    }
+    &.btn-light {
+        background-color: $btn-primary-color;
+        color: $brand-primary;
+    }
+}
+
+.hero-leadsPV {
+    display: flex;
+    @include align-items(center);
+    @include justify-content(center);
+    background: url("../images/les-girandieres/bg-hero.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px 0;
+    //.hero-leadsPV_intro
+    &_intro {
+        text-align: left;
+        img {
+            width: 200px;
+        }
+        p {
+            font-size: 22px;
+            padding-top: 20px;
+            text-transform: uppercase;
+        }
+        h1 {
+            font-family: $dm-serif-display !important;
+            font-size: 54px;
+            font-weight: normal;
+        }
+        span {
+            background-color: $brand-primary;
+            color: $btn-primary-color;
+            display: inline-block;
+        }
+    }
+    //.hero-leadsPV_form-card
+    &_form-card {
+        background-color: $body-bg;
+        padding: 15px;
+        h2 {
+            color: $brand-primary;
+            margin: 20px 0;
+            text-align: center;
+            padding: 0 50px;
+        }
+        label {
+            font-size: 16px;
+            margin-bottom: 5px;
+            text-transform: uppercase;
+            font-family: $apercu-pro-bold !important;
+            .ninja-forms-req-symbol{
+                color: $brand-primary;
+            }
+        }
+        input, select, textarea{
+            border-color: #ddd;
+            @include border-radius(0);
+            height: 40px;
+            font-size: 17px;
+        }
+        textarea{
+            height: 120px !important;
+        }
+        .ninja-forms-cont{
+            .one-half-wrap {
+                float: left;
+                margin-left: 2.564102564102564%;
+                width: 48.717948717948715%;
+            }
+            .first-wrap, .full-wrap, .g_recaptcha-wrap {
+                clear: both;
+                margin-left: 0;
+            }
+            select {
+                @include appearance(none);
+                background-image: url("../images/les-girandieres/select_red_arrow.png");
+                background-repeat: no-repeat;
+                background-position: right center;
+                option:first-child {
+                    display: none;
+                }
+            }
+            .form-horizontal {
+                .form-group {
+                    margin-right: 0;
+                }
+                .ninja-forms-required-items {
+                    display: none;
+                }
+                .ninja-forms-error{
+                    .ninja-forms-req{
+                        border-color: $brand-primary;
+                    }
+                    .ninja-forms-field-error{
+                        color: #d9534f;
+                    }
+                }
+                .field-wrap {
+                    > div {
+                        width: 100%;
+                        padding-right: 0;
+                        padding-left: 0;
+                    }
+                }
+                .control-label {
+                    text-align: left;
+                    width: 100%;
+                    padding-left: 0;
+                    padding-right: 0;
+                }
+                .hidden-wrap{
+                    margin: 0;
+                }
+            }
+            .button-envoyer{
+                background-color: $brand-primary;
+                border: none;
+                color: $btn-primary-color;
+                cursor: pointer;
+                font-family: $apercu-pro-bold !important;
+                font-size: 17px;
+                font-weight: 600;
+                padding: 10px;
+                text-transform: uppercase;
+                width: 100%;
+            }
+            @media (max-width: $screen-sm){
+                .one-half-wrap {
+                    width: 100%;
+                    margin-left: 0;
+                }
+            }
+        }
+        .ninja-forms-field-error p{
+            display: inline-block;
+            margin: auto 15px;
+        }
+        .ninja-forms-success-msg, .ninja-forms-error-msg {
+            font-size: 18px;
+            padding: 5px 10px;
+        }
+        .ninja-forms-error-msg {
+            display: none;
+            background-color: #f3bbbb;
+            color: #dd3c3c;
+        }
+        .ninja-forms-success-msg{
+            background-color: #c8e6ca;
+            color: #345c3d;
+            
+        }
+    }
+}
+.ninja_options{
+    ul{
+        margin: 10px 0;
+        padding: 0;
+        list-style: none;
+        li{
+            display: inline-block;
+            width: auto;
+            position: relative;
+            padding-left: 20px;
+            margin-right: 20px;
+            label{
+                margin-bottom: 0;
+                margin-left: 5px;
+                text-transform: none;
+                font-family: $apercu-pro-light !important;
+                font-size: 15px;
+            }
+            input[type="radio"] {
+                @include appearance(none);
+                width: 20px;
+                height: 20px;
+                padding: 3px;
+                margin: 0;
+                background-clip: content-box;
+                border: 2px solid #bbbbbb;
+                @include border-radius(50px);
+                position: absolute;
+                left: 0;
+                outline: none;
+            }
+            input[type="radio"]:checked {
+                background-color: $brand-primary;
+            }
+        }
+    }
+}
+.sejour-leadsPV {
+    padding: 60px 0;
+    //.sejour-leadsPV_left
+    &_left {
+        padding-right: 30px;
+        h2 {
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        ul {
+            list-style: none;
+            font-size: 20px;
+            margin: 15px 0 0 0;
+            padding: 0;
+        }
+    }
+    //.sejour-leadsPV_right
+    &_right {
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+.leadsPV-title {
+    font-size: 18px;
+    text-align: center;
+    .icon-girandieres {
+        width: 30px;
+    }
+}
+.about-leadsPV {
+    background-color: $gray-light;
+    font-family: $apercu-pro-bold !important;
+    font-size: 18px;
+    padding: 60px 0;
+    text-align: center;
+    .row {
+        display: flex;
+        @include flex-wrap(wrap);
+    }
+    .card-item {
+        background-color: #FFF;
+        height: 100%;
+        padding: 15px;
+        text-align: center;
+        img {
+            width: 60px;
+            margin-bottom: 10px;
+        }
+    }
+    a{
+        text-transform: uppercase;
+    }
+}
+.services-leadsPV {
+    padding: 60px 0;
+    .card-item {
+        height: 350px;
+        overflow: hidden;
+        .card-img {
+            height: 80%;
+        }
+        .card-title {
+            height: 20%;
+        }
+        img{
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        h4 {
+            font-family: $apercu-pro-bold !important;
+            font-size: 17px;
+            margin-top: 20px;
+        }
+    }
+}
+.our-zones-leadsPV {
+    background-color: $brand-primary;
+    color: $btn-primary-color;
+    padding: 60px 0;
+    text-align: center;
+    .maps {
+        margin-top: 20px;
+        height: 580px;
+        width: 100%;
+        iframe {
+            border: none;
+            width: 100%;
+        }
+    }
+    a{
+        text-transform: uppercase;
+    }
+    hr {
+        border-top: 1px solid #f3f3f354;
+        width: 70%;
+    }
+    h4 {
+        font-family: $apercu-pro-bold !important;
+        margin-top: 18px;
+        text-transform: uppercase;
+    }
+}
+
+@media (max-width: $screen-sm) {
+    .hero-leadsPV {
+        //.hero-leadsPV_intro
+        &_intro {
+            p {
+                font-size: 17px;
+            }
+            h1 {
+                font-size: 40px;
+            }
+        }
+        //.hero-leadsPV_form-card
+        &_form-card {
+            h2 {
+                font-size: 30px;
+                padding: 0 20px;
+            }
+            label {
+                font-size: 16px;
+            }
+        }
+    }
+    .mb-xs-2 {
+        margin-bottom: 20px;
+    }
+}

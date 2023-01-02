@@ -1,0 +1,60 @@
+@import 'utils/fonts';
+@import 'utils/variables';
+
+body, .amp-wp-meta, .amp-wp-header div, .amp-wp-title, .wp-caption-text, .amp-wp-tax-category, .amp-wp-tax-tag, .amp-wp-comments-link, .amp-wp-footer p, .back-to-top{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-weight: 400;	
+}
+.amp-wp{
+	//.amp-wp-header
+	&-header{
+		background-color: $brand-primary;
+	}
+	//.amp-wp-footer
+	&-footer{
+		background-color: $footer_bg_color;
+	}
+	&-article{
+		.excerpt p {
+    		font-weight: 600;
+		}
+	}
+	&-article-content{
+	    p {
+		    font-size: 16px;
+		    font-weight: 300;
+		    line-height: 1.5em;
+		    color: #333;
+		    word-wrap: break-word;
+		    overflow-wrap: break-word;
+		    word-break: break-word;
+		}
+		a {
+			color: $brand-primary;
+   			text-decoration: none;
+
+		}
+		ul {
+			margin-bottom: 10px;
+		}
+		.diaporama{
+			&-item-count{
+   				color:  $brand-primary;
+			}
+			&-item-title{
+				font-size:16px;
+			}
+		}
+	}
+
+
+}//\.amp-wp
+
+.amp-wp{
+	//.amp-wp-footer
+	&-footer{
+		a{
+			color: #000;
+		}
+	}
+}

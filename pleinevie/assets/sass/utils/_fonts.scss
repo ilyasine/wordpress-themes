@@ -1,0 +1,44 @@
+@font-face {
+	font-family: 'RobotoCondensedBold';
+	font-display: swap;
+	src: url('../../../assets/fonts/robotocondensed/robotocondensed-bold.eot');
+	src: url('../../../assets/fonts/robotocondensed/robotocondensed-bold.eot') format('embedded-opentype'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-bold.svg#robotocondensed-bold') format('svg'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-bold.woff') format('woff'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: 'RobotoCondensedRegular';
+	font-display: swap;
+	src: url('../../../assets/fonts/robotocondensed/robotocondensed-regular.eot');
+	src: url('../../../assets/fonts/robotocondensed/robotocondensed-regular.eot') format('embedded-opentype'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-regular.svg#robotocondensed-regular') format('svg'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-regular.woff') format('woff'),
+		 url('../../../assets/fonts/robotocondensed/robotocondensed-regular.ttf') format('truetype');
+}
+
+
+@font-face {
+	font-family: 'fontawesome-solid';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url("../../../assets/fonts/fontawesome/fa-solid-900.eot");
+	src: url("../../../assets/fonts/fontawesome/fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+		url("../../../assets/fonts/fontawesome/fa-solid-900.woff") format("woff"), 
+		url("../../../assets/fonts/fontawesome/fa-solid-900.ttf") format("truetype"), 
+		url("../../../assets/fonts/fontawesome/fa-solid-900.svg#fontawesome") format("svg"); 
+}
+
+@font-face {
+	font-family: 'fontawesome-brands';
+	font-style: normal;
+	font-weight: 400;
+	font-display: block;
+	src: url("../../../assets/fonts/fontawesome/fa-brands-400.eot");
+	src: url("../../../assets/fonts/fontawesome/fa-brands-400.eot?#iefix") format("embedded-opentype"), 
+		url("../../../assets/fonts/fontawesome/fa-brands-400.woff") format("woff"), 
+		url("../../../assets/fonts/fontawesome/fa-brands-400.ttf") format("truetype"), 
+		url("../../../assets/fonts/fontawesome/fa-brands-400.svg#fontawesome") format("svg"); 
+}

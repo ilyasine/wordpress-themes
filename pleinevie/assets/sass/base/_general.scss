@@ -1,0 +1,20 @@
+.default-title {
+	text-transform: uppercase;
+}
+
+.btn {
+	// .btn-ghost
+	&-ghost {
+		border: 1px solid #fff;
+		color: #fff;
+		@include transition(background-color .2s linear);
+		&:hover {
+			background-color: #fff;
+		}
+	}
+}
+
+.menu.row{
+	margin-right: 0;
+	margin-left: 0;
+}
