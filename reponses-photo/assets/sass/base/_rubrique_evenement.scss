@@ -1,0 +1,82 @@
+.post-type-archive-evenement{
+
+	.thumbnail h2, .thumbnail h2 a {
+		height: 39px;
+		font-size: 16px;
+		@include shave(2);
+	}
+	.col-sm-6{
+		.thumbnail {
+			// .thumbnail-visu
+			&-visu{
+				position: relative;
+				height: 200px;
+				@include mobile{
+					height: 180px;
+				}
+				img{
+					height: 100%;
+					object-fit: cover;
+				}
+			}
+		}
+	}	
+	.col-sm-4{
+		.thumbnail {
+			// .thumbnail-visu
+			&-visu{
+				position: relative;
+				height: 120px;
+				@include mobile{
+					height: 180px;
+				}
+				img{
+					height: 100%;
+				}
+			}
+		}
+	}
+	.form-evenement{
+		padding: 15px;
+		background-color: #f0f0f0;
+		margin-bottom: 15px;
+		.form-group{
+			margin-bottom: 0px;
+		}
+		.form-control {
+			color: #9b9b9b;
+			background-color: #fff !important;
+			box-shadow: none;
+		    border: 1px solid #fff;
+		    border-radius: unset;
+		    height: 45px;
+		    margin-top: 7px;
+		    margin-bottom: 7px;
+		    &[type="submit"]{
+		    	background-color: #ffffff00 !important;
+		    	border: 1px solid #000;
+		    	color: #000;
+		    }
+		}
+	}
+	.caption_wrapper{
+		text-align: left;
+	}
+	.message-form-evenement{
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		p{
+			font-family: $LexendRegular;
+			font-size: 11px;
+			color: #000000;
+			margin-bottom: 2px;
+			font-weight: 600;
+		}
+	}
+}
+@media screen and (min-width:992px) and (max-width:1200px){
+	.thumbnail:nth-child(2n+1) {
+		height: 260px;
+	}
+}

@@ -1,0 +1,91 @@
+.contact_pv{
+    //.form-contact     
+    .form {
+    	&-contact{
+            width: 60%;
+            margin: 40px auto;
+            textarea{
+            	height: 120px;
+            	background-color: #E8E8E8;
+            }
+            input{
+            	background-color: #E8E8E8;
+            	height: 45px;	
+            }
+            .list{
+                background-color: #E8E8E8;
+            	height: 45px;	
+            }
+            .ninja-forms-cont{
+                .contact-nom-prenom-wrap{
+                    width: 45% !important;
+                    display: inline-grid;
+                }
+                .button-envoyer-wrap{
+                    float: left ;
+                }
+                input[type="submit"]{
+                    background-color: #e1160c;            
+                    font-size: 20px;
+                }
+            }
+            .form-horizontal {
+                .control-label {
+                   	text-align: left;
+                    margin-bottom: 0;
+                    width: 100%;
+                    padding-top: 5px;
+                    font-size: 16px;
+                    margin-bottom: 7px;
+                }
+                    
+            }
+            .champs{
+            	@include box-shadow(none);
+            	border: none;
+            	font-size: 16px;
+            	padding-left: 0px;
+            }
+            .ninja-forms-field-error p{
+                display: inline-block;
+                margin: auto 15px;
+            }
+            .ninja-forms-error-msg {
+                display: none;
+            }
+    	}
+
+    }
+    .text_field{
+        font-size: 14px;
+        display: inline-block;
+    }
+    .description{
+        @include transform(translateX(40%));
+        width: 50%;
+        text-align: center;
+    }
+    .title{
+        font-size: 47px;
+        padding-right: 10%;
+    }
+}
+@media (max-width: $screen-sm){
+    .contact_pv{
+    	.description{
+            display: inline;
+        }
+        .form-contact{
+            width: 100%;
+            margin-top: 20px;
+            .contact-nom-prenom-wrap {
+                display: block;
+            }
+            .form-horizontal {
+                .form-group{
+                    width: 100% !important;
+                }
+            }
+        }
+    }
+}

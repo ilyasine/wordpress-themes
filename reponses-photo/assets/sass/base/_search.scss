@@ -1,0 +1,126 @@
+.search {
+	.breadcrumb {
+		margin-bottom: 10px;
+	}
+	.bar_result_search{
+		margin-bottom: 30px;
+	}
+	.item{
+		margin-bottom:15px;
+		// .item-diapo
+		&-diapo {
+			position: relative;
+			&:before {
+				content: url('../images/diapo.png');
+				position: absolute;
+				top: 5px;
+				margin-left: 5px;
+				margin-right: 5px
+			}
+		}
+		.caption {
+			margin-top: 5px;
+		}
+		.info_cat {
+			background-color: $brand-primary-light;
+			padding: 5px 10px 5px 10px;
+			cursor: url('../images/cursor.png'), auto;
+		}
+		.info_link{
+			display: inline-block;
+			margin-bottom: 15px;
+			&:before{
+				content: url('../images/calendar.png');
+				background-repeat: no-repeat;
+				background-position: center;
+				position: relative;
+				top: 3px;
+				margin-left: 3px;
+				margin-right: 5px;
+			}
+		}
+		h2 {
+			font-size: 22px;
+			margin-top: 0;
+			position: relative;
+			bottom: 8px;
+			a {
+				cursor: url('../images/cursor.png'), auto;
+				&:hover{
+					color: $brand-primary-light;
+				}
+			}
+		}
+		.desc {
+			a {
+				font-size: 13px;
+				position: relative;
+				bottom: 12px;
+				cursor: url('../images/cursor.png'), auto;
+				&:hover {
+					color: $brand-primary-light;
+				}
+			}
+		}
+	}
+	.blockSearch {
+		background-color: #f0f0f0;
+		padding: 20px 15px 30px 15px;
+		text-align: center;
+		#filter_search_text {
+			margin-bottom: 6px;
+		}
+		.form-control {
+			height: 50px;
+			min-width: 100%;
+			font-size: 15px;
+			margin-top: 10px;
+			color: $gray_color;
+			padding: 0px 24px;
+			border: none;
+			@include border-radius(0);
+		}
+		.form-group {
+			display: block;
+			margin-bottom: 0;
+			position: relative;
+			button {
+				color: $caption_font_color;
+				position: absolute;
+				right: 15px;
+				width: 30px;
+				height: 30px;
+				overflow: hidden;
+				text-indent: -999px;
+				border: 0;
+				background: url("../images/search_loop.svg") transparent no-repeat center / 20px;
+			}
+			.select-wrapper:after , button {
+				top: 58%;
+				@include translateY(-50%);
+			}
+			.select-wrapper {
+				position: relative;		  
+				min-width: 100%;
+				&:after {
+					content: url("../images/down-arrow.png");
+					color: $gray_color;
+					right: 15px;
+					padding: 0 0 2px;
+					position: absolute;
+					pointer-events: none;
+				}
+				select {
+					@include appearance(none); 
+				}
+			}
+		}
+	}
+	#search_content_form{
+		&,.search_txt_input,
+		&,.search_select_input{
+			padding-left: 7px;
+			padding-right: 7px;
+		}
+	}
+} 

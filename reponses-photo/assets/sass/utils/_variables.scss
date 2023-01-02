@@ -1,0 +1,96 @@
+@import "../../../../reworldmedia/assets/bootstrap-sass/sass/bootstrap-v3/variables";
+@import "../../../../reworldmedia/assets/bootstrap-sass/sass/bootstrap-v3/mixins";
+
+$brand-primary: #000000;
+$brand-primary-light: #b5151d;
+
+$robotocondensedbold: 'RobotoCondensedBold',  $font-family-sans-serif;
+$robotocondensedregular: 'RobotoCondensedRegular',  $font-family-sans-serif;
+$LexendBold: 'LexendBold',  $font-family-sans-serif;
+$Lexend-SemiBold: 'Lexend-SemiBold',  $font-family-sans-serif;
+$LexendRegular: 'LexendRegular',  $font-family-sans-serif;
+$LexendMedium: 'LexendMedium',  $font-family-sans-serif;
+$poppins-regular: 'Poppins-Regular',  $font-family-sans-serif;
+$poppins-medium: 'Poppins-Medium',  $font-family-sans-serif;
+$poppins-semibold: 'Poppins-SemiBold',  $font-family-sans-serif;
+$poppins-bold: 'Poppins-Bold',  $font-family-sans-serif;
+$poppins-black: 'Poppins-Black',  $font-family-sans-serif;
+$poppins-italic: 'Poppins-Italic',  $font-family-sans-serif;
+$poppins-lightitalic: 'Poppins-lightitalic',  $font-family-sans-serif;
+$poppins-light: 'Poppins-Light',  $font-family-sans-serif;
+$fontawesome-brands:'fontawesome-brands';
+$fontawesome: 'fontawesome-solid';
+$montserrat : 'Montserrat';
+$rubik-regular: 'Rubik-Regular',  $font-family-sans-serif;
+
+$body_font: $LexendRegular;
+
+$btn_font: $LexendMedium;
+$btn_font_size: 16px;
+
+$info_cat_font: $LexendBold;
+$info_cat_font_size: 14px;
+
+$homeMoreArticles_head_bottom_margin: 5px;
+
+$default-title-color: #000;
+$default-title-font: $LexendBold;
+$default-title-size: 32px;
+
+$navbar-nav-font-size: 14px;
+$navbar-nav-font-family: $LexendMedium;
+$navbar-nav-hover-bg: #fff;
+$navbar-nav-hover-color: #000;
+$navbar-nav-bg: $brand-primary-light;
+
+$post_title_font: $LexendRegular;
+$post_title_font_size: 20px;
+$post_title_margin_top: 5px;
+
+$post_date_font: $LexendRegular;
+$post_date_font_size: 13px;
+$post_date_font_color: #222;
+
+$widgetLegende_bg_color: $brand-primary;
+$caption_font: $LexendBold;
+$caption_font_color: #fff;
+$number_tumb_color: #fff;
+$caption_font_size: 16px;
+$widgetLegende_font_size: 16px;
+$grey_lite_color: #f0f0f0;
+$footer_bg_color: #000;
+
+
+//== Thumbnails
+$thumbnail-padding: 0;
+$thumbnail-bg: transparent;
+$thumbnail-border-radius: 0;
+$thumbnail-caption-color: #000;
+$thumbnail-caption-padding: 0;
+
+//== Btn
+$btn-primary-color: #fff;
+$btn-primary-bg: $brand-primary;
+$btn-primary-border: $brand-primary;
+$btn-border-radius-base: 0;
+$btn-border-radius-large: 0;
+$btn-border-radius-small: 0;
+
+//== Modal
+$modal-backdrop-bg: $brand-primary-light;
+$modal-backdrop-opacity: .9;
+
+//== Breadcrumb
+$breadcrumb-padding-vertical:   0;
+$breadcrumb-padding-horizontal: 0;
+$breadcrumb-bg: transparent;
+$breadcrumb-color: #000;
+$breadcrumb-active-color: #000;
+$breadcrumb-separator: "\f054";
+
+$didomi-background-highlight-button:$brand-primary !important;
+$didomi-color-highlight-button:#ffffff !important;
+
+$gray_color: #9b9b9b;
+$color-white: #ffffff;
+$color-black: #000000;

@@ -1,0 +1,22 @@
+header{
+	.navbar-nav {
+		display: flex;
+		@include align-items(center);
+		@include justify-content(center);
+		@include flex-flow(wrap);
+	}
+	.menu-site {
+		padding-left: 35px;
+		padding-right: 35px;
+	}
+	.submit_search_btn {
+		position: absolute;
+		right: 5px;
+		height: 100%;
+	}
+	.default-toggle {
+		position: absolute;
+		left: 0;
+		height: 100%;
+	}
+}

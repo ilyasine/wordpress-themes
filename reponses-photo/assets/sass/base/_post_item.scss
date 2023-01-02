@@ -1,0 +1,140 @@
+@mixin post_title(){
+	a:hover{
+		color: $brand-primary-light;
+	}
+}
+@mixin post_cat(){
+	.info_cat {
+		top: auto;
+		left: 0%;
+		bottom: 0;
+		position: relative;
+		margin-bottom: 0;
+		background-color: $brand-primary-light;
+		font-family: $LexendRegular;
+	}
+}
+.thumbnail {
+	// .thumbnail-visu
+	&-visu{
+		position: relative;
+	}
+	.caption {
+		text-align: center;
+	}
+	.title-item-home, h2 {
+		@include post_title;
+	}
+	@include post_cat;
+}
+
+.post {
+	// .post_img, .post-item-img
+	&-item-img,
+	&_img{
+		position: relative;
+	}
+	// .post_title
+	.title_push,
+	&_title{
+		@include post_title;
+		text-align: left;
+	}
+	@include post_cat;
+	//.post .info_cat
+	.related-posts{
+		.info_cat{
+			bottom: 0;
+			position: absolute;
+		}
+	}
+	// .thumbnail_caption, .thumbnail_date
+	&_caption, &_date {
+		display: inline;
+	}
+}
+
+.archive{
+	.post{
+		.info_cat {
+			position: unset;
+			margin: 8px 47px 0;
+		}
+		.post_caption{
+			.post_date{
+				position: absolute;
+				bottom: 31px;
+				left: 115px;
+			}
+		}
+		.bloc_cat_and_date{
+			 .info_cat{
+				@include translateX(0px);
+				margin: 0px;
+			}
+		}
+	}
+	.nl-input-wrap{
+		> div{
+			width: 100% !important;
+		}
+		width: 80% !important;
+	}
+	
+}
+
+.item-post{
+	&:nth-child(2n+1) {
+		clear: inherit;
+	}	
+}
+
+.homeMoreArticles{
+	.post{
+		> div > div{
+			&:first-child{
+				position: relative;
+			}
+		}
+	}
+	.bloc-description{
+		display: block;
+		margin-top: 15px;
+		margin-bottom: 15px;
+		line-height: 1em;
+		color: #000;
+	}
+}
+
+.homeMoreArticles_head {
+	a:hover{
+		color: $brand-primary-light;
+	}
+}
+
+.post-item-tag-gallery {
+	background-color: $brand-primary-light;
+	position: absolute;
+	width: 30px;
+	height: 30px;
+	top: 5px;
+	left: 5px;
+	@include border-radius(50%);
+	&:before {
+		content: '';
+		background: url(../images/has_gallery.png) no-repeat center;
+		display: block;
+		width: 30px;
+		height: 30px;
+	}
+}
+
+.view_all {
+	padding-right: 3px;
+}
+
+.hover-title:hover ~ .post_caption {
+	.post_title a {
+		color : $brand-primary-light;
+	}
+}

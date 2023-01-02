@@ -1,0 +1,54 @@
+.single-evenement{
+	.bloc_container{
+		.border{
+			border-left: 2px solid $brand-primary-light;
+			margin-left: 2px;
+			padding-left: 15px;
+			p{
+				font-size: 18px;
+				color: $brand-primary-light;
+				font-family: $LexendBold;
+			}
+			ul{
+				list-style: none;
+				padding: 0;
+				li{
+					&:before{
+						content: "\2022";
+						color: $brand-primary-light;
+						font-weight: bold;
+						margin-right: 15px;
+					}
+				}
+			}
+		}
+	}
+	.image_top_single{
+		text-align: center;
+		.image_a_lune{
+			a{
+				margin-bottom: 0;
+			}
+			position: relative;
+			display: inline-block;
+			.copyright_text{
+				position: absolute;
+				bottom: 0;
+				right: 0;
+				font-size: 16px;
+				font-family: $LexendMedium;
+				color: $color-white;
+				background-color: $brand-primary;
+				padding: 10px 20px;
+			}
+		}
+	}
+	.article-content{
+		.post-excerpt{
+			margin-bottom: 25px;
+		}
+		p{
+			color: #77777e;
+		}
+	}
+}

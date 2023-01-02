@@ -1,0 +1,27 @@
+@import "compass/css3";
+
+// Utils
+
+// Components
+@import "global_mobile";
+
+//Tablet
+@media (min-width: $screen-sm-min){
+	@import "../../../assets/sass/desktop/general_tablet";
+	@import "../../../assets/sass/desktop/header_tablet";
+	@import "desktop/header_tablet";
+}
+
+//Desktop
+@media (min-width: $screen-md-min){
+	@import "../../../assets/sass/desktop/general_desktop";
+	@import "../../../assets/sass/desktop/sidebar_desktop";
+	@import "desktop/sidebar_desktop";
+	@import "desktop/skin_size_1000";
+}
+
+//lage
+@media (min-width: $screen-lg-min){
+	@import "../../../assets/sass/desktop/general_large";
+	@import "desktop/general_large";
+}

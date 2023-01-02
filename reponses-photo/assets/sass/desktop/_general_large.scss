@@ -1,0 +1,31 @@
+body.rw_dfp_skin{
+    .sidebar-header-pub{
+        width: 100%;
+    }
+    .container {
+        width: 1000px !important;
+    }
+    .carousel{
+        margin: 10px 0px;
+    }
+    #content {
+        width: 660px;
+    }
+    #blockRight {
+        &, .col-xs-12 {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .widget-social-media{
+            margin: 15px 0px;
+            padding: 0px;
+            .textwidget{
+                padding: 15px;
+            }
+        }
+    }
+}
+
+#content{
+    width: 810px;
+}

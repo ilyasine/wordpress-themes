@@ -1,0 +1,27 @@
+.related-posts{
+	> .row {
+		margin-right: -10px;
+		margin-left: -10px;
+		> [class^='col-'] {
+			padding-right: 10px;
+			padding-left: 10px;
+		}
+	}
+	.post-item {
+		// .post-item-img
+		&-img {
+			margin-bottom: 5px;
+		}
+		.info_date {
+			font-size: 13px;
+		}
+		.title_push {
+			&, a{
+				font-size: 16px;
+			}
+			a{
+				@include shave(2);
+			}
+		}
+	}
+}

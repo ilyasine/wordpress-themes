@@ -1,0 +1,60 @@
+.block_diapo {
+    .btn-navs,
+    .caption-navs {
+        position: absolute;
+        top: 50%;
+        width: 50px;
+        height: 50px;
+        @include border-radius(0px);
+        @include transform(scale(1));
+        @include opacity(.5);
+        font-size: 0;
+        line-height: 0;
+        cursor: pointer;
+        text-align: center;
+        background-color: #fff;
+        @include transition(.2s ease-in-out);
+        &:hover {
+            @include opacity(1);
+            @include transform(scale(1.1));
+            &:before{
+                @include filter(initial);
+            }
+        }
+        &:before {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 20px;
+            height: 16px;
+            background: url("../images/arrows.png") no-repeat;
+            @include filter(grayscale(1));
+
+            @include translate(-50%, -50%);
+        }
+        &._left {
+            left: 15px;
+            &:before {
+                content: '';
+                background-position: 0 0;
+            }
+        }
+        &._right {
+            right: 15px;
+            &:before {
+                content: '';
+                background-position: -24px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: $screen-xs-max){
+    .block_diapo {
+        figure, .figure {
+            img{
+                height: auto;
+            }
+        }
+    }
+}

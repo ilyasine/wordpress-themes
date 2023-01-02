@@ -1,0 +1,129 @@
+.blockShare_horizontal {
+	text-align: center;
+	ul{
+		display: block;
+		padding-left: 0;
+		margin-top: 20px;
+		margin-bottom: 20px;
+		overflow: visible;
+		display: inline-block;
+	}
+	li{
+		list-style: none;
+		float: left;
+		width: 60px;
+		height: 60px;
+		border: 1px solid #e6e6e6;
+		text-align: center;
+		margin-left: -1px;
+		vertical-align: top;
+		line-height: 60px;
+		font-family: $LexendBold;
+		color: #000;
+		text-transform: uppercase;
+		cursor: pointer;
+		&:first-child{
+			margin-left: 0;
+		}
+		&:before{
+			content: '';
+			display: inline-block;
+			vertical-align: middle;
+			position: relative;
+			font-family: $fontawesome-brands;
+			font-weight: 600;
+			font-size: 18px;
+		}
+		&.facebook{
+			&:before{
+				content: "\f39e";
+			}
+		}
+		&.twitter{
+			&:before{
+				content: "\f099";
+			}
+		}
+		&.pinterest{
+			&:before{
+				content: "\f231";
+			}
+		}
+		&.email{
+			&:before{
+				font-family: $fontawesome;
+				content: "\f1d8";
+			}
+		}
+		&.copy_link{
+			&:before{
+				font-family: $fontawesome;
+				content: "\f0c1";
+			}
+		}
+		&.comments_bubble{
+			width: 250px;
+			font-size: 16px;
+			&:before{
+				background-image: url('../images/social.png');
+				background-repeat: no-repeat;
+				background-position: -337px 0;
+				width: 20px;
+				height: 20px;
+				margin-right: 10px;
+			}
+			&:hover{
+				&:before{
+					background-position: -337px -40px;
+				}
+			}
+		}
+		&:hover{
+			background-color: $brand-primary-light;
+			color: #fff;
+		}
+	}
+}
+
+.copied {
+	position: relative;
+	&:after {
+		display: inline-block;
+		position: absolute;
+		z-index: 50;
+		padding: 5px 8px;
+		font: normal normal 11px/1.5 $LexendRegular;
+		color: #fff;
+		text-align: center;
+		text-decoration: none;
+		text-shadow: none;
+		text-transform: none;
+		letter-spacing: normal;
+		word-wrap: break-word;
+		white-space: pre;
+		pointer-events: none;
+		content: attr(aria-label) !important;
+		background: rgba(0, 0, 0, .8);
+		border-radius: 3px;
+		@include translateX(50%);
+		right: 50%;
+		bottom: 100%;
+		margin-bottom: 6px;
+	}
+}
+
+@media (max-width: $screen-xs-max){
+	.blockShare_horizontal {
+		ul{
+			display: block;
+		}
+		li{
+			float: none;
+			display: inline-block;
+			&.comments_bubble{
+				width: 100%;
+				margin-top: 10px;
+			}
+		}
+	}
+}

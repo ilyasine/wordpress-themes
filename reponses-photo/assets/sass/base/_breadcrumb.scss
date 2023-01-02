@@ -1,0 +1,21 @@
+.breadcrumb {
+	margin-bottom: inherit;
+	text-transform: uppercase;
+	>li {
+		+li:before {
+			content: none;
+		}
+		&:not(:last-child){
+			margin-right: 4px;
+			&:after{
+				content: '/';
+				color: $brand-primary-light;
+				margin-left: 4px;
+			}
+		}
+		> a{
+			color: $brand-primary-light;
+			font-family: $LexendMedium;
+		}
+	}
+}

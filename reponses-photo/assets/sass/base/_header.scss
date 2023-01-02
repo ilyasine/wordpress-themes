@@ -1,0 +1,182 @@
+header {
+	margin-bottom: inherit;
+	.navbar {
+		padding: 0;
+		.navbar-nav{
+			padding-right: 35px;
+		}
+		&-nav{
+			text-align: center;
+			a {
+				text-transform: uppercase;
+				font-size: 16px;
+				font-family: $LexendMedium;
+			}
+		}
+		//.navbar-brand
+		&-brand{
+			max-width: 166px;
+			@include mobile{
+				margin: auto; 
+				max-width: initial;
+			}	
+			img{
+				width: 100%;
+			}	
+			padding: 0;
+		}
+	}
+	.default-toggle {
+		background-color: $brand-primary-light;
+	}
+	li{
+		&.retraite_facile {
+			float: right !important;
+			> a {
+				text-transform: uppercase;
+				font-family: $LexendBold;
+				text-align: center;
+				background: #fff;
+				color: #000;
+				line-height: .8;
+				padding-top: 5px;
+				padding-bottom: 4px;
+				> span {
+					display: block;
+					font-size: 20px;
+					color: $brand-primary;
+				}
+			}
+		}
+		&.nl {
+			float: right !important;
+			> a {
+				overflow: hidden;
+				font-size: 0;
+				&:after {
+					content: "";
+					display: inline-block;
+					vertical-align: middle;
+					width: 22px;
+					height: 18px;
+					background-image: url('../images/email.svg');
+					background-position: center;
+					background-repeat: no-repeat;
+				}
+				&:hover {
+					background-color: transparent;
+				}
+			}
+		}
+	}
+}
+
+#MainMenu {
+	#principal-menu {
+		li {
+			a {
+				color: #ffffffab !important;
+				&:hover{
+					color: #fff !important;
+				}
+			}
+		}
+	}
+}
+
+.modal.search {
+	.modal-search {
+		input[type="text"] {
+			&::-webkit-input-placeholder {
+				color: #ffffffab;
+			}
+			&::-moz-placeholder {
+				color: #ffffffab;
+			}
+			&:-ms-input-placeholder {
+				color: #ffffffab;
+			}
+			&:-moz-placeholder {
+				color: #ffffffab;
+			}
+			&,
+			&.ui-autocomplete-loading {
+				border: 0;
+				background-color: transparent;
+			}
+		}
+	
+	}
+}
+
+.top_bar_menu{
+	a{
+		font-family: $LexendMedium;
+		text-transform: none;
+		font-size: 12px;
+	}
+	li{
+		&:after{
+			content: '' !important;
+		}
+	}
+}
+
+@media (max-width: $screen-md-max){
+	header{
+		.navbar-nav {
+			>li {
+				&:nth-child(1n+8) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+.menu-site{
+	width: 99%;
+}
+
+.navbar{
+	min-height: auto;
+	background-color: transparent;
+	border: none;
+	margin: 0;
+	.nav_logo {
+		display: none;
+	}
+	&.navbar-fixed-top{
+		background-color: $brand-primary;
+		margin-left: auto;
+		margin-right: auto;
+		max-width: 1110px;
+		@include justify-content(flex-start);
+		.navbar-nav > li{
+			&.rp-nav-logo {
+				width: 175px;
+			}
+		}
+		.nav_logo {
+			display: inline-block;
+			width: 270px;
+			a {
+				padding-top: 5px;
+				padding-left: 0;
+				&:hover {
+					background-color: inherit;
+				}
+			}
+		}	
+	}
+}
+#barreTopInfo{
+	.navbar-sociallink{
+		.pint::after{
+			content: "\f231";
+		}
+		&>li>a{
+			width: 20px;
+		}
+	}
+}

@@ -1,0 +1,65 @@
+.bloc_rubrique {
+	// .bloc_rubrique_head
+	&_head {
+		display: flex;
+		@include align-items(flex-end);
+		@include flex-flow(row);
+		@include justify-content(space-between);
+		margin-bottom: 20px;
+		.default-title {
+			margin-bottom: 0;
+		}
+		.more_cat {
+			font-size: 16px;
+			color: #a3a3a3;
+			font-family: $LexendBold;
+			&:hover {
+				color: #000;
+			}
+		}
+	}
+}
+
+.categories-list {
+	margin-bottom: 10px;
+	ul{
+		margin-bottom: 0;
+	}
+	&, a {
+		color: #a3a3a3;
+		font-family: $LexendBold;
+		text-transform: uppercase;
+		font-size: 16px;
+	}
+	li {
+		&:not(:last-child) {
+			margin-right: 15px;
+		}
+	}
+	//.categories-list a:hover
+	a:hover{
+		color: #000;
+	}
+}
+.more_cat{
+	font-size: 14px;
+	font-family: $LexendBold;
+	text-align: right;
+}
+.cat_image{
+	padding: 15px 0;
+}
+.cat_excerpt{
+	font-family: $LexendRegular !important;
+}
+
+.rubrique_info{
+	.cat_name{
+		font-size: 32px;
+		line-height: 30px;
+		color: $default-title-color;
+		font-weight: 600;
+		font-family: $LexendBold;
+		margin-bottom: 10px;
+	}
+}

@@ -1,0 +1,241 @@
+#blockRight{
+	position: relative;
+	aside {
+		clear: both;
+		&:not(:last-child){
+			margin-bottom: 30px;
+			width: 100%;
+		}
+	}
+	.widget_newsletter{
+		padding: 0;
+		.desc{
+			font-size: 15px;
+			line-height: 1.7em;
+			margin-bottom: 20px;
+			strong{
+				display: block;
+				font-size: 22px;
+				font-family: $LexendBold;
+			}
+		}
+		.field-wrap{
+			margin-bottom: 0;
+			input[type="submit"] {
+				margin-top: 0px;
+			}
+		}
+		.ninja-forms-all-fields-wrap{
+			input[type="text"]{
+				max-width: 223px;
+			}
+			.ninja-forms-required-items{
+				display:none;
+			}
+		}
+		.form-horizontal .field-wrap{
+			float:left;
+			width:100%;
+			&, div[class^="col-"]{
+				width: inherit;
+				margin-left: 0;
+				margin-right: 0;
+				padding-left: 0;
+				padding-right: 0;
+			}
+			input[type='submit']{
+				color: #fff;
+				width: 100%;
+				height: 44px;
+				border:1px solid #b5151d;
+				text-transform: uppercase;
+				background-color: #b5151d;
+				font-size: 16px;
+				line-height: 1px;
+				color: #f9f9f9;
+				font-weight: 500;
+				text-align: center;
+			}
+			input[type='text']{
+				width: 100%;
+				color:#9b9b9b;
+				height:45px;
+				border:1px solid #eee;
+				font-size:14px;
+				@include border-radius(0);
+				@include box-shadow(none);
+				background-image: url('../images/nl_email.svg');
+				background-repeat: no-repeat;
+				padding-left: 44px;
+				background-position: 15px center;
+				background-size: 20px;
+				font-family: $LexendBold;
+				text-transform: uppercase;
+			}
+
+		}
+	}
+	.reseaux-sociaux{
+		>li{
+			&:not(:last-child) a{
+				border-right: 0;
+			}
+			margin-right: 0px;
+			a{
+				background-color : $color-white;
+				border: 1px solid $color-black;
+				&:after{
+					color: $color-black;
+				}
+				&:hover{
+					transition: background-color 0.3s;
+					background-color : $brand-primary-light;
+					&:after{
+						color: $color-white;
+					}
+				}
+			}
+		}
+	}
+	.mag_right{
+		img{
+			margin: auto;
+		}
+		.items{
+			>div{
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+		.btn{
+			&.btn-default {
+				width: 100%;
+				@include mobile{				
+					width: fit-content;
+				}
+				border: 0;
+				color: #fff;
+				background-color: $brand-primary-light;
+				text-transform: uppercase;
+				margin-top: 10px;
+				&:hover{
+					background-color: $brand-primary;
+				}
+			}
+		}
+	}
+
+	.widget-title{
+		display: block;
+		width: 100%;
+		position: relative;
+		color: #1b1a1a;
+		font-family: $LexendBold;
+		font-size: 32px;
+		padding: 0;
+		margin-bottom: 15px;
+		line-height: 1em;
+		letter-spacing: 1px;
+		text-transform: initial;
+		text-transform: lowercase;
+		a{
+			color: #1b1a1a;
+		}
+		&:first-letter{
+			text-transform: capitalize;
+		}
+	}
+	.widget_text{
+		width: 100%;
+	}
+	.most_popular{
+		padding-left: 0;
+    	list-style: none;
+		.thumbnail-item{
+			position: relative;
+			margin-bottom: 10px;
+			&:last-child{
+				margin-bottom: 0;
+			}
+		}
+		.title-item-small {
+			display: block;
+			color: #000;
+			font-size: 16px;
+			line-height: 18px;
+			font-family: $LexendMedium;
+			@include shave(3);
+		}
+		.date{
+			margin-top: 10px;
+		}
+		.info_cat {
+			top: auto;
+			bottom: 0;
+			margin-bottom: 0;
+			background-color: #b5151d;
+			font-family: $LexendRegular;
+			font-size: 12px;
+		}
+	}
+	.most_popular, .related_post{
+		.media{
+			&-body{
+				vertical-align: baseline;
+			}
+		}
+	}
+}
+
+
+.sidebar-after-tv{
+	padding: 0;
+	width: 100%;
+}
+
+.most_popular, .related_post{
+	.thumbnail-item{
+		margin-bottom: 30px;
+		&:last-child{
+			margin-bottom: 0;
+		}
+	}
+	.media{
+		overflow: visible;
+		//.media-left
+		&-left{
+			padding-right: 10px;
+			img{
+				width: 140px;
+				height: 80px;
+			}
+			//.media-left-position
+			&-position{
+				position: relative;
+				.info_link{
+					position: absolute;
+					top: 60px !important;
+				} 
+			}
+		}
+		//.media-body
+		&-body{
+			vertical-align: middle;
+			.item_title{
+				height: 60px;
+				overflow: hidden;
+			}
+			a{
+				color: #414141;
+				font-size: 15px;
+				font-weight: 300;
+				line-height: 1;
+				&:hover{
+					.title-item-small {
+						color: #b5151d !important;
+					}
+				}
+			}
+		}
+	}
+}

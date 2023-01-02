@@ -1,0 +1,18 @@
+@import "compass/css3";
+
+// Utils
+@import "../../../assets/sass/utils/variables";
+
+// Components
+@import "page_mobile";
+
+//Tablet
+// @media (min-width: $screen-sm-min){}
+
+//Desktop
+// @media (min-width: $screen-md-min){}
+
+//lage
+// @media (min-width: $screen-lg-min){}
+
+@import "./base/page_contact_mentions_legales";

@@ -1,0 +1,54 @@
+.search{
+	.breadcrumb {
+		.parent {
+			display: block;
+			font-size: 36px;
+			text-transform: capitalize;
+			position: relative;
+			bottom: 8px;
+			right: 4px; 
+			a {
+				color: $brand-primary !important;
+			}
+		}
+		li {
+			a {
+				font-family: $LexendRegular;
+			}
+		}
+	}
+	.blockSearch {
+		margin-bottom: 40px;
+		.form-control {
+			height: 70px;
+			min-width: 220px;
+			font-size: 17px;
+			margin-top: 0;
+			padding: 0 0 0 10px;
+		}
+		.form-group {
+			display: inline-block;
+			select {
+				margin-left: 12px;
+			}
+		}
+	}
+}
+
+@media(min-width: 1024px) and (max-width: 1366px) {
+ 	.search{
+		.blockSearch {
+			.form-group {
+				display: block;
+				select {
+					margin-left: 0;
+				}
+			}
+			.form-control {
+				min-width: 100% !important;
+				max-width: 100% !important;
+				margin-top: 10px !important;
+			}
+		}
+	}
+ }

@@ -1,0 +1,33 @@
+body.skin_size_1000{
+	#page.container{
+	    background-color: #fff;
+	    max-width: 1000px !important;
+	}
+    #content{
+    	width: 70% !important;
+    }
+    #blockRight{
+    	width: 30% ;
+    }
+}
+
+body.adaptation_habillage_1000px_155809078 {
+	&.skin_size_1000 {
+		.container {
+			padding-left: 0 !important;
+			padding-right: 0 !important;
+		}
+		.pub_dfp.masthead_haut,
+		.pub_dfp.masthead_bas {
+			&.filled-with-pub {
+				&.has-pub-1000 {
+					&>div {
+						&>iframe {
+							margin-left: -15px;
+						}
+					}
+				}
+			}
+		}
+	}
+}

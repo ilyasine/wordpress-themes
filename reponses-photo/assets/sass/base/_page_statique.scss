@@ -1,0 +1,25 @@
+.title {
+    font-size: 35px;
+    font-weight: bold;
+}
+.desc{
+    line-height: 2.6;
+    font-size: 21px;
+    margin-bottom: 60px;
+    a:hover{
+        color: #e1160c;
+    }
+}
+.page_ml{
+    font-family: $rubik-regular; 
+    font-size: 20px;
+    .title{
+      font-family: $LexendBold; 
+    }
+    .sub_title{
+      margin-top: 20px;
+    }
+    .text_field{
+      color: #e1160c;
+    }
+}

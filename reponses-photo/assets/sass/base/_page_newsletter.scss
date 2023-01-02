@@ -1,0 +1,129 @@
+#container{
+	background-color: #eeeeef;
+	margin-bottom: -20px;
+	margin-top: 0;
+	.breadcrumb{
+		display: none;
+	}
+	.nl-body {
+		&.reponses_photo{
+			background-color: $color-white;
+			padding: 2px 15px 50px 15px;
+			.page-title{
+					font-size: 32px;
+					color: $color-black;
+					font-weight: 700;
+					font-family: $robotocondensedregular;
+					text-align: center; 
+					text-transform: uppercase;
+			}
+
+			.page-sub-title{
+					font-size: 20px;
+					color:  $color-black;
+					font-weight: 400;
+					font-family: $robotocondensedregular;
+					text-align: center;
+					margin-top: 0;
+			}
+			.offers_item{
+					font-size: 18px;
+					line-height: 24px;
+					color:  $color-black;
+					font-weight: 700;
+					font-family: $robotocondensedregular;
+					padding: 30px 50px 30px 130px;
+					background-color:$color-white;
+					&.selected,&.selected .check-box{
+						border-color: #d90010 !important;
+					}
+					&.selected .check-box {
+						background-color: $color-white;
+						border: 2px solid #d90010;
+						&::after {
+							background-position: -234px 0;
+						}
+					}
+			}
+				
+			.sign-form {
+					//font-family: $Avenir-Medium;
+					#bloc-email{
+						margin-left: 20%;
+					}
+					.page-title{
+						font-size: 32px;
+						color: $color-black;
+						font-weight: 700;
+						font-family: $robotocondensedregular;
+						text-align: center; 
+						text-transform: uppercase;
+						margin-bottom: 15px;
+					}
+
+					label{
+						font-size: 14px;
+						color: #333333;
+						font-weight: 700;
+						font-family: $robotocondensedregular;
+						margin-top: 10px;
+					}
+					.form-group{
+						margin-bottom: 0;
+						input{
+							padding: 14px 28px;
+							height: 50px;
+							background-color: $color-white;
+							border: 1px solid #e0e0e0;
+						}
+					}
+					.help-block{
+						font-size: 12px;
+						line-height: 20px;
+						color: #242626;
+						font-weight: 400;
+						font-family: $robotocondensedregular;;
+						margin-bottom: 15px;
+					}
+					.btn-default{
+						height: 49px;
+						background-color: #d90010;
+						text-transform: none;
+						font-size: 20px;
+						color: $color-white;
+						font-weight: 700;
+						font-family: $robotocondensedregular;
+						text-align: center;
+						text-transform: uppercase;
+						margin-bottom: 15px;
+						margin-left: 14px;
+						&:hover{
+							width : auto;
+						}
+					}					
+			}
+		
+			.form-control{
+				font-size: 14px;
+				color: #dcdcdc;
+				font-weight: 700;
+				font-family: $robotocondensedregular;
+				height: 52px;
+				outline: none;
+			}
+			.nl-feature{
+					margin-top: 10px;
+					color: #a2a0a0;
+			}
+		}
+	}
+	.info{
+		font-size: 12px;
+		color: $color-black;
+		font-weight: 400;
+		font-family:  $robotocondensedregular;
+		text-align: center;
+		margin-top: 15px;
+		margin-bottom: 30px;
+	}
+}

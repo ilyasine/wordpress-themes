@@ -1,0 +1,40 @@
+.pagination {
+	text-align: center;
+	.page-numbers {
+		>a,
+		>span {
+			padding-top: 0;
+			margin-left: 0;
+			color: $brand-primary;
+			font-size: 16px;
+			font-weight: 300;
+			background-color: $caption_font_color;
+			padding: 0 3px;
+			&:hover, &:active, &:focus {
+				color: $brand-primary-light;
+			}
+			&.prev, &.last, &.first{ 
+				display: none;
+			}
+			&.next {
+				text-indent: -555px;
+				font-size: 0;
+				&:after {
+					display: block;
+					content: "";
+					width: 13px;
+					height: 17px;
+					margin-top: 2px;
+					background: url('../images/pagination_arrows.png') no-repeat 0 0;
+				}
+			}
+		}
+		&.active a{
+			color: $brand-primary-light;
+			background-color: $caption_font_color;
+		}
+	}
+	.current_page_nb {
+		display: none;
+	}
+}

@@ -1,0 +1,26 @@
+.post {
+	.post_caption{
+		text-align: center;
+		.post_title{
+			a{
+				font-size: 22px;
+				display: inline-block;
+				min-height: 46px;
+			}
+		}
+	}
+}
+
+#homeBody{
+	.thumbnail{
+		.caption{
+			text-align: left;
+		}
+	}
+	.title-item-home{
+		a{
+			height: 45px;
+			display: inline-block;
+		}
+	}
+}
